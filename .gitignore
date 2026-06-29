@@ -1,0 +1,29 @@
+# ---- OS / system junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# ---- Editor / temp files ----
+*~
+*.swp
+*.tmp
+*.bak
+.*.lock
+~$*            # Word/Excel lock files (e.g. ~$report.docx)
+
+# ---- Secrets — never commit these ----
+*.env
+.env
+secrets.*
+*credentials*
+*password*
+*.key
+*.pem
+
+# ---- Optional: heavy/binary outputs you may not want versioned ----
+# Uncomment if you decide NOT to track these in git.
+# *.zip
+# *.iso
+# node_modules/
