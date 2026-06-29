@@ -1,0 +1,2 @@
+rule_id,tier,status,short_name,statement,scope,depends_on,conflicts_with,source_docs,insert_location,notes,last_change_date
+R-CORE-01,CORE,LOCKED,Append-only log,A VD instance is an ordered entry-log; new entries append; no in-place edits.,vd-core,, ,VD_Justifications3;VD_draft1_amendments2,sec:rule-ledger/Core-struct,Active invariant.,2026-02-06

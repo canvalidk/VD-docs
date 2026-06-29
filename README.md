@@ -1,32 +1,25 @@
-# VD Documents
+# VD — Valid Dictionary
 
-A version-controlled home for my documents. Git gives me automatic history (every change is saved and reversible), so I no longer need manual backups, and it makes sharing and collaborating on these files easy.
+Version-controlled home for the VD project. Each top-level folder is a **branch** of the project — tied to a publishing strategy and (currently) to its own Claude AI project.
 
-## Folder structure
+## Branches
 
-| Folder | What goes here |
+| Folder | What it's for |
 |--------|----------------|
-| `documents/` | Finished/reference documents, organized by topic in subfolders. |
-| `notes/` | Working notes, drafts, and markdown jottings. |
-| `projects/` | Anything tied to a specific project or piece of work. |
-| `archive/` | Old material kept for reference but no longer active. |
-| `inbox/` | Temporary landing zone for new files before they're sorted. |
+| `Core/` | The VD as a rigorous set of mathematical rules, presented *without* justification. (First in line.) |
+| `Theory/` | Philosophical writing justifying the VD's core commitments. |
+| `Newton/` | Bridges Newton-analysis and Code — the "program" that runs on the Code "compiler". |
+| `Newton-analysis/` | Justifies the VD via the analyses it produces — the program's "output". |
+| `inbox/` | Staging area. Currently holds `VD unsorted important/`, to be sorted into the branches later. |
 
-Adjust these to fit how you actually think about your documents — this is just a starting point.
+**Code branch** — implementation of the VD as a codebase/application. Lives in its own repository: https://github.com/canvalidk/VDfirst . Whether/how to integrate it here is still being decided.
 
-## How I use it
+The compiler analogy: **Code** = compiler, **Newton-analysis** = the program's output, **Newton** = the program that runs on the compiler.
 
-- **Save a change ("commit"):** group related edits and record them with a short message describing what changed.
-- **History:** every commit is recoverable, so nothing is ever truly lost.
-- **Backup:** the repo is mirrored to a private GitHub repository (see `SETUP.md`).
-- **Sharing:** I can share the whole repo or hand someone a single file.
+## Note on duplicate files
 
-## What does NOT belong here
+Some files appear in more than one branch folder **on purpose**: each branch's AI project needs context from other branches, so documents are copied in. Don't dedupe these without checking which projects rely on them.
 
-- Passwords, API keys, or other secrets (see `.gitignore`).
-- Very large binary files (big media, scans, archives). If I need those, I'll use Git LFS — see `SETUP.md`.
+Caveat: git does **not** keep copies in sync — editing one copy won't update the others. A future cleanup could keep one canonical copy plus a small sync step.
 
-## Conventions
-
-- Use clear, lowercase file and folder names; prefer hyphens over spaces (`tax-2025.md`, not `Tax 2025.md`).
-- Write a meaningful commit message: `Add Q2 invoice`, not `update`.
+## Bac
