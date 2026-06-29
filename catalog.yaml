@@ -1,0 +1,1147 @@
+# VD-docs catalog — per-file notes and tags. Maintained collaboratively, filled in over time.
+# role:   primary | ai-context | reference        (ai-context = a borrowed copy that feeds a branch AI)
+# status: idea | draft | sketch | publishable | published
+# project: name of the mini-project a file belongs to (esp. under Newton-analysis)
+# dup_group: files sharing a label are byte-identical copies of each other.
+
+folders:
+  Core:
+    note: "VD as a rigorous set of mathematical rules, presented without justification."
+  Theory:
+    note: "Philosophical writing justifying the VD's core commitments."
+  Newton:
+    note: "Bridges Newton-analysis and Code — the 'program' that runs on the Code 'compiler'."
+  Newton-analysis:
+    note: "INCUBATOR: many mini-projects, each building documents toward a publishable sketch. To be split into one subfolder per mini-project."
+  inbox:
+    note: "Staging area. 'VD unsorted important' behaves the same way — drop things in, then sort."
+
+files:
+  - path: "Core/Current development/Formalizing the Valid Dictionary Protocol.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Core/Current development/VD__how_to draft1.1.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Core/Current development/VD_draft1_amendments2.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Core/Current development/VD_Justifications3.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Core/degree_of_law_formal.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Core/faesa.csv"
+    type: csv
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Core/faesa.txt"
+    type: txt
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Core/old VD development/VD__how_to_draft1.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Core/old VD development/VD_draft1_amendments.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Core/Screenshot 2026-03-03 181327.png"
+    type: png
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Core/Token_Prop_2.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Core/Token_Prop_2_guide.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d1
+    note: ""
+  - path: "Core/VD rules.csv"
+    type: csv
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Core/VD_Core.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Core/vd_rule_ledger_v0_1_1.xlsx"
+    type: xlsx
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Core/vd_rule_ledger_v0_1_2.xlsx"
+    type: xlsx
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Core/vd_rule_ledger_v0_1_3.xlsx"
+    type: xlsx
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Core/vd_rule_ledger_v0_1_4 - unmanaged.xlsx"
+    type: xlsx
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d2
+    note: ""
+  - path: "inbox/VD unsorted important/co_inertial_frame_problem_v1.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "inbox/VD unsorted important/DESIGN_2_1_DRAFT_1_ENTRIES.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "inbox/VD unsorted important/E7_INERTIAL_ACCELERATION_PLACEMENT_NOTE.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "inbox/VD unsorted important/entry_writing_guide_auditable_compositions.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "inbox/VD unsorted important/from_fma_rigidity_to_com.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "inbox/VD unsorted important/from_fma_rigidity_to_com_plain_math.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "inbox/VD unsorted important/from_rigidity_to_additive_mass.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "inbox/VD unsorted important/hookean_response_type_chain.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "inbox/VD unsorted important/NM_L1_E7_E8_decision_note.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d3
+    note: ""
+  - path: "inbox/VD unsorted important/NM_L1_E7_integrated_complete_draft.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d4
+    note: ""
+  - path: "inbox/VD unsorted important/NML2_note_net_force_wall_withheld.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "inbox/VD unsorted important/NML2_working_note_core_constraints.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "inbox/VD unsorted important/photon_frame_certifier_and_gravity (1).md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d5
+    note: ""
+  - path: "inbox/VD unsorted important/photon_frame_certifier_and_gravity.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d5
+    note: ""
+  - path: "inbox/VD unsorted important/route_asymmetry_newtonian_frame_certification_v1.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "inbox/VD unsorted important/scratchpad-proposal.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "inbox/VD unsorted important/simulator_polish_spec.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "inbox/VD unsorted important/trackability_bodies_and_rigid_bodies.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "inbox/VD unsorted important/vd_auditability_intro.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "inbox/VD unsorted important/vd_cycle_info_spec (1).md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "inbox/VD unsorted important/vd_design_3_newton_i_correction.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d6
+    note: ""
+  - path: "inbox/VD unsorted important/VD_NEW_ENTRY_TEMPLATE.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "inbox/VD unsorted important/VD_Newton_bug_report_free_forceful_0_over_0.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "inbox/VD unsorted important/VD_Newton_bug_report_inertial_acceleration_headword_collision.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "inbox/VD unsorted important/VD_Newton_inertial_acceleration_two_entries.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "inbox/VD unsorted important/vd_newton_structure_session (1).md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d7
+    note: ""
+  - path: "inbox/VD unsorted important/vd_newton_structure_session.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d7
+    note: ""
+  - path: "inbox/VD unsorted important/vd_pedagogy_note.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "inbox/VD unsorted important/vd_reduction_spec.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "inbox/VD unsorted important/vd_residual_cleanup_spec.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton-analysis/abstract_interaction_candidate.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton-analysis/newton_first_law_article.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton-analysis/newton_vs_gibbs.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton-analysis/nothing_vs_zero_somethings (2).md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d10
+    note: ""
+  - path: "Newton-analysis/vd_composition_discovery_note.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton-analysis/vd_design_3_newton_i_correction.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d6
+    note: ""
+  - path: "Newton-analysis/VD_Newton_Analysis v.0.1.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/Design 3/nothing_vs_zero_somethings (2).md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d10
+    note: ""
+  - path: "Newton/Design 3/qpt_envisioner_and_dispatch.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/Design 3/qpt_envisioner_dispatch_deep_dive.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/Design 3/unfolding_forces.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/Design 3/vd_acting_object_architecture_consolidation.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/Design 3/vd_design_3_identity_discussion.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/Design 3/vd_design_3_nothing_vs_zero.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/Design 3/vd_design_3_oop_discussion.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/Design 3/vd_design_3_todo.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/Design 3/vd_design_3_trace_architecture (1).md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/Design 3/vd_dispatch_problem_design_note.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/folded in docs/newton_I_draft.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/folded in docs/newton_II_cleaned.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/folded in docs/vd_acting_object_fix.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/folded in docs/vd_bug_report_actobject_owner_design2.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/guidance on stuff/vd_dictionary_question_answering.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d11
+    note: ""
+  - path: "Newton/guidance on stuff/vd_law_writing_guide.docx"
+    type: docx
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d12
+    note: ""
+  - path: "Newton/guidance on stuff/vd_law_writing_guide.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d13
+    note: ""
+  - path: "Newton/guidance on stuff/vd_logic_tracker_guidance.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/guidance on stuff/vd_newton_trace_feedback.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/guidance on stuff/vd_six_entry_structure.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d14
+    note: ""
+  - path: "Newton/kinematic_scaffold_v2.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/nml/nml1/NM_L1_E7_E8_decision_note.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d3
+    note: ""
+  - path: "Newton/nml/nml1/NM_L1_E7_integrated_complete_draft.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d4
+    note: ""
+  - path: "Newton/nml/nml1/nm_l1_lesson_draft.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/vd-evaluator-brief.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d8
+    note: ""
+  - path: "Newton/VD___Newton_v1.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/VD___Newton_v2.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/VD___Newton_v3.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/VD___Newton_v4.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/VD_Newton v0.1.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/VD_Newton v0.2.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/VD_Newton v0.3.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/VD_Newton v0.4.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/VD_Newton v0.5.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/VD_Newton v0.6.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/vd_newton_v05_graph.png"
+    type: png
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Newton/vd_trace_level2_v3.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d9
+    note: ""
+  - path: "Theory/actually_there_prediction_sets_synthesis (2).md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d15
+    note: ""
+  - path: "Theory/alpha/alpha_and_the_one_draft_gem1.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/alpha/alpha_and_the_one_draft_gem2.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/alpha/alpha_and_the_one_draft_gem3.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/alpha_and_the_one_draft.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d16
+    note: ""
+  - path: "Theory/best/actually_there_prediction_sets_synthesis (2).md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d15
+    note: ""
+  - path: "Theory/best/alpha_and_the_one_draft.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d16
+    note: ""
+  - path: "Theory/factorial_vs_sum_residual_note.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/handle-residue derivation/handle_derivation_note_rewritten.docx"
+    type: docx
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/handle-residue derivation/handle_derivation_note_rewritten.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/handle-residue derivation/handle_stimulant_spine_v01.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/handle-residue derivation/language_problem_revised_draft.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/handle-residue derivation/residue_derivation_note_revised (1).docx"
+    type: docx
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/IT_IS_ACTUALLY_THERE.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/LP old/Language_problem.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/LP old/language_problem_substack_draft.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/machine matching problem/1-s2.0-0890540187900526-main.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/machine matching problem/1594834.1480925.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/machine matching problem/2107.05419v4.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/machine matching problem/3689723.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/machine matching problem/Abstract_existential (1).pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d17
+    note: ""
+  - path: "Theory/machine matching problem/Abstract_existential.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d17
+    note: ""
+  - path: "Theory/machine matching problem/CALCO2005.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/machine matching problem/hal-00959001.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/machine matching problem/pldi16a.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/Orientational code/engine.py"
+    type: py
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/Orientational code/newton.py"
+    type: py
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/Orientational code/Token_Prop_2_guide.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d1
+    note: ""
+  - path: "Theory/Orientational code/vd-evaluator-brief.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d8
+    note: ""
+  - path: "Theory/Orientational code/vd_dictionary_question_answering.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d11
+    note: ""
+  - path: "Theory/Orientational code/vd_rule_ledger_v0_1_4 - unmanaged.xlsx"
+    type: xlsx
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d2
+    note: ""
+  - path: "Theory/Orientational code/vd_theory_orientation.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d18
+    note: ""
+  - path: "Theory/Orientational code/vd_trace_level2_v3.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d9
+    note: ""
+  - path: "Theory/Orientational code/what_the_vd_is.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d19
+    note: ""
+  - path: "Theory/Orientational code/why_this_project_is_worth_your_time.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d20
+    note: ""
+  - path: "Theory/Orientational/vd_theory_orientation.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d18
+    note: ""
+  - path: "Theory/Orientational/what_the_vd_is.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d19
+    note: ""
+  - path: "Theory/Orientational/why_this_project_is_worth_your_time.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d20
+    note: ""
+  - path: "Theory/prediction_sets.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/triplet_as_admission_event.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/Triplets_in_haskel_VD.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/vd-acyclic-confluence.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/vd_dictionary_question_answering.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d11
+    note: ""
+  - path: "Theory/vd_haskell_essay.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/vd_law_writing_guide.docx"
+    type: docx
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d12
+    note: ""
+  - path: "Theory/vd_law_writing_guide.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d13
+    note: ""
+  - path: "Theory/vd_six_entry_structure.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d14
+    note: ""
+  - path: "Theory/vd_trace_level2_v3.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d9
+    note: ""
