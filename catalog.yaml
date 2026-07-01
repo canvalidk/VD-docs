@@ -1,8 +1,16 @@
 # VD-docs catalog — per-file notes and tags. Maintained collaboratively, filled in over time.
-# role:   primary | ai-context | reference   (ai-context = a borrowed copy that feeds a branch AI)
+# Folder/note model spec: see ORGANIZATION.md at the repo root (governs EXCAVATED NOTES).
+# role:   primary | ai-context | reference | informing   (ai-context = a borrowed copy that feeds a branch AI; informing = a read-only copy from another note's branch, placed to inform this note)
 # status: idea | draft | sketch | publishable | published
 # project: name of the mini-project a file belongs to (esp. under Newton-analysis)
 # dup_group: files sharing a label are byte-identical copies of each other.
+# --- excavated-note fields (see ORGANIZATION.md) ---
+# note:      the note (folder) a file belongs to
+# draft:     draft number (d1, d2, ...; d2a/d2b for parallel variants), 'unknown', or null (not a draft)
+# current:   true on the current draft of a note
+# variant:   variant label for parallel drafts, else null
+# orig_name: filename before a dN suffix was added (renames are lossless/reversible)
+# informs:   for an informing note, the home->target hand-off link
 # RULE: if a file in inbox/unsorted-important is identical to one in a real branch, the unsorted copy is deleted.
 
 folders:
@@ -10,6 +18,8 @@ folders:
     note: "VD as a rigorous set of mathematical rules, presented without justification."
   Theory:
     note: "Philosophical writing justifying the VD's core commitments."
+  Code:
+    note: "In-repo spec/management layer for the VD codebase: specs, design notes, requirements. Links VDfirst, which is responsible for the code; context copies of code may live here but VDfirst owns/maintains it."
   Newton:
     note: "Bridges Newton-analysis and Code — the 'program' that runs on the Code 'compiler'."
   Newton-analysis:
@@ -113,7 +123,7 @@ files:
     project: null
     status: null
     dup_group: d1
-    note: "Original lives in the Code branch (VDfirst repo); context copy."
+    note: "Original lives in VDfirst (the code repo linked by the Code branch); context copy."
   - path: "Core/VD rules.csv"
     type: csv
     role: primary
@@ -290,14 +300,14 @@ files:
     status: null
     dup_group: null
     note: ""
-  - path: "inbox/VD unsorted important/simulator_polish_spec.md"
+  - path: "Code/specs/simulator_polish_spec.md"
     type: md
     role: primary
     tags: []
     project: null
     status: null
     dup_group: null
-    note: ""
+    note: "Moved from inbox/VD unsorted important; home = Code branch. Spec for the VDfirst simulator; the code itself lives in VDfirst, not mirrored here."
   - path: "inbox/VD unsorted important/trackability_bodies_and_rigid_bodies.md"
     type: md
     role: primary
@@ -314,14 +324,14 @@ files:
     status: null
     dup_group: null
     note: ""
-  - path: "inbox/VD unsorted important/vd_cycle_info_spec (1).md"
+  - path: "Code/specs/vd_cycle_info_spec (1).md"
     type: md
     role: primary
     tags: []
     project: null
     status: null
     dup_group: null
-    note: ""
+    note: "Moved from inbox/VD unsorted important; home = Code branch. Spec for the VDfirst simulator; the code itself lives in VDfirst, not mirrored here."
   - path: "inbox/VD unsorted important/VD_NEW_ENTRY_TEMPLATE.md"
     type: md
     role: primary
@@ -370,22 +380,22 @@ files:
     status: null
     dup_group: null
     note: ""
-  - path: "inbox/VD unsorted important/vd_reduction_spec.md"
+  - path: "Code/specs/vd_reduction_spec.md"
     type: md
     role: primary
     tags: []
     project: null
     status: null
     dup_group: null
-    note: ""
-  - path: "inbox/VD unsorted important/vd_residual_cleanup_spec.md"
+    note: "Moved from inbox/VD unsorted important; home = Code branch. Spec for the VDfirst simulator; the code itself lives in VDfirst, not mirrored here."
+  - path: "Code/specs/vd_residual_cleanup_spec.md"
     type: md
     role: primary
     tags: []
     project: null
     status: null
     dup_group: null
-    note: ""
+    note: "Moved from inbox/VD unsorted important; home = Code branch. Spec for the VDfirst simulator; the code itself lives in VDfirst, not mirrored here."
   - path: "Newton-analysis/abstract_interaction_candidate.md"
     type: md
     role: primary
@@ -969,7 +979,7 @@ files:
     project: null
     status: null
     dup_group: d1
-    note: "Original lives in the Code branch (VDfirst repo); context copy."
+    note: "Original lives in VDfirst (the code repo linked by the Code branch); context copy."
   - path: "Theory/Orientational code/vd-evaluator-brief.md"
     type: md
     role: primary
@@ -1063,70 +1073,4 @@ files:
     role: primary
     tags: []
     project: null
-    status: null
-    dup_group: null
-    note: ""
-  - path: "Theory/Triplets_in_haskel_VD.pdf"
-    type: pdf
-    role: primary
-    tags: []
-    project: null
-    status: null
-    dup_group: null
-    note: ""
-  - path: "Theory/vd-acyclic-confluence.md"
-    type: md
-    role: primary
-    tags: []
-    project: null
-    status: null
-    dup_group: null
-    note: ""
-  - path: "Theory/vd_dictionary_question_answering.md"
-    type: md
-    role: ai-context
-    tags: []
-    project: null
-    status: null
-    dup_group: d2
-    note: "Context copy; original in Core."
-  - path: "Theory/vd_haskell_essay.md"
-    type: md
-    role: primary
-    tags: []
-    project: null
-    status: null
-    dup_group: null
-    note: ""
-  - path: "Theory/vd_law_writing_guide.docx"
-    type: docx
-    role: ai-context
-    tags: []
-    project: null
-    status: null
-    dup_group: d3
-    note: "Context copy; original in Core."
-  - path: "Theory/vd_law_writing_guide.pdf"
-    type: pdf
-    role: ai-context
-    tags: []
-    project: null
-    status: null
-    dup_group: d4
-    note: "Context copy; original in Core."
-  - path: "Theory/vd_six_entry_structure.md"
-    type: md
-    role: ai-context
-    tags: []
-    project: null
-    status: null
-    dup_group: d6
-    note: "Context copy; original in Core."
-  - path: "Theory/vd_trace_level2_v3.md"
-    type: md
-    role: primary
-    tags: []
-    project: null
-    status: null
-    dup_group: d8
-    note: ""
+    status
