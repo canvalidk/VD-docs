@@ -83,7 +83,8 @@ for this model marked +):
 
 - `path`, `type`
 - `role`: primary | ai-context | reference | **+informing**
-- **+`note`**: the note (folder) a file belongs to
+- **+`note_name`**: the note (folder) a file belongs to (distinct from the
+  pre-existing free-text `note` field listed below)
 - **+`draft`**: draft number (`d1`…), `unknown`, or null (not a draft)
 - **+`current`**: true on the current draft of a note
 - **+`variant`**: variant label for parallel drafts, else null

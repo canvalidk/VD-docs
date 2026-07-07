@@ -5,7 +5,7 @@
 # project: name of the mini-project a file belongs to (esp. under Newton-analysis)
 # dup_group: files sharing a label are byte-identical copies of each other.
 # --- excavated-note fields (see ORGANIZATION.md) ---
-# note:      the note (folder) a file belongs to
+# note_name: the note (folder) a file belongs to  (model field; distinct from the free-text 'note' below)
 # draft:     draft number (d1, d2, ...; d2a/d2b for parallel variants), 'unknown', or null (not a draft)
 # current:   true on the current draft of a note
 # variant:   variant label for parallel drafts, else null
@@ -764,62 +764,97 @@ files:
     status: null
     dup_group: d8
     note: ""
-  - path: "Theory/actually_there_prediction_sets_synthesis (2).md"
+  - path: "Theory/actually_there_prediction_sets/actually_there_prediction_sets_synthesis (2).md"
     type: md
     role: primary
     tags: []
     project: null
     status: null
     dup_group: d10
-    note: ""
-  - path: "Theory/alpha/alpha_and_the_one_draft_gem1.md"
+    note_name: actually_there_prediction_sets
+    draft: unknown
+    current: true
+    variant: null
+    orig_name: null
+    note: "Synthesis combining the 'actually there' and 'prediction sets' components; current draft. Also copied in best/ (dup_group d10)."
+  - path: "Theory/alpha_and_the_one/alpha_and_the_one_draft_gem1_d2a.md"
     type: md
     role: primary
     tags: []
     project: null
     status: null
     dup_group: null
-    note: ""
-  - path: "Theory/alpha/alpha_and_the_one_draft_gem2.md"
+    note_name: alpha_and_the_one
+    draft: d2a
+    current: false
+    variant: gem1
+    orig_name: alpha_and_the_one_draft_gem1.md
+    note: "Polished parallel variant (gem1) of the d1 draft."
+  - path: "Theory/alpha_and_the_one/alpha_and_the_one_draft_gem2_d2b.md"
     type: md
     role: primary
     tags: []
     project: null
     status: null
     dup_group: null
-    note: ""
-  - path: "Theory/alpha/alpha_and_the_one_draft_gem3.md"
+    note_name: alpha_and_the_one
+    draft: d2b
+    current: false
+    variant: gem2
+    orig_name: alpha_and_the_one_draft_gem2.md
+    note: "Polished variant (gem2); retitles gem1 as 'A Structural Reading of Monism'."
+  - path: "Theory/alpha_and_the_one/alpha_and_the_one_draft_gem3_d2c.md"
     type: md
     role: primary
     tags: []
     project: null
     status: null
     dup_group: null
-    note: ""
-  - path: "Theory/alpha_and_the_one_draft.md"
+    note_name: alpha_and_the_one
+    draft: d2c
+    current: false
+    variant: gem3
+    orig_name: alpha_and_the_one_draft_gem3.md
+    note: "Polished variant (gem3); gem2 text plus academic citations."
+  - path: "Theory/alpha_and_the_one/alpha_and_the_one_draft_d1.md"
     type: md
     role: primary
     tags: []
     project: null
     status: null
     dup_group: d11
-    note: ""
+    note_name: alpha_and_the_one
+    draft: d1
+    current: true
+    variant: null
+    orig_name: alpha_and_the_one_draft.md
+    note: "Human original; the curated 'best/' pick, so treated as current over the gems."
   - path: "Theory/best/actually_there_prediction_sets_synthesis (2).md"
     type: md
-    role: primary
+    role: reference
     tags: []
     project: null
     status: null
     dup_group: d10
-    note: ""
+    note_name: actually_there_prediction_sets
+    draft: null
+    current: false
+    variant: null
+    orig_name: null
+    note: "Curated 'best/' copy (byte-identical, dup_group d10) of the synthesis. Dedup decision pending."
   - path: "Theory/best/alpha_and_the_one_draft.md"
     type: md
-    role: primary
+    role: reference
     tags: []
     project: null
     status: null
     dup_group: d11
-    note: ""
+    note_name: alpha_and_the_one
+    draft: null
+    current: false
+    variant: null
+    orig_name: null
+    note: "Curated 'best/' copy (byte-identical, dup_group d11) of alpha_and_the_one_draft_d1.md. Dedup decision pending."
   - path: "Theory/factorial_vs_sum_residual_note.pdf"
     type: pdf
     role: primary
@@ -828,70 +863,110 @@ files:
     status: null
     dup_group: null
     note: ""
-  - path: "Theory/handle-residue derivation/handle_derivation_note_rewritten.docx"
+  - path: "Theory/handle_residue_derivation/handle_derivation_note_rewritten.docx"
     type: docx
     role: primary
     tags: []
     project: null
     status: null
     dup_group: null
-    note: ""
-  - path: "Theory/handle-residue derivation/handle_derivation_note_rewritten.md"
+    note_name: handle_residue_derivation
+    draft: unknown
+    current: false
+    variant: docx-export
+    orig_name: null
+    note: "docx export of handle_derivation_note_rewritten.md."
+  - path: "Theory/handle_residue_derivation/handle_derivation_note_rewritten.md"
     type: md
     role: primary
     tags: []
     project: null
     status: null
     dup_group: null
-    note: ""
-  - path: "Theory/handle-residue derivation/handle_stimulant_spine_v01.md"
+    note_name: handle_residue_derivation
+    draft: unknown
+    current: true
+    variant: null
+    orig_name: null
+    note: "Current handle-derivation draft ('rewritten', Apr 30). Sequence vs spine/residue components unconfirmed -> draft unknown."
+  - path: "Theory/handle_residue_derivation/handle_stimulant_spine_v01.md"
     type: md
     role: primary
     tags: []
     project: null
     status: null
     dup_group: null
-    note: ""
-  - path: "Theory/handle-residue derivation/language_problem_revised_draft.md"
+    note_name: handle_residue_derivation
+    draft: unknown
+    current: false
+    variant: null
+    orig_name: null
+    note: "Stimulant-spine component (v0.1); order unconfirmed."
+  - path: "Theory/language_problem/language_problem_revised_draft_d2.md"
     type: md
     role: primary
     tags: []
     project: null
     status: null
     dup_group: null
-    note: ""
-  - path: "Theory/handle-residue derivation/residue_derivation_note_revised (1).docx"
+    note_name: language_problem
+    draft: d2
+    current: true
+    variant: null
+    orig_name: language_problem_revised_draft.md
+    note: "Revised (newer) draft; moved out of the handle-residue folder into its home note."
+  - path: "Theory/handle_residue_derivation/residue_derivation_note_revised (1).docx"
     type: docx
     role: primary
     tags: []
     project: null
     status: null
     dup_group: null
-    note: ""
-  - path: "Theory/IT_IS_ACTUALLY_THERE.md"
+    note_name: handle_residue_derivation
+    draft: unknown
+    current: false
+    variant: null
+    orig_name: null
+    note: "Residue-derivation component (Apr 11, earliest mtime); order unconfirmed."
+  - path: "Theory/actually_there_prediction_sets/IT_IS_ACTUALLY_THERE.md"
     type: md
     role: primary
     tags: []
     project: null
     status: null
     dup_group: null
-    note: ""
-  - path: "Theory/LP old/Language_problem.pdf"
+    note_name: actually_there_prediction_sets
+    draft: unknown
+    current: false
+    variant: null
+    orig_name: null
+    note: "Component predecessor (Newton->theory bridge handoff note). Order vs prediction_sets unknown."
+  - path: "Theory/language_problem/Language_problem.pdf"
     type: pdf
     role: primary
     tags: []
     project: null
     status: null
     dup_group: null
-    note: ""
-  - path: "Theory/LP old/language_problem_substack_draft.md"
+    note_name: language_problem
+    draft: unknown
+    current: false
+    variant: null
+    orig_name: null
+    note: "PDF from 'LP old'; likely a rendered older draft; order vs the substack draft unconfirmed."
+  - path: "Theory/language_problem/language_problem_substack_draft_d1.md"
     type: md
     role: primary
     tags: []
     project: null
     status: null
     dup_group: null
-    note: ""
+    note_name: language_problem
+    draft: d1
+    current: false
+    variant: null
+    orig_name: language_problem_substack_draft.md
+    note: "Older 'substack' draft (was in 'LP old')."
   - path: "Theory/machine matching problem/1-s2.0-0890540187900526-main.pdf"
     type: pdf
     role: primary
@@ -1060,7 +1135,20 @@ files:
     status: null
     dup_group: d14
     note: ""
-  - path: "Theory/prediction_sets.md"
+  - path: "Theory/actually_there_prediction_sets/prediction_sets.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note_name: actually_there_prediction_sets
+    draft: unknown
+    current: false
+    variant: null
+    orig_name: null
+    note: "Component predecessor; order vs IT_IS_ACTUALLY_THERE unknown."
+  - path: "Theory/triplet_as_admission_event.md"
     type: md
     role: primary
     tags: []
@@ -1068,9 +1156,67 @@ files:
     status: null
     dup_group: null
     note: ""
-  - path: "Theory/triplet_as_admission_event.md"
+  - path: "Theory/Triplets_in_haskel_VD.pdf"
+    type: pdf
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/vd-acyclic-confluence.md"
     type: md
     role: primary
     tags: []
     project: null
-    status
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/vd_dictionary_question_answering.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: null
+    status: null
+    dup_group: d2
+    note: "Context copy; original in Core."
+  - path: "Theory/vd_haskell_essay.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note: ""
+  - path: "Theory/vd_law_writing_guide.docx"
+    type: docx
+    role: ai-context
+    tags: []
+    project: null
+    status: null
+    dup_group: d3
+    note: "Context copy; original in Core."
+  - path: "Theory/vd_law_writing_guide.pdf"
+    type: pdf
+    role: ai-context
+    tags: []
+    project: null
+    status: null
+    dup_group: d4
+    note: "Context copy; original in Core."
+  - path: "Theory/vd_six_entry_structure.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: null
+    status: null
+    dup_group: d6
+    note: "Context copy; original in Core."
+  - path: "Theory/vd_trace_level2_v3.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: null
+    dup_group: d8
+    note: ""
