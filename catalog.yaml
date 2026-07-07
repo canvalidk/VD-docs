@@ -828,6 +828,7 @@ files:
     current: true
     variant: null
     orig_name: alpha_and_the_one_draft.md
+    informs: alpha_and_the_one (d1) -> triplet_as_admission_event (informing copy placed there)
     note: "Human original; the curated 'best/' pick, so treated as current over the gems."
   - path: "Theory/best/actually_there_prediction_sets_synthesis (2).md"
     type: md
@@ -1148,22 +1149,46 @@ files:
     variant: null
     orig_name: null
     note: "Component predecessor; order vs IT_IS_ACTUALLY_THERE unknown."
-  - path: "Theory/triplet_as_admission_event.md"
+  - path: "Theory/triplet_as_admission_event/triplet_as_admission_event_d1.md"
     type: md
     role: primary
     tags: []
     project: null
     status: null
     dup_group: null
-    note: ""
-  - path: "Theory/Triplets_in_haskel_VD.pdf"
+    note_name: triplet_as_admission_event
+    draft: d1
+    current: true
+    variant: null
+    orig_name: triplet_as_admission_event.md
+    note: "Supplement to the α note: admission events into the catalogue are irreducible 3-cycles (triplets). Single draft."
+  - path: Theory/triplet_as_admission_event/alpha_and_the_one_draft-informing.md
+    type: md
+    role: informing
+    tags: []
+    project: null
+    status: null
+    dup_group: null
+    note_name: triplet_as_admission_event
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: alpha_and_the_one (d1, home) -> triplet_as_admission_event (this note)
+    note: Read-only informing copy of the 'best' alpha draft (alpha_and_the_one/alpha_and_the_one_draft_d1.md), placed here because this note supplements the alpha note. Intra-branch informing (home and target both in Theory - a light extension of the model, which defines informing cross-branch). Has a header banner; do not edit here, refresh from home.
+  - path: "Theory/theories_as_haskell/Triplets_in_haskel_VD_d1.pdf"
     type: pdf
     role: primary
     tags: []
     project: null
     status: null
     dup_group: null
-    note: ""
+    note_name: theories_as_haskell
+    draft: d1
+    current: false
+    variant: null
+    orig_name: Triplets_in_haskel_VD.pdf
+    note: "Formal note (Mar 2026): the 'empty closure' / x=x collapse of an underspecified triplet. Earlier, narrower treatment."
   - path: "Theory/vd-acyclic-confluence.md"
     type: md
     role: primary
@@ -1180,14 +1205,19 @@ files:
     status: null
     dup_group: d2
     note: "Context copy; original in Core."
-  - path: "Theory/vd_haskell_essay.md"
+  - path: "Theory/theories_as_haskell/vd_haskell_essay_d2.md"
     type: md
     role: primary
     tags: []
     project: null
     status: null
     dup_group: null
-    note: ""
+    note_name: theories_as_haskell
+    draft: d2
+    current: true
+    variant: null
+    orig_name: vd_haskell_essay.md
+    note: "Fuller expository essay (Mar 18) expanding the PDF's core (<<loop>>, x=x) into a full 'theories as programs' account plus the lossy-serialisation diagnosis of mysticism. Order by date; whether it supersedes the PDF or is a parallel expository variant is a judgment call."
   - path: "Theory/vd_law_writing_guide.docx"
     type: docx
     role: ai-context
