@@ -212,14 +212,6 @@ files:
     status: null
     dup_group: null
     note: ""
-  - path: "inbox/VD unsorted important/E7_INERTIAL_ACCELERATION_PLACEMENT_NOTE.md"
-    type: md
-    role: primary
-    tags: []
-    project: null
-    status: null
-    dup_group: null
-    note: ""
   - path: "inbox/VD unsorted important/entry_writing_guide_auditable_compositions.md"
     type: md
     role: primary
@@ -229,22 +221,6 @@ files:
     dup_group: null
     note: ""
   - path: "inbox/VD unsorted important/hookean_response_type_chain.md"
-    type: md
-    role: primary
-    tags: []
-    project: null
-    status: null
-    dup_group: null
-    note: ""
-  - path: "inbox/VD unsorted important/NML2_note_net_force_wall_withheld.md"
-    type: md
-    role: primary
-    tags: []
-    project: null
-    status: null
-    dup_group: null
-    note: ""
-  - path: "inbox/VD unsorted important/NML2_working_note_core_constraints.md"
     type: md
     role: primary
     tags: []
@@ -434,7 +410,7 @@ files:
     variant: null
     orig_name: from_fma_rigidity_to_com_plain_math.md
     informs: "rigidity_composition (Newton-analysis, home) -> Newton branch (NML2; the pipeline's additivity decomposition)"
-    note: "Current draft: plain-math rewrite of d2, fully explicit algebra, house style. One excavation line with d1 (additive mass) per user call: composition of rigid parts into one Newton-II target. Synthesized by vd_mass_identification_pipeline; the spine's DERIVATION step. Informs Newton; link recorded."
+    note: "Current draft: plain-math rewrite of d2, fully explicit algebra, house style. One excavation line with d1 (additive mass) per user call: composition of rigid parts into one Newton-II target. Synthesized by vd_mass_identification_pipeline; the spine's DERIVATION step. Informs Newton; link recorded. Informing copy into Newton/nml/nml2 DEFERRED (checked 2026-07-07: current NML2 working notes do not yet use this content; direction lesson<->insight unresolved)."
   - path: "Newton-analysis/tracks_to_particles/trackability_bodies_and_rigid_bodies_d1.md"
     type: md
     role: primary
@@ -487,7 +463,7 @@ files:
     variant: null
     orig_name: vd_trackability_scene_to_particles.md
     informs: "tracks_to_particles (Newton-analysis, home) -> Newton branch (NML1->NML2 hinge)"
-    note: "Design note v1 (2026-07-03); explicitly supersedes d1-d3 ('where this note contradicts them, this note wins'). Read before vd_mass_identification_pipeline. Informs Newton (NML sequencing); link recorded, no informing copy materialized yet."
+    note: "Design note v1 (2026-07-03); explicitly supersedes d1-d3 ('where this note contradicts them, this note wins'). Read before vd_mass_identification_pipeline. Informs Newton (NML sequencing); link recorded, no informing copy materialized yet. Informing copy into Newton/nml/nml2 DEFERRED (checked 2026-07-07: current NML2 working notes do not yet use this content; direction lesson<->insight unresolved)."
   - path: "Newton-analysis/vd_mass_identification_pipeline.md"
     type: md
     role: primary
@@ -501,7 +477,7 @@ files:
     variant: null
     orig_name: null
     informs: "mass_identification_pipeline (Newton-analysis, home) -> Newton branch (NML2)"
-    note: "Synthesis v1 (2026-07-02): end-to-end account of how correct mass enters F=ma; synthesizes the bridge spine + persistence certificates + additivity. Single-draft note, flat. Informs Newton; link recorded."
+    note: "Synthesis v1 (2026-07-02): end-to-end account of how correct mass enters F=ma; synthesizes the bridge spine + persistence certificates + additivity. Single-draft note, flat. Informs Newton; link recorded. Informing copy into Newton/nml/nml2 DEFERRED (checked 2026-07-07: current NML2 working notes do not yet use this content; direction lesson<->insight unresolved)."
   - path: "Newton-analysis/vd_nortons_dome_resolution.md"
     type: md
     role: primary
@@ -529,7 +505,7 @@ files:
     variant: null
     orig_name: null
     informs: "point_particle_bridge_spine (Newton-analysis, home) -> Newton branch (NML1->NML2)"
-    note: "Orientation/spine note v1: the single chain (tracks -> lumping -> M=sum m_i/CoM -> ledger mass) that the other notes annotate; contains nothing new by design. Single-draft note, flat. Informs Newton; link recorded."
+    note: "Orientation/spine note v1: the single chain (tracks -> lumping -> M=sum m_i/CoM -> ledger mass) that the other notes annotate; contains nothing new by design. Single-draft note, flat. Informs Newton; link recorded. Informing copy into Newton/nml/nml2 DEFERRED (checked 2026-07-07: current NML2 working notes do not yet use this content; direction lesson<->insight unresolved)."
   - path: "Newton-analysis/photon_frame_certification/co_inertial_frame_problem_v1_d1.md"
     type: md
     role: primary
@@ -800,30 +776,84 @@ files:
     status: null
     dup_group: null
     note: ""
+  - path: "Newton/nml/nml1/E7_INERTIAL_ACCELERATION_PLACEMENT_NOTE.md"
+    type: md
+    role: primary
+    tags: []
+    project: nml1
+    status: draft
+    dup_group: null
+    note_name: nml1_e7_placement
+    draft: d1
+    current: true
+    variant: null
+    orig_name: null
+    note: "WORKING NOTE (deliberation, not lesson plan; flat, catalog-only separation). Decides whether E7 belongs in NML1 or NML2 (2026-06-04); fed the integrated lesson d2 (Jun 17), which includes E7. Sorted from inbox 2026-07-07."
   - path: "Newton/nml/nml1/NM_L1_E7_E8_decision_note.md"
     type: md
     role: primary
     tags: []
-    project: null
-    status: null
+    project: nml1
+    status: draft
     dup_group: null
-    note: "Dup in inbox/unsorted-important deleted."
-  - path: "Newton/nml/nml1/NM_L1_E7_integrated_complete_draft.md"
+    note_name: nml1_e7_e8_decision
+    draft: d1
+    current: true
+    variant: null
+    orig_name: null
+    note: "WORKING NOTE (deliberation, not lesson plan). E7/E8 relation to NM L1 + witness-sheet composition decision. Dup in inbox/unsorted-important deleted."
+  - path: "Newton/nml/nml1/NM_L1_E7_integrated_complete_draft_d2.md"
     type: md
     role: primary
     tags: []
-    project: null
-    status: null
+    project: nml1
+    status: draft
     dup_group: null
-    note: "Dup in inbox/unsorted-important deleted."
-  - path: "Newton/nml/nml1/nm_l1_lesson_draft.md"
+    note_name: nml1_lesson
+    draft: d2
+    current: true
+    variant: null
+    orig_name: NM_L1_E7_integrated_complete_draft.md
+    note: "LESSON PLAN, current draft (2026-06-17): Newton I law-house + E7 motion-reading integrated; 80 min with variants. Dup in inbox/unsorted-important deleted."
+  - path: "Newton/nml/nml1/nm_l1_lesson_draft_d1.md"
     type: md
     role: primary
     tags: []
-    project: null
-    status: null
+    project: nml1
+    status: draft
     dup_group: null
-    note: ""
+    note_name: nml1_lesson
+    draft: d1
+    current: false
+    variant: null
+    orig_name: nm_l1_lesson_draft.md
+    note: "LESSON PLAN d1 (2026-05-18): Newton I law-house only, pre-E7-integration."
+  - path: "Newton/nml/nml2/NML2_note_net_force_wall_withheld.md"
+    type: md
+    role: primary
+    tags: []
+    project: nml2
+    status: draft
+    dup_group: null
+    note_name: nml2_net_force_wall
+    draft: d1
+    current: true
+    variant: null
+    orig_name: null
+    note: "WORKING NOTE ('Working Note 2', 2026-06-22): whether NML2 teaches the net-force wall or leaves net-force a mystery slot. No NML2 lesson plan exists yet. Sorted from inbox 2026-07-07."
+  - path: "Newton/nml/nml2/NML2_working_note_core_constraints.md"
+    type: md
+    role: primary
+    tags: []
+    project: nml2
+    status: draft
+    dup_group: null
+    note_name: nml2_core_constraints
+    draft: d1
+    current: true
+    variant: null
+    orig_name: null
+    note: "WORKING NOTE: NML2 = E8-E13, one force/one mass/one motion-change; E7 prerequisite, E14+ deferred, no force addition yet. Sorted from inbox 2026-07-07."
   - path: "Newton/vd-evaluator-brief.md"
     type: md
     role: primary
