@@ -204,14 +204,6 @@ files:
     status: null
     dup_group: d6
     note: "Original (home = Core)."
-  - path: "inbox/VD unsorted important/co_inertial_frame_problem_v1.md"
-    type: md
-    role: primary
-    tags: []
-    project: null
-    status: null
-    dup_group: null
-    note: ""
   - path: "inbox/VD unsorted important/DESIGN_2_1_DRAFT_1_ENTRIES.md"
     type: md
     role: primary
@@ -229,30 +221,6 @@ files:
     dup_group: null
     note: ""
   - path: "inbox/VD unsorted important/entry_writing_guide_auditable_compositions.md"
-    type: md
-    role: primary
-    tags: []
-    project: null
-    status: null
-    dup_group: null
-    note: ""
-  - path: "inbox/VD unsorted important/from_fma_rigidity_to_com.md"
-    type: md
-    role: primary
-    tags: []
-    project: null
-    status: null
-    dup_group: null
-    note: ""
-  - path: "inbox/VD unsorted important/from_fma_rigidity_to_com_plain_math.md"
-    type: md
-    role: primary
-    tags: []
-    project: null
-    status: null
-    dup_group: null
-    note: ""
-  - path: "inbox/VD unsorted important/from_rigidity_to_additive_mass.md"
     type: md
     role: primary
     tags: []
@@ -284,14 +252,6 @@ files:
     status: null
     dup_group: null
     note: ""
-  - path: "inbox/VD unsorted important/route_asymmetry_newtonian_frame_certification_v1.md"
-    type: md
-    role: primary
-    tags: []
-    project: null
-    status: null
-    dup_group: null
-    note: ""
   - path: "inbox/VD unsorted important/scratchpad-proposal.md"
     type: md
     role: primary
@@ -308,14 +268,6 @@ files:
     status: null
     dup_group: null
     note: "Moved from inbox/VD unsorted important; home = Code branch. Spec for the VDfirst simulator; the code itself lives in VDfirst, not mirrored here."
-  - path: "inbox/VD unsorted important/trackability_bodies_and_rigid_bodies.md"
-    type: md
-    role: primary
-    tags: []
-    project: null
-    status: null
-    dup_group: null
-    note: ""
   - path: "inbox/VD unsorted important/vd_auditability_intro.md"
     type: md
     role: primary
@@ -403,15 +355,20 @@ files:
     project: null
     status: null
     dup_group: null
-    note: ""
+    note_name: abstract_interaction_candidate
+    draft: d1
+    current: true
+    variant: null
+    orig_name: null
+    note: "Single-draft note (interaction candidate as theory-independent structural object); foldering deferred per Theory-pilot precedent."
   - path: "Newton-analysis/newton_first_law_article.md"
     type: md
-    role: primary
+    role: ai-context
     tags: []
     project: null
     status: null
-    dup_group: null
-    note: ""
+    dup_group: d15
+    note: "Context copy for the Newton-analysis AI; HOME MOVED to Newton/ on 2026-07-07 (user: WIP deliberation on how to build the Newton entries -> Newton branch). Edit the Newton copy."
   - path: "Newton-analysis/newton_vs_gibbs.md"
     type: md
     role: primary
@@ -419,7 +376,12 @@ files:
     project: null
     status: null
     dup_group: null
-    note: ""
+    note_name: newton_vs_gibbs
+    draft: d1
+    current: true
+    variant: null
+    orig_name: null
+    note: "Single-draft note (Newton's hidden commitment to particle distinguishability); foldering deferred."
   - path: "Newton-analysis/nothing_vs_zero_somethings (2).md"
     type: md
     role: primary
@@ -427,15 +389,186 @@ files:
     project: null
     status: null
     dup_group: d9
-    note: ""
-  - path: "Newton-analysis/photon_frame_certifier_and_gravity.md"
+    note_name: nothing_vs_zero_somethings
+    draft: d1
+    current: true
+    variant: null
+    orig_name: null
+    note: "Newton-I trio, note 1 of 3 (with newton_first_law_article and vd_design_3_newton_i_correction): three separate notes, NOT one draft line. The correction (Apr 19) supersedes this essay's Nothing/Maybe-branch reading but confirms its photon crash, massive/massless categories, and gravity constraint. Single-draft note; foldering deferred (recorded exception)."
+  - path: "Newton-analysis/rigidity_composition/from_rigidity_to_additive_mass_d1.md"
+    type: md
+    role: primary
+    tags: []
+    project: rigidity_composition
+    status: draft
+    dup_group: null
+    note_name: rigidity_composition
+    draft: d1
+    current: false
+    variant: null
+    orig_name: from_rigidity_to_additive_mass.md
+    note: "Foundation of the line: derives M = sum(mi) via representative adequacy (no momentum conservation, no force-sum assumption); closing section motivates the CoM step. d1 by logical priority (user-endorsed 2026-07-07), not verified chronology."
+  - path: "Newton-analysis/rigidity_composition/from_fma_rigidity_to_com_d2.md"
+    type: md
+    role: primary
+    tags: []
+    project: rigidity_composition
+    status: draft
+    dup_group: null
+    note_name: rigidity_composition
+    draft: d2
+    current: false
+    variant: null
+    orig_name: from_fma_rigidity_to_com.md
+    note: "CoM as translational representative, LaTeX notation; superseded by the plain-math rewrite d3."
+  - path: "Newton-analysis/rigidity_composition/from_fma_rigidity_to_com_plain_math_d3.md"
+    type: md
+    role: primary
+    tags: []
+    project: rigidity_composition
+    status: draft
+    dup_group: null
+    note_name: rigidity_composition
+    draft: d3
+    current: true
+    variant: null
+    orig_name: from_fma_rigidity_to_com_plain_math.md
+    informs: "rigidity_composition (Newton-analysis, home) -> Newton branch (NML2; the pipeline's additivity decomposition)"
+    note: "Current draft: plain-math rewrite of d2, fully explicit algebra, house style. One excavation line with d1 (additive mass) per user call: composition of rigid parts into one Newton-II target. Synthesized by vd_mass_identification_pipeline; the spine's DERIVATION step. Informs Newton; link recorded."
+  - path: "Newton-analysis/tracks_to_particles/trackability_bodies_and_rigid_bodies_d1.md"
+    type: md
+    role: primary
+    tags: []
+    project: tracks_to_particles
+    status: draft
+    dup_group: null
+    note_name: tracks_to_particles
+    draft: d1
+    current: false
+    variant: null
+    orig_name: trackability_bodies_and_rigid_bodies.md
+    note: "Short intro note: trackability as the bridge from bodies to point-particle tracks. Earliest in the line; superseded by d4. Was in inbox; sorted 2026-07-07."
+  - path: "Newton-analysis/tracks_to_particles/tracks_to_particles_rigidity_as_lumping_criterion_d2.md"
+    type: md
+    role: primary
+    tags: []
+    project: tracks_to_particles
+    status: draft
+    dup_group: null
+    note_name: tracks_to_particles
+    draft: d2
+    current: false
+    variant: null
+    orig_name: tracks_to_particles_rigidity_as_lumping_criterion.md
+    note: "Rigidity (as a track feature) as the lumping criterion; 'the note' that d3 corrects. Superseded by d4."
+  - path: "Newton-analysis/tracks_to_particles/vd_tracks_to_particles_corrections_d3.md"
+    type: md
+    role: primary
+    tags: []
+    project: tracks_to_particles
+    status: draft
+    dup_group: null
+    note_name: tracks_to_particles
+    draft: d3
+    current: false
+    variant: null
+    orig_name: vd_tracks_to_particles_corrections.md
+    note: "Corrections C1-C8 (2026-07-01) applying to d2. Superseded by d4."
+  - path: "Newton-analysis/tracks_to_particles/vd_trackability_scene_to_particles_d4.md"
+    type: md
+    role: primary
+    tags: []
+    project: tracks_to_particles
+    status: draft
+    dup_group: null
+    note_name: tracks_to_particles
+    draft: d4
+    current: true
+    variant: null
+    orig_name: vd_trackability_scene_to_particles.md
+    informs: "tracks_to_particles (Newton-analysis, home) -> Newton branch (NML1->NML2 hinge)"
+    note: "Design note v1 (2026-07-03); explicitly supersedes d1-d3 ('where this note contradicts them, this note wins'). Read before vd_mass_identification_pipeline. Informs Newton (NML sequencing); link recorded, no informing copy materialized yet."
+  - path: "Newton-analysis/vd_mass_identification_pipeline.md"
     type: md
     role: primary
     tags: []
     project: null
+    status: draft
+    dup_group: null
+    note_name: mass_identification_pipeline
+    draft: d1
+    current: true
+    variant: null
+    orig_name: null
+    informs: "mass_identification_pipeline (Newton-analysis, home) -> Newton branch (NML2)"
+    note: "Synthesis v1 (2026-07-02): end-to-end account of how correct mass enters F=ma; synthesizes the bridge spine + persistence certificates + additivity. Single-draft note, flat. Informs Newton; link recorded."
+  - path: "Newton-analysis/vd_nortons_dome_resolution.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: idea
+    dup_group: null
+    note_name: nortons_dome_resolution
+    draft: d1
+    current: true
+    variant: null
+    orig_name: null
+    informs: "nortons_dome_resolution (Newton-analysis, home) -> Newton branch (admissibility rules, domain gate)"
+    note: "v0 whiteboard-grade (2026-07-05): VD resolution of Norton's Dome (certificate taxonomy, constitutional trichotomy); nothing encoded as entries yet, smuggle-suspect until encoding pass. Single-draft note, flat. Informs Newton; link recorded."
+  - path: "Newton-analysis/vd_point_particle_bridge_spine.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: draft
+    dup_group: null
+    note_name: point_particle_bridge_spine
+    draft: d1
+    current: true
+    variant: null
+    orig_name: null
+    informs: "point_particle_bridge_spine (Newton-analysis, home) -> Newton branch (NML1->NML2)"
+    note: "Orientation/spine note v1: the single chain (tracks -> lumping -> M=sum m_i/CoM -> ledger mass) that the other notes annotate; contains nothing new by design. Single-draft note, flat. Informs Newton; link recorded."
+  - path: "Newton-analysis/photon_frame_certification/co_inertial_frame_problem_v1_d1.md"
+    type: md
+    role: primary
+    tags: []
+    project: photon_frame_certification
+    status: draft
+    dup_group: null
+    note_name: photon_frame_certification
+    draft: d1
+    current: false
+    variant: null
+    orig_name: co_inertial_frame_problem_v1.md
+    note: "Earliest draft (user-confirmed): VD-internal working note arguing the route-asymmetry in law-house terms; its 'More sharply' certifier block recurs nearly verbatim in d2 §7. Sorted from inbox 2026-07-07."
+  - path: "Newton-analysis/photon_frame_certification/photon_frame_certifier_and_gravity_d3.md"
+    type: md
+    role: primary
+    tags: []
+    project: photon_frame_certification
     status: null
     dup_group: null
-    note: "Moved from inbox/unsorted-important; home = Newton-analysis."
+    note_name: photon_frame_certification
+    draft: d3
+    current: true
+    variant: null
+    orig_name: photon_frame_certifier_and_gravity.md
+    note: "Polished development of the route-asymmetry d2: same frame-certification argument, extended to the gravity-as-force conclusion the d2 explicitly deferred. Earlier note said 'moved from inbox/unsorted-important; home = Newton-analysis.'"
+  - path: "Newton-analysis/photon_frame_certification/route_asymmetry_newtonian_frame_certification_v1_d2.md"
+    type: md
+    role: primary
+    tags: []
+    project: photon_frame_certification
+    status: draft
+    dup_group: null
+    note_name: photon_frame_certification
+    draft: d2
+    current: false
+    variant: null
+    orig_name: route_asymmetry_newtonian_frame_certification_v1.md
+    note: "Self-labeled 'rough draft v1' with working meta-comments; sorted here from inbox/VD unsorted important on 2026-07-07. De-VD'd standalone rewrite of the co_inertial d1 (user-confirmed order); the photon essay d3 develops it further and delivers the gravity bridge this one defers."
   - path: "Newton-analysis/vd_composition_discovery_note.md"
     type: md
     role: primary
@@ -443,15 +576,20 @@ files:
     project: null
     status: null
     dup_group: null
-    note: ""
+    note_name: composition_discovery
+    draft: d1
+    current: true
+    variant: null
+    orig_name: null
+    note: "Single-draft note (composition as a Newtonian word, from the acting-object ownership fix); foldering deferred."
   - path: "Newton-analysis/vd_design_3_newton_i_correction.md"
     type: md
-    role: primary
+    role: ai-context
     tags: []
     project: null
     status: null
-    dup_group: null
-    note: "Dup in inbox/unsorted-important deleted."
+    dup_group: d16
+    note: "Context copy for the Newton-analysis AI; HOME MOVED to Newton/Design 3/ on 2026-07-07 (resolves the earlier misplacement FLAG - it is Design 3 deliberation, not analysis output). Edit the Newton copy. Newton-I trio note 3 of 3; supersedes the Nothing-branch reading of nothing_vs_zero_somethings (2).md."
   - path: "Newton-analysis/VD_Newton_Analysis v.0.1.pdf"
     type: pdf
     role: primary
@@ -459,7 +597,33 @@ files:
     project: null
     status: null
     dup_group: null
-    note: ""
+    note: "Compiled release (v0.1) of the branch's analyses — not an excavated note; outside the ORGANIZATION.md note model. Stays flat."
+  - path: "Newton/newton_first_law_article.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: draft
+    dup_group: d15
+    note_name: newton_first_law
+    draft: d1
+    current: true
+    variant: null
+    orig_name: null
+    note: "HOME (moved from Newton-analysis 2026-07-07): WIP deliberation of Newton I's role (foundation/frame commitment, not Newton II corollary) for building the Newton entries. ai-context copy remains in Newton-analysis (d15)."
+  - path: "Newton/Design 3/vd_design_3_newton_i_correction.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: draft
+    dup_group: d16
+    note_name: newton_i_correction
+    draft: d1
+    current: true
+    variant: null
+    orig_name: null
+    note: "HOME (moved from Newton-analysis 2026-07-07): Design 3 correction (Apr 19) - Newton I triplet is the acceleration/inertial-acceleration bridge, not a routing branch; kills Nothing/Maybe + ao0. Supersedes framings in vd_design_3_nothing_vs_zero.md and vd_design_3_trace_architecture.md. ai-context copy remains in Newton-analysis (d16)."
   - path: "Newton/Design 3/nothing_vs_zero_somethings (2).md"
     type: md
     role: ai-context
