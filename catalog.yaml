@@ -416,7 +416,7 @@ files:
     variant: null
     orig_name: from_fma_rigidity_to_com_plain_math.md
     informs: "rigidity_composition (Newton-analysis, home) -> Newton branch (NML2; the pipeline's additivity decomposition); -> mass_identification_pipeline (additivity decomposition; copy placed); -> point_particle_bridge_spine (copy placed)"
-    note: "Current draft: plain-math rewrite of d2, fully explicit algebra, house style. One excavation line with d1 (additive mass) per user call: composition of rigid parts into one Newton-II target. Synthesized by vd_mass_identification_pipeline; the spine's DERIVATION step. Informs Newton; link recorded. Informing copy into Newton/nml/nml2 DEFERRED (checked 2026-07-07: current NML2 working notes do not yet use this content; direction lesson<->insight unresolved)."
+    note: "Current draft: plain-math rewrite of d2, fully explicit algebra, house style. One excavation line with d1 (additive mass) per user call: composition of rigid parts into one Newton-II target. Synthesized by vd_mass_identification_pipeline; the spine's DERIVATION step. Informs Newton; link recorded. Informing-copy deferral RESOLVED 2026-07-14: the NML2.1/2.2 split made this content used — copies materialized into the sub-lesson drafting bundles (nml2.2/ai-context-bundle/, and nml2.1's where its drafting brief lists it); see nml2_split_ratification and the per-copy catalog entries."
   - path: "Newton-analysis/tracks_to_particles/photon_frame_certifier_and_gravity_d3-informing.md"
     type: md
     role: informing
@@ -483,7 +483,7 @@ files:
     variant: null
     orig_name: vd_trackability_scene_to_particles.md
     informs: "tracks_to_particles (Newton-analysis, home) -> Newton branch (NML1->NML2 hinge); -> rigidity_composition (lumping premise; copy placed); -> mass_identification_pipeline (Stages 0-2; copy placed); -> point_particle_bridge_spine (copy placed)"
-    note: "Design note v1 (2026-07-03); explicitly supersedes d1-d3 ('where this note contradicts them, this note wins'). Read before vd_mass_identification_pipeline. Informs Newton (NML sequencing); link recorded, no informing copy materialized yet. Informing copy into Newton/nml/nml2 DEFERRED (checked 2026-07-07: current NML2 working notes do not yet use this content; direction lesson<->insight unresolved)."
+    note: "Design note v1 (2026-07-03); explicitly supersedes d1-d3 ('where this note contradicts them, this note wins'). Read before vd_mass_identification_pipeline. Informs Newton (NML sequencing); link recorded, no informing copy materialized yet. Informing-copy deferral RESOLVED 2026-07-14: the NML2.1/2.2 split made this content used — copies materialized into the sub-lesson drafting bundles (nml2.2/ai-context-bundle/, and nml2.1's where its drafting brief lists it); see nml2_split_ratification and the per-copy catalog entries."
   - path: "Newton-analysis/hookean_response_type_chain/hookean_response_type_chain_d1.md"
     type: md
     role: primary
@@ -538,7 +538,7 @@ files:
     variant: null
     orig_name: "vd_mass_identification_pipeline.md"
     informs: "mass_identification_pipeline (Newton-analysis, home) -> Newton branch (NML2); -> point_particle_bridge_spine (copy placed)"
-    note: "Synthesis v1 (2026-07-02): end-to-end account of how correct mass enters F=ma; synthesizes the bridge spine + persistence certificates + additivity. Single-draft note; FOLDERED 2026-07-07. Informs Newton; link recorded. Informing copy into Newton/nml/nml2 DEFERRED (checked 2026-07-07: current NML2 working notes do not yet use this content; direction lesson<->insight unresolved)."
+    note: "Synthesis v1 (2026-07-02): end-to-end account of how correct mass enters F=ma; synthesizes the bridge spine + persistence certificates + additivity. Single-draft note; FOLDERED 2026-07-07. Informs Newton; link recorded. Informing-copy deferral RESOLVED 2026-07-14: the NML2.1/2.2 split made this content used — copies materialized into the sub-lesson drafting bundles (nml2.2/ai-context-bundle/, and nml2.1's where its drafting brief lists it); see nml2_split_ratification and the per-copy catalog entries."
   - path: "Newton-analysis/nortons_dome_resolution/vd_nortons_dome_resolution_d1.md"
     type: md
     role: primary
@@ -608,7 +608,7 @@ files:
     variant: null
     orig_name: "vd_point_particle_bridge_spine.md"
     informs: "point_particle_bridge_spine (Newton-analysis, home) -> Newton branch (NML1->NML2)"
-    note: "Orientation/spine note v1: the single chain (tracks -> lumping -> M=sum m_i/CoM -> ledger mass) that the other notes annotate; contains nothing new by design. Single-draft note; FOLDERED 2026-07-07. Informs Newton; link recorded. Informing copy into Newton/nml/nml2 DEFERRED (checked 2026-07-07: current NML2 working notes do not yet use this content; direction lesson<->insight unresolved)."
+    note: "Orientation/spine note v1: the single chain (tracks -> lumping -> M=sum m_i/CoM -> ledger mass) that the other notes annotate; contains nothing new by design. Single-draft note; FOLDERED 2026-07-07. Informs Newton; link recorded. Informing-copy deferral RESOLVED 2026-07-14: the NML2.1/2.2 split made this content used — copies materialized into the sub-lesson drafting bundles (nml2.2/ai-context-bundle/, and nml2.1's where its drafting brief lists it); see nml2_split_ratification and the per-copy catalog entries."
   - path: "Newton-analysis/photon_frame_certification/co_inertial_frame_problem_v1_d1.md"
     type: md
     role: primary
@@ -662,7 +662,20 @@ files:
     variant: null
     orig_name: "vd_composition_discovery_note.md"
     note: "Single-draft note (composition as a Newtonian word, from the acting-object ownership fix); FOLDERED 2026-07-07."
-  - path: "Newton-analysis/vd_design_3_newton_i_correction.md"
+  - path: "Newton-analysis/material_object_naming/vd_material_object_and_intuitive_naming_schema_d1.md"
+    type: md
+    role: primary
+    tags: [naming, pedagogy]
+    project: null
+    status: draft
+    dup_group: null
+    note_name: material_object_naming
+    draft: d1
+    current: true
+    variant: null
+    orig_name: "vd_material_object_and_intuitive_naming_schema (1).md"
+    informs: "material_object_naming (Newton-analysis, home) -> nml2.1 (Part-II provisional 'material object' intro; copy placed 2026-07-17 in nml2.1/ai-context-bundle/); -> nml2.2 (trackability-bridge section; link-only, copy deferred until 2.2 drafting starts)"
+    note: "Working argument note (2026-07-14): why 'material-object' is the right name for the VD Newton individual, generalised into a 'cognitively anchored naming' method; synthesizes tracks_to_particles, point_particle_bridge_spine, and mass_identification_pipeline (listed as references). Homed here 2026-07-17 (user-ratified): extends the Newton-analysis trackability cluster and informs Newton like its siblings; link recorded, no informing copy placed. Two staging copies arrived in inbox; the shorter '(2)' (a strict subset: missing sec 4 'Trackability as the bridge' + 3 reference entries) was DISCARDED per user instruction 2026-07-17. Filed from inbox 2026-07-17."
     type: md
     role: ai-context
     tags: []
@@ -880,13 +893,27 @@ files:
     status: null
     dup_group: null
     note: ""
+  - path: "Newton/nml/worksheet_finger_reaction_beaker_water.md"
+    type: md
+    role: primary
+    tags: [worksheet, newton-iii]
+    project: null
+    status: draft
+    dup_group: null
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: null
+    note: "STUDENT-FACING WORKSHEET with answer key (beaker+water, sideways vs downward push): Newton-II with changing target composition, weight, and Newton-III interaction pairs. PARKED at nml/ parent level (user-ratified 2026-07-17): weight calculations and Newton III are on NML2.1's explicit exclusion list (Part IV, 'later destinations'), and no nml3/Newton-III lesson folder exists yet. Rehome when that lesson is created. Filed from inbox 2026-07-17."
   - path: "Newton/nml/nml1/E7_INERTIAL_ACCELERATION_PLACEMENT_NOTE.md"
     type: md
     role: primary
     tags: []
     project: nml1
     status: draft
-    dup_group: null
+    dup_group: d27
     note_name: nml1_e7_placement
     draft: d1
     current: true
@@ -899,7 +926,7 @@ files:
     tags: []
     project: nml1
     status: draft
-    dup_group: null
+    dup_group: d28
     note_name: nml1_e7_e8_decision
     draft: d1
     current: true
@@ -912,7 +939,7 @@ files:
     tags: []
     project: nml1
     status: draft
-    dup_group: null
+    dup_group: d29
     note_name: nml1_lesson
     draft: d2
     current: true
@@ -932,32 +959,428 @@ files:
     variant: null
     orig_name: nm_l1_lesson_draft.md
     note: "LESSON PLAN d1 (2026-05-18): Newton I law-house only, pre-E7-integration."
+  - path: "Newton/nml/nml2/NML2_FINAL_DRAFT_v1_d1.md"
+    type: md
+    role: primary
+    tags: []
+    project: nml2
+    status: draft
+    dup_group: d19
+    note_name: nml2_lesson
+    draft: d1
+    current: true
+    variant: null
+    orig_name: NML2_FINAL_DRAFT_v1.md
+    note: "LESSON PLAN d1 (2026-07-10): first NML2 integrated lesson draft, 80 min. Tolerance-indexed target continuity, mass-address reuse, Newton II law-house; bouncy-ball fine/coarse bridge. Filed from inbox 2026-07-11 — first lesson plan for nml2 (folder previously had only the two working notes). FORKED by nml2_split_ratification (2026-07-11): NML2 is now two lessons, so this note is FROZEN TERMINAL at d1 (supersession/split is not drafting, per the Newton-I-trio precedent) — the NML2.1 lesson doc will replace its supplied-target half, the NML2.2 doc grows from its sections 3-4; both will be NEW notes homed in nml2/nml2.1/ and nml2/nml2.2/."
   - path: "Newton/nml/nml2/NML2_note_net_force_wall_withheld.md"
     type: md
     role: primary
     tags: []
     project: nml2
     status: draft
-    dup_group: null
+    dup_group: d20
     note_name: nml2_net_force_wall
     draft: d1
     current: true
     variant: null
     orig_name: null
-    note: "WORKING NOTE ('Working Note 2', 2026-06-22): whether NML2 teaches the net-force wall or leaves net-force a mystery slot. No NML2 lesson plan exists yet. Sorted from inbox 2026-07-07."
+    note: "WORKING NOTE ('Working Note 2', 2026-06-22): whether NML2 teaches the net-force wall or leaves net-force a mystery slot. Fed into the nml2_lesson plan (filed 2026-07-11), which withholds a full net-force definition per this note. Sorted from inbox 2026-07-07. Post-split: the thin net-force wall lands in NML2.1 (ratification sec 2.2a); this note predates the split and stays at nml2/ parent level."
+  - path: "Newton/nml/nml2/NML2_split_ratification_d1.md"
+    type: md
+    role: primary
+    tags: []
+    project: nml2
+    status: draft
+    dup_group: d17
+    note_name: nml2_split_ratification
+    draft: d1
+    current: true
+    variant: null
+    orig_name: null
+    note: "DECISION RECORD d1 (2026-07-11): ratifies NML2 = TWO lessons — NML2.1 (Newton-II lesson, supplied targets; ex-bank-label NML2B) and NML2.2 (target-construction lesson; ex-NML2A); numeric labels canonical from this doc forward. Supersedes the outstanding audience-decision item in nml2_lesson d1 and FORKS that note (see its entry). Filed from inbox 2026-07-13. STRUCTURE EXCEPTION (user-ratified 2026-07-13): nml2/ is now a PARENT folder — shared objects (this record, the question bank, the frozen v1 lesson, both working notes) sit at parent level; subfolders nml2/nml2.1/ and nml2/nml2.2/ will each hold their lesson's own note (lesson docs not yet written — open items 1-2 in this record)."
+  - path: "Newton/nml/nml2/NML2_student_facing_question_exercise_demonstration_bank_v1_d1.md"
+    type: md
+    role: primary
+    tags: []
+    project: nml2
+    status: draft
+    dup_group: d18
+    note_name: nml2_question_bank
+    draft: d1
+    current: true
+    variant: null
+    orig_name: NML2_student_facing_question_exercise_demonstration_bank_v1.md
+    note: "SOURCE BANK d1 (2026-07-11): student-facing operations O1-O50, critical questions CQ0-CQ18, exercises, demonstrations, rubrics, banded I-III. A THIRD object kind for nml folders (neither lesson plan nor working note): shared upstream source feeding BOTH NML2.1 and NML2.2 (per-lesson assignments in ratification sec 2.7/3.5) — hence kept at nml2/ parent level. Its internal NML2A/NML2B labels are superseded by nml2_split_ratification (2A -> NML2.2, 2B -> NML2.1). Filed from inbox 2026-07-13."
   - path: "Newton/nml/nml2/NML2_working_note_core_constraints.md"
     type: md
     role: primary
     tags: []
     project: nml2
     status: draft
-    dup_group: null
+    dup_group: d21
     note_name: nml2_core_constraints
     draft: d1
     current: true
     variant: null
     orig_name: null
-    note: "WORKING NOTE: NML2 = E8-E13, one force/one mass/one motion-change; E7 prerequisite, E14+ deferred, no force addition yet. Sorted from inbox 2026-07-07."
+    note: "WORKING NOTE: NML2 = E8-E13, one force/one mass/one motion-change; E7 prerequisite, E14+ deferred, no force addition yet. Sorted from inbox 2026-07-07. Post-split: this scope statement predates the NML2.1/NML2.2 split — read through nml2_split_ratification; stays at nml2/ parent level."
+  - path: "Newton/nml/nml2/nml2.1/NML2_1_lesson_drafting_context_v1.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.1
+    status: draft
+    dup_group: d22
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "AI-CONTEXT COMPILATION (authored 2026-07-14, not a copy): drafting brief for the NML2.1 lesson doc (ratification open item 1) — thesis, content spec (addressed triplet, three-masses lecture, additivity grades, decorrelation), stratification, licence table, exit burn, bank assignments, v1-reuse map, source set. Never iterated; the lesson drafted FROM it becomes this folder's note (nml2.1_lesson d1). Refresh from nml2_split_ratification + nml2_question_bank + frozen nml2_lesson d1 if those change."
+  - path: "Newton/nml/nml2/nml2.1/NML2_1_CONTENT.md"
+    type: md
+    role: primary
+    tags: [content-spec]
+    project: nml2.1
+    status: draft
+    dup_group: null
+    note_name: nml2_1_content_spec
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: null
+    note: "CONTENT SPECIFICATION (self-described 'not yet a timed lesson plan'): records all content available to NML2.1 — addressed triplet, thin net-force, three mass meanings, mass-reuse licence, three routes to trajectory, exercise/demo bank, exclusions. NOT the nml2.1_lesson d1 reserved by the drafting context (that slot is for the integrated lesson doc); this is an intermediate working doc between the drafting brief and the lesson. Filed from inbox 2026-07-17."
+  - path: "Newton/nml/nml2/nml2.1/ai-context-bundle/E7_INERTIAL_ACCELERATION_PLACEMENT_NOTE.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.1
+    status: null
+    dup_group: d27
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "NML2.1 drafting bundle (assembled 2026-07-14; contents = source set in the drafting brief). Copy of Newton/nml/nml1/E7_INERTIAL_ACCELERATION_PLACEMENT_NOTE.md (nml1_e7_placement d1)."
+  - path: "Newton/nml/nml2/nml2.1/ai-context-bundle/NML2_1_lesson_drafting_context_v1.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.1
+    status: null
+    dup_group: d22
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Bundle copy of the drafting brief one level up."
+  - path: "Newton/nml/nml2/nml2.1/ai-context-bundle/NML2_FINAL_DRAFT_v1_d1.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.1
+    status: null
+    dup_group: d19
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Bundle copy of the frozen nml2_lesson d1 (nml2/ parent)."
+  - path: "Newton/nml/nml2/nml2.1/ai-context-bundle/NML2_note_net_force_wall_withheld.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.1
+    status: null
+    dup_group: d20
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Bundle copy of the parent working note (nml2_net_force_wall). An identical uncatalogued copy also sits in nml2/ai-context-bundle/."
+  - path: "Newton/nml/nml2/nml2.1/ai-context-bundle/NML2_split_ratification_d1.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.1
+    status: null
+    dup_group: d17
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Bundle copy of the split ratification (canonical decision record, nml2/ parent)."
+  - path: "Newton/nml/nml2/nml2.1/ai-context-bundle/NML2_student_facing_question_exercise_demonstration_bank_v1_d1.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.1
+    status: null
+    dup_group: d18
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Bundle copy of the question bank (nml2_question_bank d1, nml2/ parent)."
+  - path: "Newton/nml/nml2/nml2.1/ai-context-bundle/NML2_working_note_core_constraints.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.1
+    status: null
+    dup_group: d21
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Bundle copy of the parent working note (nml2_core_constraints). An identical uncatalogued copy also sits in nml2/ai-context-bundle/."
+  - path: "Newton/nml/nml2/nml2.1/ai-context-bundle/NM_L1_E7_E8_decision_note.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.1
+    status: null
+    dup_group: d28
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Copy of Newton/nml/nml1/NM_L1_E7_E8_decision_note.md (nml1_e7_e8_decision d1)."
+  - path: "Newton/nml/nml2/nml2.1/ai-context-bundle/NM_L1_E7_integrated_complete_draft_d2.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.1
+    status: null
+    dup_group: d29
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Copy of Newton/nml/nml1/NM_L1_E7_integrated_complete_draft_d2.md (nml1_lesson d2/current)."
+  - path: "Newton/nml/nml2/nml2.1/ai-context-bundle/VD_Newton_inertial_acceleration_two_entries.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.1
+    status: null
+    dup_group: null
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Copy taken from nml2/ai-context-bundle/ (that copy is uncatalogued; home/primary not yet established in catalog)."
+  - path: "Newton/nml/nml2/nml2.1/ai-context-bundle/newton_II_cleaned.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.1
+    status: null
+    dup_group: null
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Copy taken from nml2/ai-context-bundle/ (that copy is uncatalogued; home/primary not yet established in catalog)."
+  - path: "Newton/nml/nml2/nml2.1/ai-context-bundle/vd_material_object_and_intuitive_naming_schema_d1-informing.md"
+    type: md
+    role: informing
+    tags: [naming, pedagogy]
+    project: nml2.1
+    status: null
+    dup_group: null
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: "Newton-analysis/material_object_naming -> nml2.1"
+    note: "Informing copy of material_object_naming d1 (home: Newton-analysis/material_object_naming/). Grounds NML2.1's Part-II provisional introduction of 'material object' (prelinguistic objecthood -> safe reuse of the ordinary word). Placed 2026-07-17 for the NML2.1 lesson drafting (open item 1). Read-only; edits happen in the home note. NML2.2 hand-off (trackability-bridge section) deliberately left link-only until 2.2 drafting starts."
+  - path: "Newton/nml/nml2/nml2.1/ai-context-bundle/vd_mass_identification_pipeline_d1-informing.md"
+    type: md
+    role: informing
+    tags: []
+    project: nml2.1
+    status: null
+    dup_group: d24
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: "Newton-analysis/mass_identification_pipeline -> nml2.1"
+    note: "Informing copy (banner-carrying) of the mass-pipeline current draft, taken from nml2/ai-context-bundle/. Resolves, for NML2.1 (Stage 5 -> three-masses lecture), the 2026-07-07 deferral recorded on the home entry."
+  - path: "Newton/nml/nml2/nml2.1/ai-context-bundle/vd_pedagogy_note.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.1
+    status: null
+    dup_group: d26
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Copy taken from nml2/ai-context-bundle/; the note was deliberately left in inbox 2026-07-07 and its primary home is still unresolved."
+  - path: "Newton/nml/nml2/nml2.1/ai-context-bundle/vd_point_particle_bridge_spine_d1.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.1
+    status: null
+    dup_group: d25
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Copy of the Newton-analysis point_particle_bridge_spine d1 (no -informing banner; taken from nml2/ai-context-bundle/). Home entry carries the informs->Newton link."
+  - path: "Newton/nml/nml2/nml2.2/NML2_2_lesson_drafting_context_v1.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.2
+    status: draft
+    dup_group: d23
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "AI-CONTEXT COMPILATION (authored 2026-07-14, not a copy): drafting brief for the NML2.2 lesson doc (ratification open item 2) — thesis, seam opening, both-halves certificate corrective, defeat spectrum, debt ledger, bank assignments, v1 sections 3-4 reuse map, apparatus/operationalisation requirements, source set. Flags that the four deferred Newton-analysis informing copies (trackability d4, pipeline, spine, rigidity-to-CoM d3) become USED once NML2.2 drafting starts — materialize/refresh copies and update catalog deferral records then. Never iterated; the lesson drafted FROM it becomes this folder's note (nml2.2_lesson d1)."
+  - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/NML2_2_lesson_drafting_context_v1.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.2
+    status: null
+    dup_group: d23
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "NML2.2 drafting bundle (assembled 2026-07-14; contents = source set in the drafting brief). Bundle copy of the drafting brief one level up."
+  - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/NML2_FINAL_DRAFT_v1_d1.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.2
+    status: null
+    dup_group: d19
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Bundle copy of the frozen nml2_lesson d1 (nml2/ parent); sections 3-4 are the bulk of NML2.2."
+  - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/NML2_split_ratification_d1.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.2
+    status: null
+    dup_group: d17
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Bundle copy of the split ratification (canonical decision record, nml2/ parent)."
+  - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/NML2_student_facing_question_exercise_demonstration_bank_v1_d1.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.2
+    status: null
+    dup_group: d18
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Bundle copy of the question bank (nml2_question_bank d1, nml2/ parent); section 7 (Band III) is the core inventory for NML2.2."
+  - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/from_fma_rigidity_to_com_plain_math_d3-informing.md"
+    type: md
+    role: informing
+    tags: []
+    project: nml2.2
+    status: null
+    dup_group: null
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: "Newton-analysis/rigidity_composition -> nml2.2"
+    note: "Informing copy (banner-carrying) of rigidity_composition d3/current, taken from nml2/ai-context-bundle/. Resolves the 2026-07-07 deferral recorded on the home entry (NML2.2 extensions B3.31-B3.34)."
+  - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/vd_mass_identification_pipeline_d1-informing.md"
+    type: md
+    role: informing
+    tags: []
+    project: nml2.2
+    status: null
+    dup_group: d24
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: "Newton-analysis/mass_identification_pipeline -> nml2.2"
+    note: "Informing copy (banner-carrying) of the mass-pipeline current draft, taken from nml2/ai-context-bundle/. Resolves, for NML2.2 (Stage 4 certificates, persistence escort, offshoot expiry), the 2026-07-07 deferral recorded on the home entry."
+  - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/vd_pedagogy_note.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.2
+    status: null
+    dup_group: d26
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Copy taken from nml2/ai-context-bundle/; the note was deliberately left in inbox 2026-07-07 and its primary home is still unresolved."
+  - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/vd_point_particle_bridge_spine_d1.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.2
+    status: null
+    dup_group: d25
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Copy of the Newton-analysis point_particle_bridge_spine d1 (no -informing banner; taken from nml2/ai-context-bundle/). Home entry carries the informs->Newton link."
+  - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/vd_trackability_scene_to_particles_d4-informing.md"
+    type: md
+    role: informing
+    tags: []
+    project: nml2.2
+    status: null
+    dup_group: null
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: "Newton-analysis/tracks_to_particles -> nml2.2"
+    note: "Informing copy (banner-carrying) of tracks_to_particles d4/current, taken from nml2/ai-context-bundle/. Resolves the 2026-07-07 deferral recorded on the home entry (primary source for NML2.2 content: tracker model, lumping, defeat spectrum)."
   - path: "Newton/vd-evaluator-brief.md"
     type: md
     role: primary
