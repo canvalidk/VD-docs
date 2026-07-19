@@ -1,3 +1,9 @@
+> **Generic seed copy — nml lesson-design context. Do not edit here.**
+> **Home note:** `point_particle_bridge_spine`, draft `d1` — `Newton-analysis/point_particle_bridge_spine/vd_point_particle_bridge_spine_d1.md`.
+> Part of the invariant core for any nml lesson-drafting session: the orientation chain locating any lesson in the whole route (walls behind/ahead). Copy into a new lesson's ai-context-bundle after refreshing from the home note.
+
+---
+
 # The Point-Particle Bridge: Spine Note
 
 **Status:** orientation note, v1

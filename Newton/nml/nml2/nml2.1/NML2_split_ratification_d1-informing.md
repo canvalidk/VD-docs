@@ -1,3 +1,9 @@
+> **Informing copy — do not edit here.**
+> **Home note:** `nml2_split_ratification`, draft `d1` — `Newton/nml/nml2/NML2_split_ratification_d1.md`.
+> Placed in `nml2.1` (informs `nml2_1_lesson`): canonical decision record — thesis (ratified verbatim), banding, licence table, burn design. This is a read-only copy; refresh from the home note if the source changes.
+
+---
+
 # NML2 Split Ratification: NML2.1 and NML2.2
 
 **Status:** decision record, d1

@@ -1,3 +1,9 @@
+> **Informing copy — do not edit here.**
+> **Home note:** `nml2_core_constraints`, draft `d1` — `Newton/nml/nml2/NML2_working_note_core_constraints.md`.
+> Placed in `nml2.1` (informs `nml2_1_lesson`): entry scope E8-E13, E7 as reactivated prerequisite (lesson sec 3.1); read through nml2_split_ratification. This is a read-only copy; refresh from the home note if the source changes.
+
+---
+
 # NML2 Working Note: E8–E13, One Force, One Mass, One Motion-Change
 
 **Status:** working design note  

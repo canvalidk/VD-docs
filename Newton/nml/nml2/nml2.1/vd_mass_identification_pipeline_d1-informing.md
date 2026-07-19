@@ -1,6 +1,6 @@
 > **Informing copy — do not edit here.**
 > **Home note:** `mass_identification_pipeline`, draft `d1` — `Newton-analysis/mass_identification_pipeline/vd_mass_identification_pipeline_d1.md`.
-> Placed in `point_particle_bridge_spine` because the spine is the orientation map annotated by this note (Wall 2 and after). This is a read-only copy; refresh from the home note if the source changes.
+> Placed in `nml2.1` (informs `nml2_1_lesson`): Stage 5 delivered as the three-masses segment and additivity grade table (lesson sec 4.6, segment 5). This is a read-only copy; refresh from the home note if the source changes.
 
 ---
 

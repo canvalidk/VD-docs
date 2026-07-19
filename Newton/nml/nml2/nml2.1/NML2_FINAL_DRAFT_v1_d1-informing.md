@@ -1,3 +1,9 @@
+> **Informing copy — do not edit here.**
+> **Home note:** `nml2_lesson`, draft `d1 (frozen terminal)` — `Newton/nml/nml2/NML2_FINAL_DRAFT_v1_d1.md`.
+> Placed in `nml2.1` (informs `nml2_1_lesson`): the frozen v1 lesson whose supplied-target half this lesson replaces; sec 5 law-house, sheets 10.3-10.4, teacher wording, misconceptions reused. This is a read-only copy; refresh from the home note if the source changes.
+
+---
+
 # NML2 Final Draft: Keeping the Right Mass Address
 
 **Status:** complete integrated lesson draft, v1  

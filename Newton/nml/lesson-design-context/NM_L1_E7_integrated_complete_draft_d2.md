@@ -1,3 +1,9 @@
+> **Generic seed copy — nml lesson-design context. Do not edit here.**
+> **Home note:** `nml1_lesson`, draft `d2 (current)` — `Newton/nml/nml1/NM_L1_E7_integrated_complete_draft_d2.md`.
+> Part of the invariant core for any nml lesson-drafting session: the structural exemplar every lesson plan follows (thesis -> segments -> worksheet specs -> misconceptions -> criteria of instillment -> variants). Copy into a new lesson's ai-context-bundle after refreshing from the home note.
+
+---
+
 # NM L1 Lesson Draft: The Path-Problem Behind Newton I, with E7 Motion-Reading
 
 **Status:** integrated working draft  

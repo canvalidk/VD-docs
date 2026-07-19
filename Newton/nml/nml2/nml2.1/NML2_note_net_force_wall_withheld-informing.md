@@ -1,3 +1,9 @@
+> **Informing copy — do not edit here.**
+> **Home note:** `nml2_net_force_wall`, draft `d1` — `Newton/nml/nml2/NML2_note_net_force_wall_withheld.md`.
+> Placed in `nml2.1` (informs `nml2_1_lesson`): the thin net-force wall the lesson enforces (lesson sec 4.4, warning 15.4). This is a read-only copy; refresh from the home note if the source changes.
+
+---
+
 # NML2 Working Note 2: Withholding the Net-Force Wall
 
 **Status:** working design note  

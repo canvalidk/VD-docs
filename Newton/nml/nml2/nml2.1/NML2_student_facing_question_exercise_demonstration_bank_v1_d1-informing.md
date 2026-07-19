@@ -1,3 +1,9 @@
+> **Informing copy — do not edit here.**
+> **Home note:** `nml2_question_bank`, draft `d1` — `Newton/nml/nml2/NML2_student_facing_question_exercise_demonstration_bank_v1_d1.md`.
+> Placed in `nml2.1` (informs `nml2_1_lesson`): source of the lesson's bank assignments (CQ1 cross-target trap, O/B/E/D items, rubrics 10.1-10.3). This is a read-only copy; refresh from the home note if the source changes.
+
+---
+
 # NML2 Student-Facing Question, Exercise, and Demonstration Bank
 
 **Status:** source-synthesis draft v1  

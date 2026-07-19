@@ -1,3 +1,9 @@
+> **Informing copy — do not edit here.**
+> **Home note:** `material_object_naming`, draft `d1` — `Newton-analysis/material_object_naming/vd_material_object_and_intuitive_naming_schema_d1.md`.
+> Placed in `nml2.1` (informs `nml2_1_lesson`): grounds the provisional 'material object' introduction (lesson sec 4.1). This is a read-only copy; refresh from the home note if the source changes.
+
+---
+
 # From `material-object` to a Cognitively Anchored Naming Schema
 
 **Date:** 2026-07-14  

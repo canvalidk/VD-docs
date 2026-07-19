@@ -1,3 +1,9 @@
+> **Generic seed copy — nml lesson-design context. Do not edit here.**
+> **Home note:** `vd_pedagogy_note`, draft `d1` — `Newton/nml/vd_pedagogy_note_d1.md`.
+> Part of the invariant core for any nml lesson-drafting session: the pedagogy doctrine (probe design over illustrative examples; burn before machinery). Copy into a new lesson's ai-context-bundle after refreshing from the home note.
+
+---
+
 # VD Pedagogy: Teaching as Controlled Exposure Through Entry Traces
 
 **Status:** Draft note  
