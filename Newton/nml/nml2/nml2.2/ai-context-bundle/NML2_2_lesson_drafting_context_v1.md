@@ -6,6 +6,11 @@
 > folder's note (`nml2.2_lesson`, d1). If sources change, refresh this
 > compilation from its home documents (§11). Canonical authority for every
 > decision below: `../NML2_split_ratification_d1.md`.
+>
+> **Refreshed 2026-07-19:** the NML2.1 lesson now exists
+> (`../nml2.1/NML2_1_LESSON_PLAN_d1.md`, `nml2_1_lesson` d1) — read the seam
+> from the actual lesson, not the ratification's anticipation of it. Seam
+> sources and the material_object_naming hand-off added to §11.
 
 ---
 
@@ -46,6 +51,11 @@ that question:
 
 > "You have been using supplied targets for a year. Here is a scene with no
 > labels. Earn one."
+
+(2026-07-19: the seam is now concrete — `nml2_1_lesson` d1 Segment 7 ends at
+the piece-loss/split/merge halts plus the Band III leaking-cart boundary, its
+§9.7 "Bridge to NML2.2" poses exactly the question above, and its §3.3 lists
+the deferrals this lesson picks up. Open from that text.)
 
 Teaching order is demand-driven, like the evaluator itself: NML2.1
 manufactured the demand; this lesson supplies the machinery. Lumping is
@@ -201,6 +211,18 @@ brick micro-run, prediction-failure audit), `vd_point_particle_bridge_spine_d1.m
 `from_fma_rigidity_to_com_plain_math_d3-informing.md` (extension derivations:
 additive M under stated assumptions, a_CM, off-centre limitation),
 `vd_pedagogy_note.md` (probe design over illustrative examples).
+
+From `../nml2.1/` (added 2026-07-19 — the seam's other side):
+`NML2_1_LESSON_PLAN_d1.md` (`nml2_1_lesson` d1: its Segment 7 burn and §9.7
+bridge are the opening this lesson answers; its §3.3 deferral list and final
+debt summary are what this lesson pays or re-registers) and `NML2_1_CONTENT.md`
+(2.1's content authority; its exclusion list bounds what this lesson must
+build). Also (hand-off recorded 2026-07-17):
+`Newton-analysis/material_object_naming/vd_material_object_and_intuitive_naming_schema_d1.md`
+— the trackability-bridge section informs this lesson; informing copy
+deliberately deferred until this drafting begins. A generic seed set now
+exists at `../../lesson-design-context/` (pedagogy note, NML1 structural
+exemplar, spine, naming schema) — refresh bundle copies from there.
 
 Note: the four Newton-analysis informers above were checked 2026-07-07 as not
 yet used by the OLD NML2 working notes; under the split they ARE used here —

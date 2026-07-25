@@ -660,13 +660,13 @@ files:
     tags: [naming, pedagogy]
     project: null
     status: draft
-    dup_group: null
+    dup_group: d30
     note_name: material_object_naming
     draft: d1
     current: true
     variant: null
     orig_name: "vd_material_object_and_intuitive_naming_schema (1).md"
-    informs: "material_object_naming (Newton-analysis, home) -> nml2_1_lesson (provisional 'material object' intro, lesson sec 4.1; banner-carrying copy placed 2026-07-19 at nml2.1/ level, superseding the 2026-07-17 bundle copy); -> nml2.2 (trackability-bridge section; link-only, copy deferred until 2.2 drafting starts); -> all nml lessons (generic seed copy in nml/lesson-design-context/, 2026-07-19)"
+    informs: "material_object_naming (Newton-analysis, home) -> nml2_1_lesson (provisional 'material object' intro, lesson sec 4.1; banner-carrying copy placed 2026-07-19 at nml2.1/ level, superseding the 2026-07-17 bundle copy); -> nml2.2 (trackability-bridge section; deferral RESOLVED 2026-07-25 - byte-identical no-banner copy placed in nml2.2/ai-context-bundle/, dup_group d30); -> all nml lessons (generic seed copy in nml/lesson-design-context/, 2026-07-19)"
     note: "Working argument note (2026-07-14): why 'material-object' is the right name for the VD Newton individual, generalised into a 'cognitively anchored naming' method; synthesizes tracks_to_particles, point_particle_bridge_spine, and mass_identification_pipeline (listed as references). Homed here 2026-07-17 (user-ratified): extends the Newton-analysis trackability cluster and informs Newton like its siblings; link recorded, no informing copy placed. Two staging copies arrived in inbox; the shorter '(2)' (a strict subset: missing sec 4 'Trackability as the bridge' + 3 reference entries) was DISCARDED per user instruction 2026-07-17. Filed from inbox 2026-07-17."
   - path: "Newton-analysis/vd_design_3_newton_i_correction.md"
     type: md
@@ -1106,7 +1106,7 @@ files:
     tags: [content-spec]
     project: nml2.1
     status: draft
-    dup_group: null
+    dup_group: d32
     note_name: nml2_1_content_spec
     draft: null
     current: null
@@ -1120,7 +1120,7 @@ files:
     tags: [lesson-plan]
     project: nml2.1
     status: draft
-    dup_group: null
+    dup_group: d31
     note_name: nml2_1_lesson
     draft: d1
     current: true
@@ -1254,6 +1254,73 @@ files:
     orig_name: null
     informs: "Newton-analysis/photon_frame_certification (d3, current) -> nml2_1_lesson"
     note: "Read-only informing copy (banner on), ADDED BY USER DIRECTION 2026-07-19: the lesson assumes inertial-frame certification is solved (frame-qualified triplet, supplied frames); current draft d3 copied per the current-draft-only rule. Placed 2026-07-19."
+  - path: "Newton/nml/nml2/nml2.2/NML2_2_pre_water_student_content_inventory_d1.md"
+    type: md
+    role: primary
+    tags: []
+    project: nml2.2
+    status: draft
+    dup_group: d33
+    note_name: nml2_2_pre_water_inventory
+    draft: d1
+    current: true
+    variant: null
+    orig_name: null
+    note: "WORKING NOTE (NML2.2 target construction): exhaustive inventory of everything the student must own BEFORE the flowing-water / lower-dimensional-redundancy example — trackability I/II, iterability, task/tolerance, five-aspect coverage, translational redundancy, lumping, target/mass addresses, MDP families, the two-halves persistence certificate, halt discipline; ends at the handoff question that opens 1D redundancy. Synthesises the current NML2.2 drafting context, split ratification, question bank, trackability/lumping note, mass pipeline, and the five-aspect coverage note (its own sec 39). Sorted from inbox 2026-07-22. Feeds the future nml2.2_lesson; informing copies into the 2.2 bundle deferred until 2.2 drafting starts, per the standing deferral. CORRECTED BY vd_review_corrections d1 (2026-07-24, filed 2026-07-25) - amendments to record, this draft NOT yet edited: sec 14.1's offset criterion is replaced by distance preservation and split into eps_shape plus eps_trans (sec 1 of the record); sec 14.6's inertial-frame leak into lumping is resolved by that split; sec 9.2's coverage parameter must gain its own mass budget eps_m (sec 4.4); sec 19 needs negligibility as a sixth determination family and Part VIII needs a framing paragraph declaring its procedures unjustified worked examples; sec 20's record form must be reweighted UP in the checklist; secs 10.4, 11 and 12.2-12.3 need distinctiveness reclassified as experimental preparation, a distinctiveness-vs-fidelity trade-off added, and a re-audit of extent, density and balance on surviving tracks; sec 36's water example is proposed for replacement by the inextensible chain, with water demoted to a one-page contrast case."
+  - path: "Newton/nml/nml2/nml2.2/one_dimensional_redundancy_vscode_math_d1.md"
+    type: md
+    role: primary
+    tags: []
+    project: nml2.2
+    status: draft
+    dup_group: d34
+    note_name: one_dimensional_redundancy
+    draft: d1
+    current: true
+    variant: null
+    orig_name: "one_dimensional_redundancy_vscode_math.md"
+    note: "WORKING NOTE (NML2.2 target construction): the post-gate content the pre-water inventory hands off to — one-dimensional projected redundancy licensing a fluid to be represented as an ordered, address-discrete stream of massive particles; emission-time mass labels; continuum lambda=dm/dh read as a coarse-graining OF already-addressed particles, not their origin; droplets / Rayleigh-Plateau as downstream; failure modes; the hose worked example. Renamed +_d1 (lossless, orig_name recorded). Sorted from inbox 2026-07-22. Feeds the future nml2.2_lesson (the flowing-water example). CORRECTED BY vd_review_corrections d1 (2026-07-24, filed 2026-07-25) - amendments to record, this draft NOT yet edited: secs 4 and 19's max-height-spread test is RETAINED but renamed a localisation criterion, distinct from redundancy, which now carries the two tolerances eps_shape and eps_trans (record sec 1); the velocity-spread-times-interval coupling is what forces re-lumping over a long fall; sec 7's ordered-many point is promoted from caveat to result by pairing water against the inextensible chain, which projects to ONE bundle where water projects to an ordered many (record Part II) - and the record's open item 7 flags that treating water as a success case may conflict with nml2_split_ratification, which has fluids as a defeat case (unconfirmed, the ratification doc was not retrievable during the review)."
+  - path: "Newton/nml/nml2/nml2.2/vd_coverage_five_aspects_and_industry_appearances_d1.md"
+    type: md
+    role: primary
+    tags: []
+    project: nml2.2
+    status: draft
+    dup_group: d35
+    note_name: coverage_five_aspects
+    draft: d1
+    current: true
+    variant: null
+    orig_name: null
+    note: "WORKING NOTE (NML2.2 target construction): develops the coverage half of the target-persistence certificate — the five aspects (extent, density, balance, distinctiveness, observability), their trade-offs, the operational audit, the two residues (seeding vs resolution), and industrial groundings (DIC, PIV/PTV, structural health monitoring / optimal sensor placement). Cites vd_trackability_scene_to_particles d4, the NML2 question bank, and nml2_split_ratification as internal sources. Sorted from inbox 2026-07-22. Feeds the future nml2.2_lesson. BEARS ON vd_review_corrections d1 (2026-07-24, filed 2026-07-25): the record's sec 5 reclassifies distinctiveness as experimental preparation (scene-making) rather than a fifth coequal sampling aspect, adds a distinctiveness-vs-fidelity trade-off (a more distinctive tracer risks tracking itself - density mismatch, Stokes number, tracer slip, as in PIV practice), and its sec 4.4 requires the coverage declaration to carry its own mass budget eps_m, since a position tolerance cannot bound escaped mass. The record cites the inventory's section numbers rather than this note, so these are read as bearing on this note's content; confirm against this draft before amending it."
+  - path: "Newton/nml/nml2/nml2.2/glass_ball_mdp_example_d1.md"
+    type: md
+    role: primary
+    tags: []
+    project: nml2.2
+    status: draft
+    dup_group: d36
+    note_name: glass_ball_mdp_example
+    draft: d1
+    current: true
+    variant: null
+    orig_name: "glass_ball_mdp_example.md"
+    informs: "glass_ball_mdp_example (home) -> nml2_2_lesson (worked example; informing copy into the 2.2 bundle deferred until 2.2 drafting starts, per the standing deferral)"
+    note: "WORKING NOTE (NML2.2 target construction), authored 2026-07-24, sorted from inbox 2026-07-25. The glass-ball worked example separating lumping from mass determination: lumping decides which target may own a mass value, an MDP decides what value sits at that target's mass address. A 1 kg glass ball hits a wall and cracks; object count is shown to be an OUTPUT of the redundancy audit, not something supplied by the word 'glass' or by the visible crack (crack is neither necessary nor sufficient for a split). Three post-impact cases (licence held / licence lost then reassembled / several surviving targets), then a fast-robot scenario that runs four determination routes on the same scene - density-volume, weight-gravity, partition and remainder/assembly - each with its assumptions, failure modes and uncertainty budget, ending in a Newton-II prediction that inherits its mass value's provenance. Eight numbered lessons in Part XI. Renamed with +_d1 suffix (lossless, orig_name recorded); filename deliberately KEEPS 'mdp' pending the terminology decision recorded on the vd_review_corrections entry (user 2026-07-25: record the rename, do not act on it). CORRECTED BY vd_review_corrections d1: sec 3 (the M_A = M_B deduction needs n persistence certificates plus material closure stated as premises, currently hidden in the notation) and sec 4 (the sub-resolution loss must be given its own flake TARGET bound by a negligibility determination, not absorbed into the variance budget; the bound is asymmetric and non-zero). Both are amendments to record, not yet written into this draft."
+  - path: "Newton/nml/nml2/nml2.2/vd_review_corrections_d1.md"
+    type: md
+    role: primary
+    tags: []
+    project: nml2.2
+    status: draft
+    dup_group: d37
+    note_name: vd_review_corrections
+    draft: d1
+    current: true
+    variant: null
+    orig_name: null
+    informs: "vd_review_corrections (home) -> nml2_2_lesson (Parts I, II and V - the lesson-facing corrections and the open-item list); -> presentation track (Part III - see the SEAM FLAG below; receiving home not yet established, no copy materialized)"
+    note: "WORKING NOTE (NML2.2 target construction), authored 2026-07-24, sorted from inbox 2026-07-25. Corrections record from an adversarial review of three NML2.2 documents - the pre-water inventory d1, the 1D redundancy note d1, and glass_ball_mdp_example d1 - filing each objection as resolved, withdrawn, retracted or promoted. Part I: (1) the redundancy criterion is split into TWO named tolerances, eps_shape (distance preservation, licenses a body, permits rotation and forbids bending - replacing the offset criterion, which wrongly forbade rotation) and eps_trans (residual scatter, licenses one particle), with the 1D note's max-height-spread test kept but renamed a LOCALISATION criterion; also records that distance preservation is rotation-frame-blind, which moves the inertial-frame commitment forward to the Newton-II step instead of leaking back into lumping, and that velocity spread times interval length bounds admissible interval length. (2) The force-pipeline objection is withdrawn on scope (forces are the next lesson) with two changes still required - declare Part VIII's procedures as unjustified worked examples, and reweight the checklist toward the record form. (3) The M_A = M_B objection is partially retracted - same additivity rule twice, but the co-reference of the fragment masses across the scatter interval is n persistence certificates plus material closure and must be stated. (4) The flake objection is resolved and PROMOTED into general procedure - suspected unrepresented material gets its own address and a negligibility determination yielding a BOUND, which makes negligibility a sixth determination family, and which exposes the load-bearing gap: coverage currently inherits a POSITION tolerance and has no mass scale, so a new eps_m budget is required to close the certificate. (5) Distinctiveness is retained but reclassified as experimental preparation rather than a fifth sampling knob, adds a distinctiveness-vs-fidelity trade-off (tracer slip / Stokes number, as in PIV practice), and flags a re-audit ordering bug (extent, density and balance are never re-audited on surviving tracks). Part II proposes replacing water as the lesson vehicle with the INEXTENSIBLE CHAIN OVER A PULLEY - 3D redundancy fails exactly, arc-length redundancy holds exactly, and the lesson ratifies a move every first-year already makes - keeping water as the contrast case that yields an ordered many rather than one bundle. Part III (presentation track) argues volume is not a Newtonian quantity, keeps the two gates separate, and sets up the Mach dispute. Part IV proposes renaming MDP. Part V carries eight open items forward. SEAM FLAG (user decision 2026-07-25): this doc is deliberately two-track - Parts I, II and V are lesson-facing, Part III is presentation-facing and its own open item 8 states the two tracks now want opposite things and will degrade if kept as one document set. Filed WHOLE in nml2.2 with the seam recorded rather than split, since the presentation track has no established home yet; splitting is deferred to a dedicated session. OPEN TERMINOLOGY ITEM (Part IV, recorded not acted on per user 2026-07-25): 'MDP' collides with Markov Decision Process; candidates are mass determination, mass-binding process, or mass valuation (the doc favours valuation, pairing with 'address'); the doc notes the cost of the rename rises monotonically and asks for it before the presentation. No file or in-document renames performed. UNRATIFIED ADDITIONS needing the ratification route rather than silent adoption: eps_m (Part I sec 4.4), negligibility as a sixth family, and the open item that the chain-as-success vs fluids-as-defeat ordering may reopen a ratified decision in nml2_split_ratification (that document was not retrievable during the review, so the conflict is unconfirmed). Largest gap the review found: no taxonomy slot for a bundle with a licensed common velocity and no licensed common position - the convoy case - which is exactly where the standard first-year chain treatment lives."
   - path: "Newton/nml/nml2/nml2.2/NML2_2_lesson_drafting_context_v1.md"
     type: md
     role: ai-context
@@ -1266,7 +1333,150 @@ files:
     current: null
     variant: null
     orig_name: null
-    note: "AI-CONTEXT COMPILATION (authored 2026-07-14, not a copy): drafting brief for the NML2.2 lesson doc (ratification open item 2) — thesis, seam opening, both-halves certificate corrective, defeat spectrum, debt ledger, bank assignments, v1 sections 3-4 reuse map, apparatus/operationalisation requirements, source set. Flags that the four deferred Newton-analysis informing copies (trackability d4, pipeline, spine, rigidity-to-CoM d3) become USED once NML2.2 drafting starts — materialize/refresh copies and update catalog deferral records then. Never iterated; the lesson drafted FROM it becomes this folder's note (nml2.2_lesson d1)."
+    note: "AI-CONTEXT COMPILATION (authored 2026-07-14, not a copy): drafting brief for the NML2.2 lesson doc (ratification open item 2) — thesis, seam opening, both-halves certificate corrective, defeat spectrum, debt ledger, bank assignments, v1 sections 3-4 reuse map, apparatus/operationalisation requirements, source set. Flags that the four deferred Newton-analysis informing copies (trackability d4, pipeline, spine, rigidity-to-CoM d3) become USED once NML2.2 drafting starts — materialize/refresh copies and update catalog deferral records then. Never iterated; the lesson drafted FROM it becomes this folder's note (nml2.2_lesson d1). REFRESHED 2026-07-19 (sanctioned by its own refresh rule): nml2_1_lesson d1 now exists — seam sources (2.1 lesson plan + content spec), the material_object_naming hand-off, and the lesson-design-context seed set added to secs 3/11; bundle copy re-synced (d23 intact)."
+  - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/NML2_2_pre_water_student_content_inventory_d1.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.2
+    status: null
+    dup_group: d33
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Bundle copy of the pre-water inventory d1 (same folder, home at ../). Byte-identical, no banner - see the bundle convention note on the drafting-context entry. Everything the student must own before the lower-dimensional-redundancy example; read WITH vd_review_corrections d1, which amends several of its sections."
+  - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/one_dimensional_redundancy_vscode_math_d1.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.2
+    status: null
+    dup_group: d34
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Bundle copy of the 1D redundancy / flowing-water note d1 (same folder, home at ../). Byte-identical, no banner. INCLUDED DELIBERATELY (user 2026-07-25) even though vd_review_corrections Part II proposes replacing water with the inextensible chain as the lesson vehicle - whether water is kept, demoted to a one-page contrast case, or dropped is the drafting AI's call, not a filing decision."
+  - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/vd_coverage_five_aspects_and_industry_appearances_d1.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.2
+    status: null
+    dup_group: d35
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Bundle copy of the coverage five-aspects note d1 (same folder, home at ../). Byte-identical, no banner. The coverage half of the persistence certificate; vd_review_corrections sec 5 reclassifies distinctiveness and sec 4.4 requires a mass budget eps_m that this note does not yet carry."
+  - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/glass_ball_mdp_example_d1.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.2
+    status: null
+    dup_group: d36
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Bundle copy of the glass-ball worked example d1 (same folder, home at ../). Byte-identical, no banner. The lumping-vs-determination example with the four determination routes; amended by vd_review_corrections secs 3 and 4 (premise set for M_A = M_B; the flake target and its bound)."
+  - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/vd_review_corrections_d1.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.2
+    status: null
+    dup_group: d37
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Bundle copy of the review corrections record d1 (same folder, home at ../). Byte-identical, no banner. THE CORRECTIVE LAYER over the other 2.2 sources and over the drafting context itself - two-tolerance redundancy criterion, the premise set behind the additivity deduction, the flake route and eps_m, distinctiveness reclassified, chain-for-water, and eight open items. Read it before, not after, the documents it corrects. Its Part III is presentation-track and is not lesson material (seam flag on the home entry)."
+  - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/NML2_1_LESSON_PLAN_d1.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.2
+    status: null
+    dup_group: d31
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Bundle copy of nml2_1_lesson d1 (home at ../../nml2.1/). Byte-identical, no banner. The seam's other side: its Segment 7 burn and sec 9.7 bridge are the opening NML2.2 answers; its sec 3.3 deferral list and final debt summary are what NML2.2 pays or re-registers. Copy was deferred until 2.2 drafting starts (drafting-context sec 11) - deferral RESOLVED 2026-07-25."
+  - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/NML2_1_CONTENT.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.2
+    status: null
+    dup_group: d32
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Bundle copy of nml2_1_content_spec (home at ../../nml2.1/). Byte-identical, no banner. NML2.1's content authority; its exclusion list bounds what NML2.2 must build. Same deferral, resolved 2026-07-25."
+  - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/vd_material_object_and_intuitive_naming_schema_d1.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.2
+    status: null
+    dup_group: d30
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Bundle copy of material_object_naming d1 (home Newton-analysis/material_object_naming/). Byte-identical, no banner - unlike the 2.1 and lesson-design-context copies, which carry banners and stay outside this dup_group. The trackability-bridge hand-off recorded 2026-07-17 with the copy deferred until 2.2 drafting starts - deferral RESOLVED 2026-07-25."
+  - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/NML2_note_net_force_wall_withheld.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.2
+    status: null
+    dup_group: d20
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Bundle copy of nml2_net_force_wall (nml2 parent working note). Byte-identical, no banner. Added 2026-07-25 to close a gap: nml2.1 carried this and nml2.2 did not, though the withheld net force is a shared NML2 constraint."
+  - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/NML2_working_note_core_constraints.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.2
+    status: null
+    dup_group: d21
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Bundle copy of nml2_core_constraints (nml2 parent working note). Byte-identical, no banner. Added 2026-07-25 to close the same gap as the net-force-wall copy."
+  - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/NM_L1_E7_integrated_complete_draft_d2.md"
+    type: md
+    role: ai-context
+    tags: []
+    project: nml2.2
+    status: null
+    dup_group: d29
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    note: "Bundle copy of nml1_lesson d2/current (home Newton/nml/nml1/). Byte-identical, no banner. The STRUCTURAL EXEMPLAR from the generic seed set - every later lesson plan follows its skeleton. Added 2026-07-25."
   - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/NML2_2_lesson_drafting_context_v1.md"
     type: md
     role: ai-context
@@ -1279,7 +1489,7 @@ files:
     current: null
     variant: null
     orig_name: null
-    note: "NML2.2 drafting bundle (assembled 2026-07-14; contents = source set in the drafting brief). Bundle copy of the drafting brief one level up."
+    note: "NML2.2 drafting bundle (assembled 2026-07-14; contents = source set in the drafting brief). Bundle copy of the drafting brief one level up; re-synced 2026-07-19 after the brief's refresh (d23 intact). BUNDLE COMPLETED 2026-07-25 (user: include everything relevant to writing the NML2.2 lesson and let the drafting AI decide what to exclude) - eleven files added, 9 -> 20: the five same-folder nml2.2 working notes (pre-water inventory, 1D redundancy/water, coverage five-aspects, glass ball, review corrections), the two 2.1 seam sources, material_object_naming d1, the two nml2 parent working notes (net-force wall, core constraints), and the NML1 lesson d2 structural exemplar. BUNDLE CONVENTION for this batch (user 2026-07-25, 'don't worry too much about the insides of the context folders - they'll eventually be deleted'): copies are BYTE-IDENTICAL with NO banner and NO -informing suffix, so each shares its home's dup_group (d20, d21, d29-d37) and stays refreshable by plain copy. The four pre-existing informer copies keep their old banners, which still name point_particle_bridge_spine as their placement - inherited from the nml2 parent bundle they were taken from, misleading here, deliberately not rewritten. STALE: the brief's sec 11 still says the seam sources and the naming schema are deferred; those deferrals are now resolved and the brief was left unedited by choice."
   - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/NML2_FINAL_DRAFT_v1_d1.md"
     type: md
     role: ai-context
@@ -1359,7 +1569,7 @@ files:
     current: null
     variant: null
     orig_name: null
-    note: "Copy taken from nml2/ai-context-bundle/; the note was deliberately left in inbox 2026-07-07 and its primary home is still unresolved."
+    note: "Copy taken from nml2/ai-context-bundle/. Home RESOLVED 2026-07-19: Newton/nml/vd_pedagogy_note_d1.md (byte-identical, same d26 group)."
   - path: "Newton/nml/nml2/nml2.2/ai-context-bundle/vd_point_particle_bridge_spine_d1.md"
     type: md
     role: ai-context
