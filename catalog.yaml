@@ -26,6 +26,10 @@ folders:
     note: "INCUBATOR: many mini-projects, each building documents toward a publishable sketch. To be split into one subfolder per mini-project."
   inbox:
     note: "Staging area. 'VD unsorted important' behaves the same way — drop things in, then sort."
+  tools:
+    note: "NOT a branch. Repo maintenance tooling + its specs. Currently: math delimiter normalization for VS Code (see tools/MATH_NORMALIZATION_SPEC.md). Files here are catalogued individually; the ORGANIZATION.md note model does not apply to them."
+  _math_originals:
+    note: "ORIGINALS BANK for tools/normalize_math.py — pre-conversion copies, date-partitioned, with MANIFEST.tsv. CATALOG EXEMPTION (ratified 2026-07-28): banked files are deliberately NOT catalogued individually; this folder entry covers them and the catalog<->disk bijection check must skip this subtree. MANIFEST.tsv is the per-file record. Prune only when the user has confirmed the converted file renders AND the entry is >90 days old; never prune an entry with unresolved soft flags. Created on first `apply` run."
 
 files:
   - path: "Core/Current development/Formalizing the Valid Dictionary Protocol.pdf"
@@ -676,6 +680,20 @@ files:
     status: null
     dup_group: d16
     note: "Context copy for the Newton-analysis AI; HOME MOVED to Newton/Design 3/ on 2026-07-07 (resolves the earlier misplacement FLAG - it is Design 3 deliberation, not analysis output). Edit the Newton copy. Newton-I trio note 3 of 3; supersedes the Nothing-branch reading of nothing_vs_zero_somethings (2).md."
+  - path: "Newton-analysis/vector_division_mass_estimation/vector_division_inertial_mass_measurement_d1.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: draft
+    dup_group: null
+    note_name: vector_division_mass_estimation
+    draft: d1
+    current: true
+    variant: null
+    orig_name: "vector_division_inertial_mass_measurement_vscode.md"
+    informs: "vector_division_mass_estimation (Newton-analysis, home) -> nml2_1_lesson (copy placed 2026-07-27 at nml2.1/ level, teacher-background scope only)"
+    note: "ANALYSIS ARTICLE (569 lines, LaTeX-heavy): 'Welp... vector division is not defined' — why m = F/a has no vector meaning, and how inertial mass is actually inferred as a FITTED parameter from unaligned measured F and a (magnitude ratio vs projection vs componentwise estimators compared). Sorted from inbox 2026-07-27; given its own note folder rather than filed under mass_identification_pipeline — that note asks where a valid mass VALUE comes from in the prediction chain, this one asks what estimator recovers m from noisy measurement, a distinct question. Related by topic to the E10 pass in Newton/entry passes/, which cites the same vector-division obstruction as the reason E10's definiens is a characterisation, not an expression. Trailing '_vscode' dropped from the filename (editor-export artifact); orig_name recorded, rename lossless."
   - path: "Newton-analysis/VD_Newton_Analysis v.0.1.pdf"
     type: pdf
     role: primary
@@ -684,6 +702,62 @@ files:
     status: null
     dup_group: null
     note: "Compiled release (v0.1) of the branch's analyses — not an excavated note; outside the ORGANIZATION.md note model. Stays flat."
+  - path: "tools/MATH_NORMALIZATION_SPEC.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: publishable
+    dup_group: null
+    note: "SPEC (active, ratified 2026-07-28): math delimiter normalization for VS Code on inbox intake. Records why fix_vscode_markdown_math.py was replaced (11 defects, two of them SILENT: `\\( x \\)` -> `$ x $` does not render, and pre-existing `$` colliding with new math), the mask-then-transform design, the originals bank, and the five hard gates. Also records two REJECTED alternatives with reasons — a bijection/invertibility gate (transform is deliberately non-injective; spurious gates get waved through) and commit-before-convert (the working folder has no .git, so it would depend on a per-session token). Open items in sec 5: prune confirmation, the 22 unconverted branch files, the _VSCODE suffix on the NML2.1 d2 content file."
+  - path: "tools/normalize_math.py"
+    type: py
+    role: primary
+    tags: []
+    project: null
+    status: publishable
+    dup_group: null
+    note: "TOOL v1.0.0 implementing MATH_NORMALIZATION_SPEC.md. `check` reports and never writes; `apply` banks the original then converts in place. Five hard gates, fail closed. NARROW SCOPE by decision: math delimiters only, AI-authored markdown only — not a general formatter. Requires node+katex for gate 2 (the render gate); without it the run fails closed unless --no-render-check is passed explicitly."
+  - path: "tools/tests/math_normalize/run_tests.py"
+    type: py
+    role: primary
+    tags: []
+    project: null
+    status: publishable
+    dup_group: null
+    note: "REGRESSION CORPUS for normalize_math.py: one case per spec sec 1 defect, plus mask-leak, idempotence and indentation cases. The two silent defects (2 and 9) assert against a LIVE KaTeX render rather than string equality — string comparison would not have caught either, which is how they shipped. The d8 unpaired-delimiter case asserts that the tool BLOCKS, not that it converts. 14 checks, 0 failed as of 2026-07-28."
+  - path: "Newton/entry passes/E8_ENTRY_WRITING_PASS_2026-07-25.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: draft
+    dup_group: null
+    note: "ENTRY WRITING PASS, E8 `inertial-acceleration-material-object` (2026-07-25). Independent drafting pass against ENTRY_PACKET_E8_...; settles on a nine-word definiens ('For one material-object, its net-force divided by its inertial-mass'), contests three packet decisions, answers one open question, raises one new one. First of the Newton II triplet (E8/E9/E10). Sorted from inbox 2026-07-27 into 'entry passes' — folder named by user instruction; NOT an excavated note (no dN model applied, passes are dated one-offs against a packet)."
+  - path: "Newton/entry passes/E9_ENTRY_WRITING_PASS_2026-07-25.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: draft
+    dup_group: null
+    note: "ENTRY WRITING PASS, E9 `net-force-material-object` (2026-07-25). Eight-word definiens, structurally identical to E8's frame with no exception clause; revised after review to RETRACT the genus (sec 2 records the retraction). Second of the Newton II triplet. Sorted from inbox 2026-07-27."
+  - path: "Newton/entry passes/E10_ENTRY_WRITING_PASS_2026-07-25.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: draft
+    dup_group: null
+    note: "ENTRY WRITING PASS, E10 `inertial-mass-material-object` (2026-07-25). Third of the Newton II triplet; the one where the shared frame BREAKS — mass is not expressible as an operation over the other two corners because vector-by-vector division is not an operation, so E10's definiens is a characterisation (14 words) where E8's and E9's are expressions. Revised after review; sec 5 (new) argues the entry is implicit, imposing a mental inversion at every use, and that the fix belongs in the IRIL rather than the entry string. Reasoning carried into ENTRY_PACKET_E10_..._d2. Same vector-division obstruction is the subject of Newton-analysis/vector_division_mass_estimation/. Sorted from inbox 2026-07-27."
+  - path: "Newton/entry packets/ENTRY_PACKET_E10_INERTIAL_MASS_MATERIAL_OBJECT_d2.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: draft
+    dup_group: null
+    note: "ENTRY PACKET E10 `inertial-mass-material-object`, d2 — revision of the d1 packet draft: entry, IRIL, boundary vocabulary and residual ledger rewritten, three of d1's open questions closed and recorded as decisions. Reasoning lives in the E8/E9/E10 passes (Newton/entry passes/). NOTE PER FILE'S OWN FILING NOTE: d1 lives OUTSIDE this repo, in `07_design_2_1`; the dN here is honoured as given, not inferred. RECORDED EXCEPTION (user instruction 2026-07-27): entry packets are collected in this one Newton folder as a parking convention; their internal organisation is the USER's, not managed by the catalog or by Claude. Sorted from inbox 2026-07-27."
   - path: "Newton/newton_first_law_article.md"
     type: md
     role: primary
@@ -1212,6 +1286,20 @@ files:
     orig_name: null
     informs: "Newton-analysis/mass_identification_pipeline (d1) -> nml2_1_lesson"
     note: "Read-only informing copy (banner on): Stage 5 delivered as the three-masses segment and additivity grade table (lesson sec 4.6, segment 5). Placed 2026-07-19; supersedes the bundle copy (whose banner named the spine as receiver)."
+  - path: "Newton/nml/nml2/nml2.1/vector_division_inertial_mass_measurement_d1-informing.md"
+    type: md
+    role: informing
+    tags: []
+    project: nml2.1
+    status: null
+    dup_group: null
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: "Newton-analysis/vector_division_mass_estimation (d1) -> nml2_1_lesson"
+    note: "Read-only informing copy (banner on), placed 2026-07-27 at user request. TEACHER BACKGROUND ONLY — deliberately narrower than the source. In scope for NML2.1: (a) sec 9.1 'Arithmetic Right, Physics Wrong' + the grade-0 error shape 'performs the division without objection' — this note gives the reason the division is illegitimate (vector-by-vector division is not an operation); (b) sec 4.7 'Newton II is a constraint, not an information generator' — the measurement-side demonstration, since unaligned F and a admit no exact m and m is only recoverable as a FITTED parameter. RECORDED TENSION (ORGANIZATION.md allows a recorded shortfall): the source's estimator half (magnitude ratio / projection / componentwise) is 'how an inertial-mass value is originally measured or certified', which NML2.1 sec 3.3 lists as DEFERRED. The banner scopes the copy accordingly; no student material is to be drawn from that half. Re-evaluate placement when NML2.2 or the later measurement lesson is drafted — that may be the copy's better home."
   - path: "Newton/nml/nml2/nml2.1/vd_material_object_and_intuitive_naming_schema_d1-informing.md"
     type: md
     role: informing

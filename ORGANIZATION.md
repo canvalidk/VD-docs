@@ -91,6 +91,35 @@ for this model marked +):
 - **+`orig_name`**: filename before a `dN` suffix was added
 - **+`informs`**: for an informing note, the home→target link
 - `tags`, `project`, `status`, `dup_group`, `note`
+- **+`math_normalized`**: ISO date the file was math-normalized, or null
+- **+`math_flags`**: soft flags raised by normalization, else null
+
+## Math normalization on intake
+
+Every `.md` leaving `inbox/` for a branch is run through
+`tools/normalize_math.py` first, converting LaTeX math delimiters to the
+`$`/`$$` form VS Code renders. Order within a sort:
+
+```text
+bank -> normalize -> hard gates -> move -> catalogue
+```
+
+- The original is copied to `_math_originals/` **before** any edit, so a crash
+  mid-run cannot lose it.
+- **Hard-gate failure means the file does not move.** It stays in `inbox/` with
+  the failure recorded, and is fixed at the source rather than worked around.
+- Soft flags do not block the move; they are copied into the file's catalog
+  `note`.
+- Conversion is **in place**. Filenames are never tagged (no `_vscode` suffix) —
+  provenance lives in the catalog and the bank.
+
+Scope is deliberately narrow: math delimiters only, AI-authored markdown only.
+Rationale, the rejected alternatives, and open items are in
+`tools/MATH_NORMALIZATION_SPEC.md`.
+
+`_math_originals/` is an explicit **exception** to catalog completeness: it
+carries one folder-level entry rather than one entry per banked file, and the
+catalog↔disk check skips that subtree. `MANIFEST.tsv` is its per-file record.
 
 ## Exceptions
 

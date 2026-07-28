@@ -27,3 +27,7 @@ secrets.*
 # *.zip
 # *.iso
 # node_modules/
+
+# ---- tooling artifacts ----
+__pycache__/
+*.pyc
