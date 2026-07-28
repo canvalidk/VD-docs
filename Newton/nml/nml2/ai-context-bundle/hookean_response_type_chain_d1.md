@@ -44,9 +44,9 @@ That is not a small notation issue. It exposes a hidden modelling split.
 
 a scalar displacement along a chosen axis:
 
-\[
+$$
 \vec F=-kx\,\hat e.
-\]
+$$
 
 Here:
 
@@ -64,13 +64,13 @@ The vector direction is not contained in `k`. It is supplied by the fixed axis.
 
 a distance-changing connector between two endpoints:
 
-\[
+$$
 \vec R=\vec r_B-\vec r_A,\qquad \ell=\|\vec R\|,\qquad \hat R=\vec R/\ell,
-\]
+$$
 
-\[
+$$
 \vec F_B=-k(\ell-L_0)\hat R.
-\]
+$$
 
 Here:
 
@@ -119,9 +119,9 @@ law pattern:
 
 So the most historically conservative type is:
 
-\[
+$$
 F = kx
-\]
+$$
 
 with:
 
@@ -133,11 +133,11 @@ k : scalar load-per-extension coefficient
 
 This is **not yet** a fixed-axis vector force object. To get the vector object, we must add a direction convention:
 
-\[
+$$
 \vec F=-kx\,\hat e.
-\]
+$$
 
-That extra \(\hat e\) is a real modelling slot.
+That extra $\hat e$ is a real modelling slot.
 
 ### Load vs force
 
@@ -165,27 +165,27 @@ stable equilibrium -> local restoring response -> linear approximation for small
 
 The key fact being exploited is that the system has a stable, unmoving equilibrium. Strictly, the minimum belongs most naturally to the potential energy landscape, while the force vanishes at equilibrium and is derived from the gradient:
 
-\[
+$$
 \vec F=-\nabla U.
-\]
+$$
 
-In one dimension, let \(q_0\) be the equilibrium coordinate and let \(x=q-q_0\). At equilibrium,
+In one dimension, let $q_0$ be the equilibrium coordinate and let $x=q-q_0$. At equilibrium,
 
-\[
+$$
 \left.\frac{dU}{dq}\right|_{q_0}=0.
-\]
+$$
 
 If the equilibrium is stable, then locally:
 
-\[
+$$
 U(q_0+x)\approx U(q_0)+\frac12kx^2,\qquad k>0.
-\]
+$$
 
 Therefore:
 
-\[
+$$
 F=-\frac{dU}{dx}\approx -kx.
-\]
+$$
 
 So Feynman's argument licenses the following object:
 
@@ -212,21 +212,21 @@ one-coordinate reduction:
   F = -kx
 ```
 
-In one dimension, the direction of the restoring force is automatically opposite the displacement. If the displacement is along \(+\hat e\), the restoring force is along \(-\hat e\).
+In one dimension, the direction of the restoring force is automatically opposite the displacement. If the displacement is along $+\hat e$, the restoring force is along $-\hat e$.
 
 In more dimensions, the local expansion is:
 
-\[
+$$
 U(\vec r_0+\vec x)\approx U(\vec r_0)+\frac12\vec x^TH\vec x,
-\]
+$$
 
 so:
 
-\[
+$$
 \vec F\approx -H\vec x.
-\]
+$$
 
-Here \(H\) is the Hessian of the potential at equilibrium. If \(H=kI\), then the force is exactly opposite the displacement vector. If \(H\) is anisotropic or coupled, the response is restoring but not necessarily exactly radial.
+Here $H$ is the Hessian of the potential at equilibrium. If $H=kI$, then the force is exactly opposite the displacement vector. If $H$ is anisotropic or coupled, the response is restoring but not necessarily exactly radial.
 
 ### Feynman's coil point
 
@@ -238,13 +238,13 @@ This becomes important later: repeated material structure can enlarge the appare
 
 ## 4. The typed forms of the spring-law equation
 
-The equation \(F=-kx\) is not self-typing. The symbols change type depending on what is being modelled.
+The equation $F=-kx$ is not self-typing. The symbols change type depending on what is being modelled.
 
 ### 4.1 Scalar load-deflection law
 
-\[
+$$
 F=-kx
-\]
+$$
 
 ```text
 x : scalar extension/compression/deflection
@@ -256,9 +256,9 @@ This is closest to Hooke's experimental load-extension relation.
 
 ### 4.2 Fixed-axis vector attached-force law
 
-\[
+$$
 \vec F=-kx\,\hat e
-\]
+$$
 
 ```text
 x      : scalar signed displacement along fixed axis
@@ -271,9 +271,9 @@ This is not merely the scalar law. It is the scalar law plus a direction rule.
 
 ### 4.3 Central endpoint elastic connector
 
-\[
+$$
 \vec F_B=-k(\|\vec r_B-\vec r_A\|-L_0)\,\widehat{(\vec r_B-\vec r_A)}
-\]
+$$
 
 ```text
 extension slot:
@@ -290,9 +290,9 @@ This is a spatial connector, but still a one-dimensional response along the endp
 
 ### 4.4 Vector displacement oscillator
 
-\[
+$$
 \vec F=-k\vec x
-\]
+$$
 
 ```text
 x : vector displacement from equilibrium point
@@ -302,9 +302,9 @@ k : scalar only if the response is isotropic
 
 More generally:
 
-\[
+$$
 \vec F=-K\vec x.
-\]
+$$
 
 ```text
 K : vector displacement -> vector force
@@ -313,9 +313,9 @@ K : stiffness matrix
 
 ### 4.5 Continuum stress-strain body
 
-\[
+$$
 \sigma_{ij}=C_{ijkl}\epsilon_{kl}.
-\]
+$$
 
 ```text
 epsilon : strain tensor field
@@ -341,15 +341,15 @@ So the stiffness object is scalar only when the exposed deformation and response
 
 One tempting interpretation is:
 
-\[
+$$
 \vec F=-\vec k x.
-\]
+$$
 
 This can be made algebraically legal by treating:
 
-\[
+$$
 \vec k=k\hat e.
-\]
+$$
 
 But it hides two different modelling facts inside one symbol:
 
@@ -373,7 +373,7 @@ force construction:
   combine stiffness, deformation, and direction rule
 ```
 
-So the issue is not that Hooke's scalar \(k\) was secretly a vector. The issue is that **the equation was missing its type signature**.
+So the issue is not that Hooke's scalar $k$ was secretly a vector. The issue is that **the equation was missing its type signature**.
 
 ---
 
@@ -381,15 +381,15 @@ So the issue is not that Hooke's scalar \(k\) was secretly a vector. The issue i
 
 Now suppose the actual material body has a complex stiffness structure. Internally, it is not one scalar coordinate. It has a displacement field:
 
-\[
+$$
 \vec u:V\to\mathbb R^3.
-\]
+$$
 
 For small deformations, strain is the symmetric part of the displacement gradient:
 
-\[
+$$
 \epsilon_{ij}=\frac12(\partial_i u_j+\partial_j u_i).
-\]
+$$
 
 The strain field has type:
 
@@ -405,9 +405,9 @@ sigma : V -> Sym(3)
 
 Linear elasticity gives:
 
-\[
+$$
 \sigma=C:\epsilon.
-\]
+$$
 
 where:
 
@@ -417,79 +417,79 @@ C : Sym(3) -> Sym(3)
 
 Now attach a wooden block or contact plate to the elastic body and constrain the block so it can move only along one line. The block does not read the whole internal stress field. It reads a surface force transmitted through contact.
 
-If \(\hat n\) is the contact normal, the traction on the contact surface is:
+If $\hat n$ is the contact normal, the traction on the contact surface is:
 
-\[
+$$
 \vec t=\sigma\hat n.
-\]
+$$
 
 The total interface force is:
 
-\[
+$$
 \vec F=\int_A\sigma\hat n\,dA.
-\]
+$$
 
-If the block is constrained to move along \(\hat e\), the generalized force it reads is:
+If the block is constrained to move along $\hat e$, the generalized force it reads is:
 
-\[
+$$
 Q=\vec F\cdot\hat e.
-\]
+$$
 
 and the generalized displacement is:
 
-\[
+$$
 q=\vec x\cdot\hat e.
-\]
+$$
 
 Only now do we get the classroom one-coordinate form:
 
-\[
+$$
 Q=-k_{\mathrm{eff}}q.
-\]
+$$
 
 ### Effective stiffness by mode selection
 
-If the block displacement \(q\) induces a mode shape \(\vec\phi(\vec X)\) inside the elastic body, then:
+If the block displacement $q$ induces a mode shape $\vec\phi(\vec X)$ inside the elastic body, then:
 
-\[
+$$
 \vec u(\vec X)=q\vec\phi(\vec X).
-\]
+$$
 
 The induced strain is:
 
-\[
+$$
 \epsilon(\vec X)=qB(\vec X),
-\]
+$$
 
 where:
 
-\[
+$$
 B=\operatorname{sym}\nabla\phi.
-\]
+$$
 
 The stored elastic energy is:
 
-\[
+$$
 U=\frac12\int_V \epsilon:C:\epsilon\,dV.
-\]
+$$
 
-Substitute \(\epsilon=qB\):
+Substitute $\epsilon=qB$:
 
-\[
+$$
 U=\frac12q^2\int_V B:C:B\,dV.
-\]
+$$
 
 Therefore:
 
-\[
+$$
 k_{\mathrm{eff}}=\int_V B:C:B\,dV.
-\]
+$$
 
 and:
 
-\[
+$$
 Q=-\frac{dU}{dq}=-k_{\mathrm{eff}}q.
-\]
+$$
 
 ### The VD object
 
@@ -517,17 +517,17 @@ This is what the classroom one-axis spring usually is. It is not the absence of 
 
 A single local elastic element has a limited linear regime. Its true response may be:
 
-\[
+$$
 F=-kx-\alpha x^2-\beta x^3-\dots
-\]
+$$
 
-The linear approximation is good only when \(x\) is small enough.
+The linear approximation is good only when $x$ is small enough.
 
-But if a material construction repeats the deformation structure many times, a macroscopic displacement \(X\) can be distributed across many local deformation sites. If there are \(N\) repeated sites, each one may take roughly:
+But if a material construction repeats the deformation structure many times, a macroscopic displacement $X$ can be distributed across many local deformation sites. If there are $N$ repeated sites, each one may take roughly:
 
-\[
+$$
 x_i\approx X/N.
-\]
+$$
 
 Then each local element remains closer to its small-deformation regime even when the total visible displacement is much larger.
 
@@ -577,17 +577,17 @@ The relevant object is:
 crystal harmonic force-constant network
 ```
 
-Near an equilibrium crystal configuration, the potential energy can be expanded in the atomic displacements \(u_{i\alpha}\):
+Near an equilibrium crystal configuration, the potential energy can be expanded in the atomic displacements $u_{i\alpha}$:
 
-\[
+$$
 U\approx U_0+\frac12\sum_{i\alpha,j\beta}\Phi_{i\alpha,j\beta}u_{i\alpha}u_{j\beta}.
-\]
+$$
 
 Then:
 
-\[
+$$
 F_{i\alpha}\approx-\sum_{j\beta}\Phi_{i\alpha,j\beta}u_{j\beta}.
-\]
+$$
 
 So the crystal is not necessarily a network of pairwise central distance connectors. The real harmonic object can be a large stiffness matrix. But if the classifier is force-profile based, it is legitimate to say the atoms are connected by Hookean-response links in the small-displacement regime.
 
@@ -606,9 +606,9 @@ after the relevant deformation slots are chosen.
 
 The classroom object usually written as:
 
-\[
+$$
 F=-kx
-\]
+$$
 
 should be reconstructed as:
 

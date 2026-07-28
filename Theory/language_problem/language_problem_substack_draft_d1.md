@@ -176,7 +176,7 @@ The “perfect largest number” need not be a number. The recipient might say:
 
 Or:
 
-> If the intention was to name a quantity larger than every finite number, perhaps the relevant object is \(\aleph_0\).
+> If the intention was to name a quantity larger than every finite number, perhaps the relevant object is $\aleph_0$.
 
 Or:
 

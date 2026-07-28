@@ -63,9 +63,9 @@ net-force vector
 
 are locked by:
 
-\[
+$$
 \mathbf F_{\mathrm{net}}[A]=m[A]\mathbf a[A].
-\]
+$$
 
 This is suitable for younger students when the target and its mass are supplied rather than audited.
 
@@ -242,9 +242,9 @@ Main errors exposed: force-as-arrow collapse; confusing net-force inference with
 
 Expected answer:
 
-\[
+$$
 \mathbf F_{\mathrm{net}}[A]=6\,\mathrm N\text{ left}.
-\]
+$$
 
 Newton II demands one addressed net-force vector of that value. It does not yet say which force contributions make it up or that a meter independently measured it.
 
@@ -878,11 +878,11 @@ Prompt:
 
 Possible answer:
 
-\[
+$$
 \mathbf a[A;t_0,t_1]
 =\frac{\mathbf F_{\mathrm{net}}[A;t_0,t_1]}{m[A]}
 =4\,\mathrm{m/s^2}\text{ right}.
-\]
+$$
 
 #### B2.5 — Complete the force-accounting sheet
 
@@ -942,9 +942,9 @@ Expected numerical answers: `12 N east`, `3 m/s² west`, `4 kg`, and `indetermin
 
 Give equations whose units work but whose owner tags do not:
 
-\[
+$$
 \mathbf F_{\mathrm{net}}[A]=m[B]\mathbf a[A].
-\]
+$$
 
 Ask:
 
@@ -964,10 +964,10 @@ Expected answer: direction; `4 m/s² south`.
 
 Given:
 
-\[
+$$
 m[A]=2\,\mathrm{kg},\qquad
 \mathbf F_{\mathrm{net}}[A]=(6\hat{\mathbf i}-8\hat{\mathbf j})\,\mathrm N,
-\]
+$$
 
 find `a[A]`, its magnitude, and direction. Then ask whether mass changed either component's direction.
 
@@ -986,9 +986,9 @@ Without substituting numbers, students answer:
 
 Given the same supplied net-force magnitude acting for the same interval `Delta t`:
 
-\[
+$$
 \Delta\mathbf v=\frac{\mathbf F_{\mathrm{net}}\Delta t}{m},
-\]
+$$
 
 students compare targets of mass `m`, `2m`, and `4m`. Then change only the time interval and ask why a raw `Delta v` comparison no longer isolates mass.
 
@@ -998,11 +998,11 @@ Status: this uses integrated acceleration for fixed mass without making impulse 
 
 Ask students to derive:
 
-\[
+$$
 [\mathbf F]=[m][\mathbf a]
 =\mathrm{kg}\,\mathrm{m/s^2}
 =\mathrm N.
-\]
+$$
 
 Then present plausible distractors:
 
@@ -1078,17 +1078,17 @@ one supplied F_net[A] vector per step
 
 Students repeatedly compute:
 
-\[
+$$
 \mathbf a_n=\frac{\mathbf F_{\mathrm{net},n}}{m},
 \qquad
 \mathbf v_{n+1}=\mathbf v_n+\mathbf a_n\Delta t,
-\]
+$$
 
 and extend the position with the integration convention stated on the sheet. The convention must be explicit; for a simple Euler sheet:
 
-\[
+$$
 \mathbf r_{n+1}=\mathbf r_n+\mathbf v_{n+1}\Delta t.
-\]
+$$
 
 The pedagogical point is the sequence, not numerical-integration accuracy.
 
@@ -1343,13 +1343,13 @@ If no overlap exists, the proposed model is not supportable with the data.
 
 For sampled positions, evaluate:
 
-\[
+$$
 D_{ij}(t_k)=
 \left\|
 [\mathbf r_i(t_k)-\mathbf r_j(t_k)]
 -[\mathbf r_i(t_0)-\mathbf r_j(t_0)]
 \right\|.
-\]
+$$
 
 Given tolerance `epsilon`, mark the pair redundant over the interval only if every sampled `D_ij` is within the accepted bound, with interpolation/measurement limitations stated.
 
@@ -1386,16 +1386,16 @@ Expected answer: it may stand in for the motion information on which the bundle 
 
 Transform a track-family between inertial frames using:
 
-\[
+$$
 \mathbf r_i'(t)=\mathbf r_i(t)-\mathbf Vt-\mathbf c.
-\]
+$$
 
 Students show:
 
-\[
+$$
 \mathbf r_i'(t)-\mathbf r_j'(t)
 =\mathbf r_i(t)-\mathbf r_j(t),
-\]
+$$
 
 so a fixed-offset redundancy judgement and resulting bundle count are preserved between Galilean inertial frames. Contrast this with a rotating frame, where the coordinate transformation can make the same track-family appear redundant or nonredundant. Ask students to locate the frame commitment rather than treating the bundle count as frame-free in every possible frame.
 
@@ -1436,9 +1436,9 @@ They must state both caveats from the trackability note:
 
 Let `P_z` project a track onto its downward coordinate:
 
-\[
+$$
 P_z\mathbf r_i(t)=z_i(t).
-\]
+$$
 
 Students compare:
 
@@ -1463,18 +1463,18 @@ supplied mass binding: m[A_tau] = dm
 
 Ask students to explain why:
 
-\[
+$$
 \{A_\tau\}
-\]
+$$
 
 is a continuously indexed family of massive point-particle representatives, not one point-particle representing the entire jet.
 
 Optional fluid extension, clearly marked beyond core mass-address origination:
 
-\[
+$$
 dm=\dot m\,d\tau
 =\rho A(z)v(z)\,d\tau.
-\]
+$$
 
 Students connect increased `v(z)` and decreased cross-sectional area `A(z)` without treating the narrowing as loss of the material parcel's mass.
 
@@ -1659,9 +1659,9 @@ Prompt:
 
 Students justify:
 
-\[
+$$
 \mathbf F(t)=m\mathbf a(t)
-\]
+$$
 
 for any chosen positive `m` if the corresponding force is left free. Therefore kinematics can license an address and escort a binding, but not originate its magnitude.
 
@@ -1706,11 +1706,11 @@ These exercises were suggested by the bridge and COM notes but are excluded from
 
 For parts with masses `m1`, `m2` and shared translational acceleration `A`, give the per-part Newton-II accounts and an explicit representative-adequacy aggregation rule. Students derive:
 
-\[
+$$
 M\mathbf A=m_1\mathbf A+m_2\mathbf A
 \quad\Rightarrow\quad
 M=m_1+m_2
-\]
+$$
 
 for nonzero/shared comparison, while naming the added adequacy commitment. They must not claim rigidity alone proves additivity.
 
@@ -1718,16 +1718,16 @@ for nonzero/shared comparison, while naming the added adequacy commitment. They 
 
 Given:
 
-\[
+$$
 \mathbf R_{\mathrm{CM}}
 =\frac{m_1\mathbf r_1+m_2\mathbf r_2}{m_1+m_2},
-\]
+$$
 
 differentiate twice and use `a1=a2=A` to show:
 
-\[
+$$
 \mathbf a_{\mathrm{CM}}=\mathbf A.
-\]
+$$
 
 Then ask what motion information the centre-of-mass representative omits.
 

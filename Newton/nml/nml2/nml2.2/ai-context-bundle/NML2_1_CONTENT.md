@@ -16,9 +16,9 @@ The lesson does **not** yet explain how a material object is constructed from a 
 
 For one material object `A`, over the same relevant time or interval and in the same inertial frame,
 
-\[
+$$
 \mathbf F_{\mathrm{net}}[A]=m[A]\mathbf a[A].
-\]
+$$
 
 The three quantities must belong to the same material object:
 
@@ -40,9 +40,9 @@ Students must know that:
 
 The unit relation is
 
-\[
+$$
 1\ \mathrm N=1\ \mathrm{kg\,m\,s^{-2}}.
-\]
+$$
 
 Vector answers require direction. A numerical magnitude alone is incomplete when direction is demanded.
 
@@ -67,11 +67,11 @@ Those claims require the later account of force contributions and acting objects
 
 For a material object with finite positive inertial mass,
 
-\[
+$$
 \mathbf a=\mathbf 0
 \quad\Longleftrightarrow\quad
 \mathbf F_{\mathrm{net}}=\mathbf 0.
-\]
+$$
 
 However, zero net force does not imply zero velocity, that no force contributions exist, or that the material object has been established to be free.
 
@@ -130,9 +130,9 @@ The lesson identifies these as different claims. It does not yet derive the conn
 
 The material object is the continuing thing being described. Its trajectory is a time-indexed record of its position in a chosen reference frame:
 
-\[
+$$
 \mathbf r_A(t).
-\]
+$$
 
 The distinction can be stated simply:
 
@@ -167,14 +167,14 @@ Students must check which independent information is present before calculating:
 
 The algebraic forms are
 
-\[
+$$
 \mathbf a=\frac{\mathbf F_{\mathrm{net}}}{m},
 \qquad
 \mathbf F_{\mathrm{net}}=m\mathbf a,
 \qquad
 m=\frac{|\mathbf F_{\mathrm{net}}|}{|\mathbf a|}
 \quad(\mathbf a\ne\mathbf 0).
-\]
+$$
 
 The final form is a formal Newton-II inference in a suitable nonzero case. It is not yet the general story of how inertial-mass values are obtained and bound to material objects. The `0/0` case determines no mass.
 
@@ -211,17 +211,17 @@ given inertial mass + supplied net force
 
 In continuous form,
 
-\[
+$$
 \mathbf a(t)=\frac{\mathbf F_{\mathrm{net}}(t)}{m},
-\]
+$$
 
-\[
+$$
 \mathbf v(t)=\mathbf v_0+\int_{t_0}^{t}\mathbf a(s)\,ds,
-\]
+$$
 
-\[
+$$
 \mathbf r(t)=\mathbf r_0+\int_{t_0}^{t}\mathbf v(s)\,ds.
-\]
+$$
 
 For younger learners, the same logic can be installed discretely:
 
@@ -564,9 +564,9 @@ A material object visibly loses a piece between two scenes. The worksheet invite
 
 A leaking cart or rocket continuously loses material. Invite the tempting substitution
 
-\[
+$$
 \mathbf F_{\mathrm{net}}=m(t)\mathbf a.
-\]
+$$
 
 Then reveal that this alone is not sufficient to solve the open-system problem: departing material can carry momentum relative to the retained target. Do not solve the rocket or leaking-cart problem in NML2.1.
 

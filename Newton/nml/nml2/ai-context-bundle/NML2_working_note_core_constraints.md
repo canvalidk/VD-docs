@@ -81,9 +81,9 @@ inertial-mass
 
 or, in the familiar algebraic surface form:
 
-\[
+$$
 F_{\text{net}} = ma
-\]
+$$
 
 But the lesson should first make the three physical readings vivid before relying on the algebraic names.
 
@@ -95,9 +95,9 @@ NML2 may engage with force, but it may not yet teach **force addition**.
 
 That means NML2 must avoid examples where the student has to assemble:
 
-\[
+$$
 F_{\text{net}} = F_1 + F_2 + F_3 + \cdots
-\]
+$$
 
 So the following are not good core NML2 examples:
 
@@ -122,9 +122,9 @@ one motion-change read from the path
 
 In other words:
 
-\[
+$$
 F_{\text{net}} = F_{\text{one applied value}}
-\]
+$$
 
 This is not a claim that the world contains no other interactions. It is a lesson-boundary decision: NML2 opens the Newton-II relation before opening the machinery that explains where the net-force value came from.
 
@@ -285,9 +285,9 @@ What newton-meter reading would account for this?
 
 Formula:
 
-\[
+$$
 F_{\text{net}} = ma
-\]
+$$
 
 Physical form:
 
@@ -314,9 +314,9 @@ What path-change should appear over the same time interval?
 
 Formula:
 
-\[
+$$
 a = \frac{F_{\text{net}}}{m}
-\]
+$$
 
 Physical form:
 
@@ -343,9 +343,9 @@ What scale reading would make those two readings fit?
 
 Formula:
 
-\[
+$$
 m = \frac{F_{\text{net}}}{a}
-\]
+$$
 
 Physical form:
 
@@ -355,17 +355,17 @@ If the same pull gives less path-change, the target has a bigger mass-side readi
 
 Important boundary:
 
-\[
+$$
 m = \frac{F_{\text{net}}}{a}
-\]
+$$
 
 only works as a mass-finding route when the path-change reading is not zero.
 
 If
 
-\[
+$$
 a = 0
-\]
+$$
 
 then the mass cannot be found by dividing by zero. This leads into the critical zero-acceleration question.
 
@@ -387,21 +387,21 @@ The net force on the particle is zero.
 
 In formula form:
 
-\[
+$$
 F_{\text{net}} = ma
-\]
+$$
 
 If
 
-\[
+$$
 a = 0
-\]
+$$
 
 and the particle has a finite nonzero mass, then
 
-\[
+$$
 F_{\text{net}} = 0
-\]
+$$
 
 But the lesson must avoid a common overclaim.
 
@@ -441,25 +441,25 @@ To show mass as resistance to motion-change, the force must be applied for the s
 
 The observable relation is:
 
-\[
+$$
 a = \frac{\Delta v}{\Delta t}
-\]
+$$
 
 So if the same force acts for the same time:
 
-\[
+$$
 \Delta v = \frac{F \Delta t}{m}
-\]
+$$
 
 Then doubling the mass gives half the velocity-change:
 
-\[
+$$
 m \to 2m
-\]
+$$
 
-\[
+$$
 \Delta v \to \frac{1}{2}\Delta v
-\]
+$$
 
 Young-learner sentence:
 
@@ -532,9 +532,9 @@ Trial B:
 
 Prediction:
 
-\[
+$$
 \Delta v_B = \frac{1}{2}\Delta v_A
-\]
+$$
 
 The teacher does not need to explain all background forces. The active horizontal model is:
 
@@ -586,9 +586,9 @@ force
 
 Then the formula:
 
-\[
+$$
 F_{\text{net}} = ma
-\]
+$$
 
 The formula should arrive as a compression of an already-installed relationship, not as the first object.
 

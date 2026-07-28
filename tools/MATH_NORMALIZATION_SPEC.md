@@ -260,18 +260,61 @@ How does the user signal "this file renders fine" so a bank entry can be pruned?
 A command, a manifest column edit, or the 90-day backstop alone. Undecided;
 until decided, nothing prunes.
 
-### 5.4 Open — the 22 unconverted branch files
-The sweep found 22 already-homed files with unconverted delimiters (mostly the
-`nml2` cluster and its ai-context bundles, plus `hookean_response_type_chain_d1`
-and `glass_ball_mdp_example_d1`). All pass every gate, so conversion would be
-clean. Ratified scope is **inbox intake only**, so they are deliberately left
-alone. Reverse this only by an explicit decision recorded here.
+### 5.4 RESOLVED — the 22 unconverted branch files, converted 2026-07-28
 
-Note that several are ai-context copies of the same source file; converting a
-copy without its original would break the `dup_group` byte-identity the catalog
-records. Any sweep must convert whole `dup_group`s together.
+**Decision (user, 2026-07-28): one-off sweep of all 22, executed.** This is the
+explicit reversal of inbox-only scope that this section required. It is a
+**one-off**, not a standing change: routine scope remains inbox intake only.
+
+The user's initial instruction was to convert only the non-ai-context files, on
+the correct premise that an AI reading raw markdown is indifferent to which
+delimiters are used. The analysis showed that converting 13 of 22 would split
+**7 byte-identity groups** (`d18`, `d20`, `d21`, `d31`, `d32`, `d36`, and the
+uncatalogued `hookean_response_type_chain_d1` pair). Since AI is *indifferent*
+to the delimiters rather than *harmed* by them, converting its copies too costs
+nothing and keeps every group intact — cheaper than converting 13 and then
+repairing 7 groups. All 22 were converted.
+
+Result:
+
+| Check | Outcome |
+|---|---|
+| files converted | 22 (13 non-ai-context, 9 ai-context) |
+| blocked by gates | 0 |
+| soft flags raised | 0 |
+| `dup_group`s broken | **0 of 37** |
+| originals banked | 22, with 22 manifest rows |
+| `normalize(banked original)` reproduces live file | 22 of 22 |
+| all `.md` in repo now clean | 178 of 178 |
+| live KaTeX render on samples | 1269 nodes, 0 errors |
+
+**Standing rule this establishes:** any future sweep must convert whole
+`dup_group`s together. Converting one member of a group without the others
+breaks the byte-identity the catalog asserts, which is an unrecorded shortfall
+and therefore a defect by ORGANIZATION.md's standard.
+
+**Catalog gap surfaced by this sweep (unresolved).** Three of the 22 are not in
+`catalog.yaml` at all:
+
+```text
+Newton/nml/nml2/ai-context-bundle/NML2_note_net_force_wall_withheld.md
+Newton/nml/nml2/ai-context-bundle/NML2_working_note_core_constraints.md
+Newton/nml/nml2/ai-context-bundle/hookean_response_type_chain_d1.md
+```
+
+They belong to the wider `Newton/nml/nml2/ai-context-bundle/` folder, 14 files
+of which are uncatalogued — a pre-existing gap, not created here. They were
+converted (they are on disk and needed it) but could not be annotated with
+`math_normalized`. Cataloguing that bundle is separate work.
 
 ### 5.5 Open — `NML2_1_CONTENT_d2_..._VSCODE.md`
 Produced by the old script. Checked 2026-07-28: no residual delimiters and no
 space-adjacent `$`, so it escaped defect 2. It still carries the `_VSCODE`
-suffix, which §2.1 retires; drop it when the file is homed.
+suffix, which §2.1 retires; drop it when the file is homed. The user intends to
+put it and the d1→d2 diff into `inbox/` in a later session.
+
+### 5.6 Note on `math_normalized` / `math_flags` coverage
+Only files that have actually been normalized carry these fields; absence means
+"not applicable or not yet normalized", not "null value". 19 entries carry them
+as of 2026-07-28 — the three converted files listed in §5.4 could not be
+annotated because they are not in the catalog at all.

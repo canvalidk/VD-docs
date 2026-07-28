@@ -241,9 +241,9 @@ inertial-mass
 
 Mathematical surface:
 
-\[
+$$
 F_{\text{net}} = ma
-\]
+$$
 
 But pedagogically, only two of the three corners are outwardly stable in NML2:
 
@@ -306,9 +306,9 @@ In most NML2 versions, it is cleaner to avoid newton meters entirely.
 
 The student should not merely plug numbers into:
 
-\[
+$$
 F = ma
-\]
+$$
 
 The student should learn the target discipline:
 
@@ -349,9 +349,9 @@ If a massive particle has zero acceleration, what does that mean?
 
 Answer:
 
-\[
+$$
 a = 0 \quad \Rightarrow \quad F_{\text{net}} = 0
-\]
+$$
 
 So:
 
@@ -500,9 +500,9 @@ What net-force value is demanded by this motion?
 
 Equation:
 
-\[
+$$
 F_{\text{net}} = ma
-\]
+$$
 
 This is now the most NML2-native exam form.
 
@@ -523,9 +523,9 @@ What acceleration should be read from the path?
 
 Equation:
 
-\[
+$$
 a = \frac{F_{\text{net}}}{m}
-\]
+$$
 
 But pedagogically, the net-force value is not read from a newton meter in this lesson. It is supplied as a formal value or left as a mystery to be explained later.
 
@@ -546,9 +546,9 @@ What inertial-mass value would make these fit?
 
 Equation:
 
-\[
+$$
 m = \frac{F_{\text{net}}}{a}
-\]
+$$
 
 Boundary warning:
 
@@ -615,9 +615,9 @@ For a massive target, the motion-change and mass-side value demand a net-force v
 
 Equation appears as compression:
 
-\[
+$$
 F_{\text{net}} = ma
-\]
+$$
 
 Teacher wording:
 
@@ -817,9 +817,9 @@ Core physics:
 
 For the complete system:
 
-\[
+$$
 F_{\text{ext}} = M a_{\text{CM}}
-\]
+$$
 
 Internal interactions may be messy:
 

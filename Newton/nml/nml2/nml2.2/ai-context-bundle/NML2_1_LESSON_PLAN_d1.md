@@ -72,9 +72,9 @@ Students learn that the three Newton-II quantities are not free-floating numbers
 
 Students learn that Newton II is one constraint:
 
-\[
+$$
 \mathbf F_{\mathrm{net}}[A]=m[A]\mathbf a[A].
-\]
+$$
 
 The three rearrangements do not create measurements from nothing. Two independent addressed values determine the third; all three permit a consistency check.
 
@@ -103,9 +103,9 @@ owner audit
 
 A conventional first Newton-II lesson often begins by writing:
 
-\[
+$$
 F=ma
-\]
+$$
 
 and then assigning substitution exercises.
 
@@ -236,9 +236,9 @@ The lesson uses ordinary object recognition provisionally. It does not yet analy
 
 For material object `A`, its trajectory in a chosen frame is:
 
-\[
+$$
 \mathbf r_A(t).
-\]
+$$
 
 Use the sentence:
 
@@ -258,9 +258,9 @@ Consequences the teacher should preserve:
 
 For one material object `A`, over the same relevant interval and in the same inertial frame:
 
-\[
+$$
 \mathbf F_{\mathrm{net}}[A]=m[A]\mathbf a[A].
-\]
+$$
 
 | Quantity | Type | Unit | Owner |
 |---|---|---|---|
@@ -270,9 +270,9 @@ For one material object `A`, over the same relevant interval and in the same ine
 
 The unit relation is:
 
-\[
+$$
 1\ \mathrm N=1\ \mathrm{kg\,m\,s^{-2}}.
-\]
+$$
 
 A nonzero vector answer without a direction is incomplete.
 
@@ -369,22 +369,22 @@ NML2.1 names these as different claims and derives none of their identifications
 
 The algebraic forms are:
 
-\[
+$$
 \mathbf a=\frac{\mathbf F_{\mathrm{net}}}{m},
 \qquad
 \mathbf F_{\mathrm{net}}=m\mathbf a,
 \qquad
 m=\frac{|\mathbf F_{\mathrm{net}}|}{|\mathbf a|}
 \quad (\mathbf a\ne\mathbf 0).
-\]
+$$
 
 For finite positive inertial mass:
 
-\[
+$$
 \mathbf a=\mathbf 0
 \quad\Longleftrightarrow\quad
 \mathbf F_{\mathrm{net}}=\mathbf 0.
-\]
+$$
 
 This does not imply zero velocity, freedom from all physical influences, or absence of force contributions. The `0/0` trial determines no mass.
 
@@ -402,17 +402,17 @@ This does not imply zero velocity, freedom from all physical influences, or abse
 
 Continuous representation:
 
-\[
+$$
 \mathbf a(t)=\frac{\mathbf F_{\mathrm{net}}(t)}{m},
-\]
+$$
 
-\[
+$$
 \mathbf v(t)=\mathbf v_0+\int_{t_0}^{t}\mathbf a(s)\,ds,
-\]
+$$
 
-\[
+$$
 \mathbf r(t)=\mathbf r_0+\int_{t_0}^{t}\mathbf v(s)\,ds.
-\]
+$$
 
 Discrete learner handle:
 
@@ -543,10 +543,10 @@ Display:
 
 Ask for the boat's acceleration, then deliberately write:
 
-\[
+$$
 a[\text{boat}]=\frac{50\ \mathrm N}{5\ \mathrm{kg}}
 =10\ \mathrm{m\,s^{-2}}\text{ right}.
-\]
+$$
 
 Ask:
 
@@ -581,11 +581,11 @@ Teacher line:
 
 Require students to rewrite the valid boat calculation:
 
-\[
+$$
 \mathbf a[\text{boat}]
 =\frac{\mathbf F_{\mathrm{net}}[\text{boat}]}{m[\text{boat}]}
 =4\ \mathrm{m\,s^{-2}}\text{ right}.
-\]
+$$
 
 Ask why dimensional correctness is necessary but not sufficient.
 
@@ -754,9 +754,9 @@ net force:             F_net[A] = ______ N, direction ______
 
 Place the equation only after the ownership slots are visible:
 
-\[
+$$
 \mathbf F_{\mathrm{net}}[A]=m[A]\mathbf a[A].
-\]
+$$
 
 Teacher line:
 
@@ -787,11 +787,11 @@ Build the table together:
 
 Then derive the unit:
 
-\[
+$$
 [\mathbf F]=[m][\mathbf a]
 =\mathrm{kg\,m\,s^{-2}}
 =\mathrm N.
-\]
+$$
 
 ### Band I version
 
@@ -827,35 +827,35 @@ a[B] = 2 m/s² left
 
 Use all three algebraic forms, including a suitable nonzero mass inference:
 
-\[
+$$
 m[A]=\frac{|\mathbf F_{\mathrm{net}}[A]|}{|\mathbf a[A]|}.
-\]
+$$
 
 Require students to state that positive mass means `F_net` and `a` point in the same direction in a consistent Newton-II triplet.
 
 Include one unit-valid but target-invalid equation:
 
-\[
+$$
 \mathbf F_{\mathrm{net}}[A]=m[B]\mathbf a[A].
-\]
+$$
 
 ### Band III version
 
 Treat the equation as a vector constraint. Include:
 
-\[
+$$
 m[A]=2\ \mathrm{kg},
 \qquad
 \mathbf F_{\mathrm{net}}[A]
 =(6\hat{\mathbf i}-8\hat{\mathbf j})\ \mathrm N.
-\]
+$$
 
 Students find:
 
-\[
+$$
 \mathbf a[A]
 =(3\hat{\mathbf i}-4\hat{\mathbf j})\ \mathrm{m\,s^{-2}}.
-\]
+$$
 
 Then give all three values with a deliberately nonparallel `F_net` and `a`; ask whether a positive scalar mass can make the triplet consistent. Expected answer: no.
 
@@ -1038,9 +1038,9 @@ Ask:
 
 Expected answer:
 
-\[
+$$
 \mathbf a=\frac{\mathbf F_{\mathrm{net}}}{m}
-\]
+$$
 
 is unchanged.
 
@@ -1230,11 +1230,11 @@ Use two tokens with the same acceleration arrows but different initial velocity 
 
 Use:
 
-\[
+$$
 \Delta \mathbf v_n=\mathbf a_n\Delta t,
 \qquad
 \mathbf v_{n+1}=\mathbf v_n+\Delta\mathbf v_n.
-\]
+$$
 
 The worksheet should state the position-stepping convention explicitly. A simple graphical version is preferable:
 
@@ -1256,11 +1256,11 @@ Students must preserve velocity through the zero-acceleration interval rather th
 
 Use constant supplied mass and a supplied `F_net(t)` or `F_net(r)`:
 
-\[
+$$
 \dot{\mathbf v}=\frac{\mathbf F_{\mathrm{net}}(t)}{m},
 \qquad
 \dot{\mathbf r}=\mathbf v.
-\]
+$$
 
 Students identify the required initial conditions and solve or set up one simple case. Suitable examples include:
 
@@ -1366,9 +1366,9 @@ a visible piece has broken off
 
 Invite the tempting calculation:
 
-\[
+$$
 a=\frac{8\ \mathrm N}{4\ \mathrm{kg}}.
-\]
+$$
 
 The complete correct answer is:
 
@@ -1413,9 +1413,9 @@ Give tempting numerical values after the failed row. Award full credit for refus
 
 Present a leaking cart or rocket whose retained target continuously loses material. Invite the naive substitution:
 
-\[
+$$
 \mathbf F_{\mathrm{net}}=m(t)\mathbf a.
-\]
+$$
 
 Then state the boundary:
 
@@ -1520,10 +1520,10 @@ Instruction:
 
 Give:
 
-\[
+$$
 \mathbf a[\text{boat}]
 =\frac{\mathbf F_{\mathrm{net}}[\text{table}]}{m[\text{boat}]}.
-\]
+$$
 
 Ask students to explain why:
 
@@ -1605,9 +1605,9 @@ Use large arrows and integer ratios. Begin one-dimensionally; add one turning ex
 
 State:
 
-\[
+$$
 \Delta\mathbf v=\mathbf a\Delta t.
-\]
+$$
 
 The sheet must print its position-update convention. The learning target is the sequence of operations, not numerical-integration sophistication.
 
@@ -1623,11 +1623,11 @@ Required rows:
 
 Provide one of:
 
-\[
+$$
 \mathbf F_{\mathrm{net}}(t),
 \qquad
 \mathbf F_{\mathrm{net}}(\mathbf r),
-\]
+$$
 
 with constant supplied `m[A]` and initial conditions. Students:
 

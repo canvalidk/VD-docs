@@ -21,9 +21,9 @@ uncertainty carried into a Newton-II prediction
 
 The example begins with a glass ball whose mass has already been determined:
 
-\[
+$$
 m[A]=M_A=1\ \mathrm{kg}.
-\]
+$$
 
 The ball hits a wall and a crack becomes visible. We assume excellent footage and complete coverage at the declared observational resolution.
 
@@ -121,9 +121,9 @@ The value `1 kg` has provenance from an earlier MDP, although the present exampl
 
 The current licence may be represented schematically as:
 
-\[
+$$
 \operatorname{valid}(A;\varepsilon,[t_0,t_1],Q).
-\]
+$$
 
 As long as that licence continues, the value at `m[A]` may be reused.
 
@@ -163,17 +163,17 @@ Now suppose the original one-target licence genuinely fails. During or after imp
 
 The footage is used to identify the new redundancy bundles:
 
-\[
+$$
 P_1,P_2,\ldots,P_n.
-\]
+$$
 
 These are not presupposed pieces. They are the outputs of the post-failure lumping audit.
 
 Each receives a mass address:
 
-\[
+$$
 m[P_1]=m_1,\quad m[P_2]=m_2,\quad\ldots,\quad m[P_n]=m_n.
-\]
+$$
 
 At first, the individual values may all be unknown.
 
@@ -183,21 +183,21 @@ Complete coverage establishes that these post-event targets collectively account
 
 A licensed additivity/partition MDP therefore gives:
 
-\[
+$$
 M_A=m_1+m_2+\cdots+m_n.
-\]
+$$
 
-Because \(M_A=1\ \mathrm{kg}\),
+Because $M_A=1\ \mathrm{kg}$,
 
-\[
+$$
 1\ \mathrm{kg}=m_1+m_2+\cdots+m_n.
-\]
+$$
 
-This equation fixes the total. It does **not** determine the individual values \(m_i\).
+This equation fixes the total. It does **not** determine the individual values $m_i$.
 
 ### 5.3 The scattered targets later come together
 
-Suppose all the tracked targets \(P_1,\ldots,P_n\) later become redundant with one another and are lumped into a new target:
+Suppose all the tracked targets $P_1,\ldots,P_n$ later become redundant with one another and are lumped into a new target:
 
 ```text
 new target address: B
@@ -208,33 +208,33 @@ The return of one-bundle redundancy creates `B`. It does not automatically resto
 
 ### 5.4 Second additivity MDP: assembly of the new target
 
-Because `B` is formed from the same completely accounted-for family \(P_1,\ldots,P_n\), an assembly/additivity MDP gives:
+Because `B` is formed from the same completely accounted-for family $P_1,\ldots,P_n$, an assembly/additivity MDP gives:
 
-\[
+$$
 M_B=m_1+m_2+\cdots+m_n.
-\]
+$$
 
 Now the two MDP outputs can be compared:
 
-\[
+$$
 M_A=m_1+m_2+\cdots+m_n,
-\]
+$$
 
-\[
+$$
 M_B=m_1+m_2+\cdots+m_n.
-\]
+$$
 
 Therefore:
 
-\[
+$$
 M_A=M_B.
-\]
+$$
 
-Since \(M_A=1\ \mathrm{kg}\),
+Since $M_A=1\ \mathrm{kg}$,
 
-\[
+$$
 \boxed{M_B=1\ \mathrm{kg}}.
-\]
+$$
 
 ### 5.5 What has been recovered
 
@@ -279,29 +279,29 @@ In any of those cases, `m[B] = 1 kg` cannot be concluded by this route.
 
 Suppose the track audit licenses several continuing bundles:
 
-\[
+$$
 P_1,P_2,\ldots,P_n.
-\]
+$$
 
 Then the old address `A` has expired and the new mass addresses are initially unbound:
 
-\[
+$$
 m[P_1],m[P_2],\ldots,m[P_n].
-\]
+$$
 
 Complete material accounting and additivity give:
 
-\[
+$$
 \sum_{i=1}^{n}m[P_i]=1\ \mathrm{kg}.
-\]
+$$
 
 This does not determine the partition.
 
 For two targets, `S` and `R`,
 
-\[
+$$
 m[S]+m[R]=1\ \mathrm{kg}.
-\]
+$$
 
 One further independent mass determination is required before either individual value can be obtained by subtraction.
 
@@ -320,15 +320,15 @@ R = the remaining flying target
 
 Additivity supplies:
 
-\[
+$$
 M_A=m[S]+m[R].
-\]
+$$
 
-Since \(M_A=1\ \mathrm{kg}\),
+Since $M_A=1\ \mathrm{kg}$,
 
-\[
+$$
 1\ \mathrm{kg}=m[S]+m[R].
-\]
+$$
 
 The robot scoops `S` while `R` continues moving.
 
@@ -344,15 +344,15 @@ The robot now needs one direct MDP for `S`. After that, a remainder MDP can dete
 
 The robot measures the volume of `S` and supplies a density model:
 
-\[
+$$
 \rho=\frac{m}{V}.
-\]
+$$
 
 Therefore:
 
-\[
+$$
 \boxed{m[S]=\rho_S V_S}.
-\]
+$$
 
 This MDP depends on two kinds of input:
 
@@ -382,13 +382,13 @@ The example must not silently assume familiar solid glass. The density model mus
 
 If the density and volume uncertainties are independent and sufficiently small, then approximately:
 
-\[
+$$
 \left(\frac{u(m[S])}{m[S]}\right)^2
 \approx
 \left(\frac{u(\rho_S)}{\rho_S}\right)^2
 +
 \left(\frac{u(V_S)}{V_S}\right)^2.
-\]
+$$
 
 There may also be model uncertainty not captured by the two numerical terms, especially uncertainty about whether one density value adequately represents the target.
 
@@ -400,15 +400,15 @@ There may also be model uncertainty not captured by the two numerical terms, esp
 
 Alternatively, the robot determines the gravitational force on `S` and uses:
 
-\[
+$$
 F_g=m_g g.
-\]
+$$
 
 Thus:
 
-\[
+$$
 \boxed{m_g[S]=\frac{F_g[S]}{g}}.
-\]
+$$
 
 To use this value as the inertial mass in Newton II, the gravitational–inertial mass link must be licensed for the present model.
 
@@ -416,7 +416,7 @@ To use this value as the inertial mass in Newton II, the gravitational–inertia
 
 The force in the equation must be the gravitational force, or a sensor reading from which the gravitational force can be correctly reconstructed.
 
-A scale-like sensor on an accelerating robot may report a support force or apparent weight rather than simply \(mg\). Therefore the robot must either:
+A scale-like sensor on an accelerating robot may report a support force or apparent weight rather than simply $mg$. Therefore the robot must either:
 
 ```text
 perform the test in a suitable controlled state
@@ -442,13 +442,13 @@ material exchange or target-address failure during the test
 
 If the force and local gravitational-field uncertainties are independent and sufficiently small, then approximately:
 
-\[
+$$
 \left(\frac{u(m_g[S])}{m_g[S]}\right)^2
 \approx
 \left(\frac{u(F_g[S])}{F_g[S]}\right)^2
 +
 \left(\frac{u(g)}{g}\right)^2.
-\]
+$$
 
 The density and weight routes can therefore bind values to the same target address while carrying different uncertainty budgets and different characteristic failure modes.
 
@@ -460,21 +460,21 @@ The density and weight routes can therefore bind values to the same target addre
 
 Once a direct MDP has bound a value to `m[S]`, the additivity relation becomes sufficient to determine `m[R]`:
 
-\[
+$$
 M_A=m[S]+m[R].
-\]
+$$
 
 Therefore:
 
-\[
+$$
 \boxed{m[R]=M_A-m[S]}.
-\]
+$$
 
-Since \(M_A=1\ \mathrm{kg}\),
+Since $M_A=1\ \mathrm{kg}$,
 
-\[
+$$
 \boxed{m[R]=1\ \mathrm{kg}-m[S]}.
-\]
+$$
 
 This is a **remainder MDP**. It is distinct from the direct MDP performed on `S`.
 
@@ -491,13 +491,13 @@ split A into S and R
 
 ### 10.1 Uncertainty inherited by the remainder
 
-If the uncertainties in \(M_A\) and \(m[S]\) are independent, then:
+If the uncertainties in $M_A$ and $m[S]$ are independent, then:
 
-\[
+$$
 u(m[R])^2
 \approx
 u(M_A)^2+u(m[S])^2.
-\]
+$$
 
 Thus the chosen direct MDP for `S` affects the quality of the mass binding obtained for `R`.
 
@@ -519,44 +519,44 @@ no later split, merge, or material exchange invalidates R
 
 Then:
 
-\[
+$$
 \mathbf a[R]
 =
 \frac{\mathbf F_{\mathrm{net}}[R]}{m[R]}.
-\]
+$$
 
 Substituting the remainder determination:
 
-\[
+$$
 \boxed{
 \mathbf a[R]
 =
 \frac{\mathbf F_{\mathrm{net}}[R]}
 {M_A-m[S]}
 }.
-\]
+$$
 
 For the density route:
 
-\[
+$$
 \boxed{
 \mathbf a[R]
 =
 \frac{\mathbf F_{\mathrm{net}}[R]}
 {M_A-\rho_SV_S}
 }.
-\]
+$$
 
 For the weight route:
 
-\[
+$$
 \boxed{
 \mathbf a[R]
 =
 \frac{\mathbf F_{\mathrm{net}}[R]}
 {M_A-F_g[S]/g}
 }.
-\]
+$$
 
 The final acceleration prediction therefore preserves the provenance of the mass determination performed on the other target.
 
@@ -582,10 +582,10 @@ The time pressure is therefore a prediction deadline, not a special principle of
 
 | Feature | Density MDP | Weight/gravity MDP |
 |---|---|---|
-| Core equation | \(m=\rho V\) | \(m_g=F_g/g\) |
+| Core equation | $m=\rho V$ | $m_g=F_g/g$ |
 | Main measured input | Volume | Gravitational force or a corrected sensor reading |
-| Main supplied/model input | Density | Local gravitational field \(g\) |
-| Typical uncertainty sources | \(\rho\), \(V\), uniformity, phase, voids | \(F_g\), \(g\), robot acceleration, other forces |
+| Main supplied/model input | Density | Local gravitational field $g$ |
+| Typical uncertainty sources | $\rho$, $V$, uniformity, phase, voids | $F_g$, $g$, robot acceleration, other forces |
 | Directly determines | Density-model mass | Gravitational mass |
 | Extra bridge for Newton II | Density/stuff mass must be licensed as inertial mass | Gravitational mass must be licensed as inertial mass |
 | Characteristic failure | Wrong density model | Apparent weight mistaken for gravitational force |
@@ -664,9 +664,9 @@ When `A` fails, the historical value `1 kg` still exists as a record, but it can
 
 When all former material is accounted for and the same family later forms `B`, two additivity equations yield:
 
-\[
+$$
 M_A=M_B.
-\]
+$$
 
 The familiar result is recovered as a deduction.
 
@@ -674,19 +674,19 @@ The familiar result is recovered as a deduction.
 
 From:
 
-\[
+$$
 M_A=m[S]+m[R],
-\]
+$$
 
-neither \(m[S]\) nor \(m[R]\) is individually known. One further independent MDP is required.
+neither $m[S]$ nor $m[R]$ is individually known. One further independent MDP is required.
 
 ### 14.6 One direct MDP can determine another target by remainder
 
 After determining `m[S]`, the mass of `R` follows from:
 
-\[
+$$
 m[R]=M_A-m[S].
-\]
+$$
 
 ### 14.7 MDP choice changes the epistemic quality of the answer
 
@@ -696,12 +696,12 @@ Density and weight can target the same mass address while contributing different
 
 The predicted acceleration of `R` depends on how `m[S]` was determined:
 
-\[
+$$
 \mathbf a[R]
 =
 \frac{\mathbf F_{\mathrm{net}}[R]}
 {M_A-m_{\mathrm{MDP}}[S]}.
-\]
+$$
 
 The mass value is therefore not a context-free number. It is an addressed value with a derivation history.
 
