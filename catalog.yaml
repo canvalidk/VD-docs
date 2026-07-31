@@ -693,11 +693,43 @@ files:
     dup_group: null
     note_name: vector_division_mass_estimation
     draft: d1
-    current: true
+    current: false
     variant: null
     orig_name: "vector_division_inertial_mass_measurement_vscode.md"
     informs: "vector_division_mass_estimation (Newton-analysis, home) -> nml2_1_lesson (copy placed 2026-07-27 at nml2.1/ level, teacher-background scope only)"
-    note: "ANALYSIS ARTICLE (569 lines, LaTeX-heavy): 'Welp... vector division is not defined' — why m = F/a has no vector meaning, and how inertial mass is actually inferred as a FITTED parameter from unaligned measured F and a (magnitude ratio vs projection vs componentwise estimators compared). Sorted from inbox 2026-07-27; given its own note folder rather than filed under mass_identification_pipeline — that note asks where a valid mass VALUE comes from in the prediction chain, this one asks what estimator recovers m from noisy measurement, a distinct question. Related by topic to the E10 pass in Newton/entry passes/, which cites the same vector-division obstruction as the reason E10's definiens is a characterisation, not an expression. Trailing '_vscode' dropped from the filename (editor-export artifact); orig_name recorded, rename lossless."
+    note: "ANALYSIS ARTICLE (569 lines, LaTeX-heavy): 'Welp... vector division is not defined' — why m = F/a has no vector meaning, and how inertial mass is actually inferred as a FITTED parameter from unaligned measured F and a (magnitude ratio vs projection vs componentwise estimators compared). Sorted from inbox 2026-07-27; given its own note folder rather than filed under mass_identification_pipeline — that note asks where a valid mass VALUE comes from in the prediction chain, this one asks what estimator recovers m from noisy measurement, a distinct question. Related by topic to the E10 pass in Newton/entry passes/, which cites the same vector-division obstruction as the reason E10's definiens is a characterisation, not an expression. Trailing '_vscode' dropped from the filename (editor-export artifact); orig_name recorded, rename lossless. RECORDED EXCEPTION (2026-07-30): current flipped to false when d2 was added, per the default highest-dN rule, but d2 does NOT supersede this file in content — d2 is a compact type-theoretic formalisation and carries NO estimator material (errors-in-variables, Deming/ODR, the g(cos-theta) non-uniqueness result, the sources list all live here only). Treat d1 as the fuller treatment; flip current back if the highest-dN reading proves misleading."
+  - path: "Newton-analysis/vector_division_mass_estimation/type_theoretic_analysis_newton_II_mass_recovery_d2.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: draft
+    dup_group: null
+    math_normalized: 2026-07-30
+    math_flags: null
+    note_name: vector_division_mass_estimation
+    draft: d2
+    current: true
+    variant: null
+    orig_name: "type_theoretic_analysis_newton_II_mass_recovery.md"
+    informs: null
+    note: "TYPE-THEORETIC ANALYSIS (~260 lines): the same vector-division obstruction as d1, re-read as a typing fact. Two corners of Newton II are TOTAL on their input types (PositiveMass x AccelerationVector -> ForceVector; ForceVector x PositiveMass -> AccelerationVector); the mass corner is CHECKED, because ordinary vector types do not encode the value-level relation (a != 0 and exists m>0 with F = ma) that a positive mass requires. Gives MassRecoveryResult with four outcomes, plus refined-type (CodirectionalNonzeroPair) and partial-function formulations, and hands the measured-vector case to an EstimationPolicy — which is d1's subject. Sorted from inbox 2026-07-30. Draft order confident (d1 states the obstruction, d2 formalises it) but supersession is PARTIAL — see the recorded exception on d1. Normalization was a no-op: already in $/$$ form at source, so nothing banked to _math_originals/."
+  - path: "Newton-analysis/vector_division_mass_estimation/why_the_mass_entry_cannot_be_short.md"
+    type: md
+    role: primary
+    tags: []
+    project: null
+    status: draft
+    dup_group: null
+    math_normalized: 2026-07-30
+    math_flags: null
+    note_name: vector_division_mass_estimation
+    draft: unknown
+    current: null
+    variant: null
+    orig_name: null
+    informs: "vector_division_mass_estimation (Newton-analysis, home) -> E10 entry writing (LINK ONLY, no copy — the E10 pass and packet keep their fixed Newton homes and their internals are not edited from here)"
+    note: "AI-AUTHORED ARGUMENT (~260 lines, written at Can's request): why the E10 mass entry cannot be a short scalar definition. Carries the load-bearing bridge for this note — the brevity of E8/E9 is a SUBSIDY (their preconditions are discharged upstream by the types), so E10 pays full price as the only corner receiving none, and the check has nowhere else to live. Records the three independent routes to the same asymmetry (algebraic: vector division undefined; type-theoretic: d2's checked corner; dimensional: N vs m s^-2 are not like quantities, so quotition fails), the five patches that hid the determination step in IRIL/packet/E12, why the codirectionality fence fails (exact alignment has measure zero, so the exception is the rule), and the catastrophic fork it must not evoke ('not codirectional -> no mass' instead of 'estimate a codirectional pair first'). Sorted from inbox 2026-07-30 into this note per Can's instruction. DRAFT ORDER DELIBERATELY UNASSIGNED: it is not a successor pass over d1/d2 but a differently-aimed document (entry-writing craft, not mass estimation), so no dN was invented — ORGANIZATION.md 'assign dN only when the order is confident'. Open items it leaves: E10's routing wording, the E10/E12 division of labour, headword suffixes. Normalization was a no-op: already in $/$$ form at source, so nothing banked."
   - path: "Newton-analysis/VD_Newton_Analysis v.0.1.pdf"
     type: pdf
     role: primary
@@ -1186,7 +1218,7 @@ files:
     variant: null
     orig_name: null
     note: "AI-CONTEXT COMPILATION (authored 2026-07-14, not a copy): drafting brief for the NML2.1 lesson doc (ratification open item 1) — thesis, content spec (addressed triplet, three-masses lecture, additivity grades, decorrelation), stratification, licence table, exit burn, bank assignments, v1-reuse map, source set. Never iterated; the lesson drafted FROM it becomes this folder's note (nml2.1_lesson d1). Refresh from nml2_split_ratification + nml2_question_bank + frozen nml2_lesson d1 if those change."
-  - path: "Newton/nml/nml2/nml2.1/NML2_1_CONTENT.md"
+  - path: "Newton/nml/nml2/nml2.1/NML2_1_CONTENT_d1.md"
     type: md
     role: primary
     tags: [content-spec]
@@ -1196,12 +1228,28 @@ files:
     math_normalized: 2026-07-28
     math_flags: null
     note_name: nml2_1_content_spec
-    draft: null
-    current: null
+    draft: d1
+    current: false
     variant: null
-    orig_name: null
+    orig_name: "NML2_1_CONTENT.md"
     informs: "nml2_1_content_spec (same folder) -> nml2_1_lesson (LINK ONLY, no copy — the spec already sits in the receiving folder; canonical content authority per the lesson's priority note)"
-    note: "CONTENT SPECIFICATION (self-described 'not yet a timed lesson plan'): records all content available to NML2.1 — addressed triplet, thin net-force, three mass meanings, mass-reuse licence, three routes to trajectory, exercise/demo bank, exclusions. NOT the nml2.1_lesson d1 reserved by the drafting context (that slot is for the integrated lesson doc); this is an intermediate working doc between the drafting brief and the lesson. Filed from inbox 2026-07-17."
+    note: "CONTENT SPECIFICATION (self-described 'not yet a timed lesson plan'): records all content available to NML2.1 — addressed triplet, thin net-force, three mass meanings, mass-reuse licence, three routes to trajectory, exercise/demo bank, exclusions. NOT the nml2.1_lesson d1 reserved by the drafting context (that slot is for the integrated lesson doc); this is an intermediate working doc between the drafting brief and the lesson. Filed from inbox 2026-07-17. Retro-numbered to _d1 on 2026-07-30 when d2 arrived; orig_name recorded, rename lossless. dup_group d32 still holds (byte-identical to the nml2.2/ai-context-bundle copy) but that copy is now STALE against d2 — refresh it if nml2.2 needs the checked-mass-recovery material."
+  - path: "Newton/nml/nml2/nml2.1/NML2_1_CONTENT_d2.md"
+    type: md
+    role: primary
+    tags: [content-spec]
+    project: nml2.1
+    status: draft
+    dup_group: null
+    math_normalized: 2026-07-30
+    math_flags: null
+    note_name: nml2_1_content_spec
+    draft: d2
+    current: true
+    variant: null
+    orig_name: "NML2_1_CONTENT_d2_checked_mass_recovery (1).md"
+    informs: "nml2_1_content_spec (same folder) -> nml2_1_lesson (LINK ONLY, no copy — as d1)"
+    note: "CONTENT SPECIFICATION d2 (848 lines, superset of d1 — every d1 heading survives). The addition is checked mass recovery: section 6 is split into 6.1 determining net force / 6.2 determining inertial acceleration / 6.3 determining inertial mass, and section 5 of the exercise bank widens from 'zero, missing, undefined, and unlicensed cases' to include COMPATIBILITY and ESTIMATION cases. This is the lesson-side landing of the Newton-analysis note vector_division_mass_estimation: the lesson now teaches the bounded mass-determining operation for suitable inputs and IDENTIFIES that non-codirectional measured vectors need an estimation procedure, without teaching that procedure. Draft order confident (superset of d1, and d2 was in the source filename). Sorted from inbox 2026-07-30; trailing browser-download artefact ' (1)' and the descriptor '_checked_mass_recovery' dropped so the name follows the ORGANIZATION.md dN convention — orig_name recorded, rename lossless. Normalization was a no-op: already in $/$$ form at source."
   - path: "Newton/nml/nml2/nml2.1/NML2_1_LESSON_PLAN_d1.md"
     type: md
     role: primary
