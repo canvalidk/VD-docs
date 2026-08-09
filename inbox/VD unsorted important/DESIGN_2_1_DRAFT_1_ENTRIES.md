@@ -191,5 +191,55 @@ free-particle :=
 
 A free-particle or free body is a point-particle whose trajectory is not being
 influenced by any other object, i.e. is free from influence. This may be a
-massive point-particle, or a massless point-particle like a photon.
+material-object represented as a point-particle, or a massless point-particle
+like a photon.
+```
+
+### [E7] inertial-acceleration-material-object
+
+```text
+inertial-acceleration-material-object :=
+
+For a material-object with a trajectory described in an inertial-frame,
+the acceleration read from that trajectory at a selected time.
+```
+
+### [E8] inertial-acceleration-material-object
+
+```text
+inertial-acceleration-material-object :=
+
+For one material-object, its net-force-material-object divided by
+its inertial-mass-material-object.
+```
+
+### [E9] net-force-material-object
+
+```text
+net-force-material-object :=
+
+For one material-object, its inertial-mass-material-object times
+its inertial-acceleration-material-object.
+```
+
+### [E10] inertial-mass-material-object
+
+```text
+inertial-mass-material-object :=
+
+For one material-object, the positive scalar that multiplies its
+inertial-acceleration-material-object to give its net-force-material-object.
+If both are exact, check that they are codirectional and then divide the
+net-force magnitude by the inertial-acceleration magnitude; a zero-zero pair
+leaves the scalar undetermined. If either is measured, estimate two underlying
+codirectional vectors and then recover the positive scalar relating them.
+```
+
+### [E11] net-force-material-object
+
+```text
+net-force-material-object :=
+
+For a material-object in an inertial-frame, its vector in newtons. There are
+exactly two ways to obtain this vector.
 ```

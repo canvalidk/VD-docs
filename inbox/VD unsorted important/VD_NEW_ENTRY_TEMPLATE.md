@@ -84,9 +84,9 @@ Question or trace moment this helps with:
   Plain-language question, lookup, or trace situation.
 
 Witness kind:
-  point-particle | massive-particle | free-particle | reference-frame |
+  point-particle | material-object | free-particle | reference-frame |
   inertial-frame | mechanical-system | interacting-forces-set |
-  attached-force | acting-object | interaction-candidate |
+  contributing-force | acting-object | interaction-candidate |
   interaction-pair | other:
 
 Slots read:
