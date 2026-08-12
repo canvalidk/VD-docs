@@ -2033,6 +2033,38 @@ files:
     orig_name: null
     informs: null
     note: "NML3 YOUNGER-STUDENT ADD-ON: SUPPLIED FORCE ACCOUNTS AND NEWTON METERS. Self-described status: mock lesson add-on, extending NML3_YOUNGER_STUDENT_MOCK_LESSON with problem formats that supply force values directly so students can practise force addition before the acting-object machinery opens. Filed FLAT beside the mock lesson by the same user instruction 2026-08-09; the two are companion documents, NOT d1/d2 of one note (the option to merge them into a single dN note was offered and declined). Core claim: NML3 creates a classroom problem type that was unsafe in NML2.1, because a newton meter reading 8 N does not by itself establish that the net force is 8 N - the meter supplies the VALUE OF ONE FORCE CONTRIBUTION, and the net force is the sum of the whole account. Contents: three ways to supply force information (direct values, a story with already-identified forces, a meter reading), a three-stage newton-meter progression (one meter one force; meter plus another force; meter reading equal to net force only by cancellation), a core problem bank (same-direction, opposing, balanced accounts, more than two forces cancelling), two-dimensional addition including the rule that components are not automatically separate forces, the distinctive NML3 ending (one net-force vector has many decompositions; same resultant from different physical accounts; the inverse question fails), three question formats that deliberately skip acting-object machinery, teacher boundary notes, a ten-step mini-sequence, an exit bank, and a compact summary. Two teacher guards are the substance. Sec 21: supplied-force problems must not silently become universal methodology - THIS PROBLEM SUPPLIES THE FORCE ACCOUNT is a classroom convenience, while THE PHYSICAL WORLD ARRIVES WITH A FORCE ACCOUNT ALREADY LABELLED is false, and the lesson should say so out loud. Sec 22: never call a meter reading the net force - the clean first-stage case is that the meter force is the only force in a simplified account, and later examples show a reading that numerically equals net force only because the other contributions cancel. Sec 20 lists the six questions being skipped (why an interaction counts as a force, which acting object produced it, activation condition, force law, action vs reaction member, how completeness was shown) and insists they are SUPPLIED INPUTS rather than omissions. Sorted from inbox 2026-08-09. NOT an excavated note - no dN model applied. Normalization no-op: no math delimiters to convert, nothing banked."
+  - path: "Newton/nml/nml3/NML3_PRIMITIVE_EXERCISE_BANK_FORCE_ACCOUNTING.md"
+    type: md
+    role: primary
+    tags: [exercise-bank, pedagogy, force-account, IFS, closure, summation, problem-bank]
+    project: nml3
+    status: draft
+    dup_group: null
+    math_normalized: null
+    math_flags: null
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: null
+    note: "NML3 PRIMITIVE EXERCISE BANK - FORCE-ACCOUNT MEMBERSHIP, CLOSURE, AND SUMMATION. Self-described status: working exercise-bank note; audience introductory university mechanics, many exercises adaptable downward. Sec 0 states the teaching boundary the whole bank is built around: NML3 does not yet teach the concrete physical conditions under which springs, gravity, contacts, strings, or fluids produce force contributions - it prepares the machinery that will CONSUME those conditions once later entries supply them. Works over IFS(M|C), the interacting-forces-set for a target material object M in an accounting context C, with contributing-force records A, B, C carrying vector values vec(A), vec(B), .... 27 primitive exercises in five parts. Part I (1-11) consumes a supplied closed IFS: forward sum, recovering one known member, membership filter before arithmetic, net force alone failing to recover the IFS, membership-known versus value-known, duplicate-key rejection, distinct equal-valued members staying distinct, discovery order not ordering the set, cancellation not deleting membership, the closed empty IFS, and same resultant from different accounts. Part II (12-18) covers residuals, inverse calculations, and correct halts: an open-account residual is not a force, a matching partial sum cannot close an account, several unknown-valued members, recovering only a component, components not being additional members, closed-account mismatch meaning AUDIT DO NOT INVENT, and closed vs open form of the same algebra. Part III (19-24) prepares for future existence/admission rules: routing supplied existence-condition results, exhaustive-domain closure audit, closed-empty-by-exclusion versus no-successful-discovery, one acting object contributing once to each of several target accounts, target-and-context filter, and a new member after purported closure. Part IV (25-27) is control symbols, cardinality, and trace hygiene: the zero accumulator and closer signal are NONMEMBERS, count forces from keys rather than written terms or distinct values, and sorting the four non-collapsible item types. Part V gives suggested worksheet sequences (a minimal first sequence and paired contrast sheets), evaluator codes, criteria of instillment, and sec 7's explicit list of what these exercises deliberately do NOT teach. Also carries a standard sheet anatomy (sec 2) and an answer vocabulary to install (sec 3). Sorted from inbox 2026-08-11. NOT an excavated note - no dN model applied, filed flat beside the other NML3 documents. Normalization no-op: no math delimiters to convert, nothing banked."
+  - path: "Newton/nml/nml3/NML3_FORCE_SUM_VOCABULARY_RESERVOIR.md"
+    type: md
+    role: primary
+    tags: [vocabulary, terminology, residual, force-sum, reservoir, pre-decision]
+    project: nml3
+    status: draft
+    dup_group: null
+    math_normalized: null
+    math_flags: null
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: null
+    note: "NML3 FORCE-SUM VOCABULARY RESERVOIR. Self-described status: broad vocabulary collection. Purpose: collect words and phrases that already carry useful residual meaning around the force-sum law WITHOUT yet deciding which should become formal VD headwords. Deliberately keeps a wide net - overlapping terms, old-fashioned terms, modern pedagogical language, and terms that are dangerous because they carry multiple meanings are all retained; the aim is to preserve available semantic material, not to choose terminology. 21 sections. Secs 1-17 are the collection proper, grouped by the job the word does: interaction/source/provenance; membership, belonging and admission; force-instance and individuality language; collections, accounts and inventories; target and boundary language; composition and combination; result/resultant/net-effect; equivalence without identity; resolution, decomposition and the DANGEROUS INVERSE DIRECTION; cancellation, balance and zero-resultant; completeness and closure; search, discovery and generation; residual and mismatch; value, magnitude and representation; measurement and supplied-information; diagram and modelling; and historical Newtonian wording worth preserving. Sec 18 shortlists words with especially strong residual potential, split by side (source/existence: interaction, source, origin, exerted on, acting on, impressed on, attached, contribution, constituent, individual force; plus membership, composition, and closure sides). Sec 19 quarantines semantically dangerous words. Sec 20 gives candidate phrase contrasts for future residual writing. Sec 21 fixes the document's role: it functions as a WORD RESERVOIR, and a later pass interrogates each promising term with a fixed five-question probe (what reaction is already installed by this word; what part of NML3 could use that reaction; what misleading baggage does it carry; is the reaction culture-installed strongly enough to rely on in a residual; would it serve better as headword, residual phrase, exercise label, teacher-facing term, or anti-misconception contrast). Explicit: NO TERMINOLOGY DECISION IS IMPLIED BY INCLUSION. Directly serves the residual layer that [[entry_writing_guide_auditable_compositions]] governs - the guide's rule is that residuals may only be composed from already-installed reactions, and this reservoir is the stock of candidates. Sorted from inbox 2026-08-12. NOT an excavated note - no dN model applied, filed flat beside the other NML3 documents. Normalization no-op: no math delimiters to convert, nothing banked."
   - path: "Newton/vd-evaluator-brief.md"
     type: md
     role: primary
@@ -2203,6 +2235,22 @@ files:
     orig_name: alpha_and_the_one_draft.md
     informs: alpha_and_the_one (d1) -> triplet_as_admission_event (informing copy placed there)
     note: "Human original; the curated 'best/' pick, so treated as current over the gems."
+  - path: "Theory/authority_documents/authority_documents_and_name_free_language_structure_d1.md"
+    type: md
+    role: primary
+    tags: [authority-document, name-free-language, gauge-choice, substitution, foundations]
+    project: null
+    status: draft
+    dup_group: null
+    math_normalized: "2026-08-11"
+    math_flags: null
+    note_name: authority_documents
+    draft: d1
+    current: true
+    variant: null
+    orig_name: authority_documents_and_name_free_language_structure.md
+    informs: null
+    note: "AUTHORITY DOCUMENTS AND THE NAME-FREE STRUCTURE OF LANGUAGE. Self-described status: working derivation note, dated 11 August 2026; records what has been earned and what remains provisional, and notes the route begins to RESEMBLE the VD without yet deriving it. Central idea (sec 0): words are arbitrary, but locally changing a word changes what a sentence does; the resolution is that a word can be changed without substantive consequence only under a COMPLETE SUBSTITUTION, where every causally relevant use changes together. A local edit changes which already-installed handle is used; a complete substitution changes the handle assignment while preserving the underlying structure. That raises the note's driving question - if surface names are arbitrary, what stores the choice of one naming arrangement rather than another? - and answers it with a proposed new mathematical object, the AUTHORITY DOCUMENT, which represents a language's arbitrary naming choices. 'Represents' is meant as a matrix represents a linear transformation: a mistaken authority document still represents a naming arrangement even if no community ever realised it (sec 3, representation is not realisation). Sec 4 casts authority documents as GAUGE CHOICES. The note's structural claim: a language with names removed is NOT a simple graph of words with pairwise references - that is too lossy (sec 6) - but a recursively structured collection of whole linguistic contexts, with surface names added afterward by the authority document. Further sections: the name-free substitution test (5), entry numbers not being part of the ontology (7), the role of sets and the treatment of synonyms (8), a worked 'Cat likes to eat fish' example (9) with the substitution mechanics (10) and why it is richer than search-and-replace (11), cycles expected but triplets not yet selected (12), and an emerging correspondence with the VD (13). Secs 14-16 are the honesty ledger - what has been earned, what has NOT, and technical cautions - followed by a compact working model (17), a concrete substitution trace (18), research correspondences to investigate later (19), and a working summary (20). Sorted from inbox 2026-08-11 into a NEW note folder; d1 assigned as the first draft of a new note (no predecessor in Theory). Math-normalized on intake: 135 edits (display-delim-block, inline-delim), all gates passed, no soft flags; original banked at _math_originals/2026-08-11/."
   - path: "Theory/best/actually_there_prediction_sets_synthesis (2).md"
     type: md
     role: reference
