@@ -11,7 +11,8 @@ $RECYCLE.BIN/
 *.tmp
 *.bak
 .*.lock
-~$*            # Word/Excel lock files (e.g. ~$report.docx)
+# Word/Excel lock files (e.g. ~$report.docx)
+~$*
 
 # ---- Secrets — never commit these ----
 *.env
