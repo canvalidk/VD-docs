@@ -3,6 +3,12 @@
 *Amended 2026-08-20: records and notes. The kind model below replaces the earlier
 assumption that everything filed into a branch is an excavated note.*
 
+*Amended 2026-08-24: discussions — the folder form for grouping records, and
+statement-records as the carrier of an argument's identity.*
+
+*Operational guide: `SORTING.md` — the sorting questions in order, promotion
+out of a discussion, and the per-pass audits.*
+
 ## This is an idealized model, not a hard invariant
 
 These are the rules the folders *aim* at. Because material is actively being
@@ -27,7 +33,8 @@ Every document in a branch is one of two kinds.
 no current, no direction. Note-hood is reached only by an explicit act of
 recognition (below).
 
-Both kinds live in **their own folder**, solo or not.
+Both kinds live in **their own folder**, solo or not. (One recorded amendment:
+a bare record inside a discussion may sit flat — see *Discussions*.)
 
 ### The test, when a document has more than one file
 
@@ -111,6 +118,62 @@ record the abandonment in the note field rather than rewriting the history.
 someone *argued* it was one. Draft lines that were reasoned through survive
 untouched; a lone `d1` that was assigned at intake, never argued, reverts to a
 record — catalog-only, with folder and filename left alone.
+
+## Discussions
+
+*Added 2026-08-24.*
+
+A **discussion** is a folder that groups two or more records. It is a **filing
+choice, not a claim**: like every folder it is cosmetic, may be regrouped
+freely, and nothing addresses it. There is **no membership test** — the picture
+that motivates a discussion is records that address each other, an argument,
+but the picture is a guide, not a gate.
+
+- A discussion holds **only records**. Notes stay at branch level: a note is
+  directional, aimed outward at a reader who is not in the discussion.
+- The folder is prefixed **`_dscn_`**.
+- **Depth:** a record with corrections, superseded versions or renditions keeps
+  its own folder inside the discussion. A record with none of those may sit
+  flat — its folder would exist only to bind attachments it does not have.
+  (This is the one amendment to "both kinds get their own folder"; the nml
+  flat-working-notes convention of 2026-07-07 is the precedent.)
+- The catalog carries **no per-file membership field**: filing is shown by the
+  path, and the discussion itself is described in the catalog's `folders:`
+  note. Why no field is needed: see statement-records, below.
+
+### The development principle (2026-08-21)
+
+A folder's permitted contents follow from whether its object is **still being
+developed**.
+
+- **Note** = under development = a workbench: drafts, plus borrowed
+  `-informing` inputs.
+- **Record** = terminal: corrections, superseded versions, renditions —
+  nothing borrowed.
+- **Discussion** = only records: nothing borrowed anywhere.
+
+An `-informing` copy is therefore a **kind-detector**: inside a record's folder
+or a discussion it means the copy is stale or the kind is wrong. Audit
+assertion: **no `-informing` file inside a discussion or any record's folder.**
+
+The two filing outcomes are independent: a record may be filed in a discussion
+*and* inform a note. The record stays home; only its `-informing` copy enters
+the note's workbench.
+
+### Statement-records: how an argument gets an identity
+
+A discussion folder makes records legible; it cannot carry an argument's
+identity — nothing addresses a folder, and path prefixes decay. When the shape
+of an argument is worth keeping — its reading order, who answers whose open
+question — write it down as an **ordinary record**, filed in the discussion
+beside its members. The filename makes the argument citable, the record
+survives any regrouping, and most discussions never need one.
+
+A statement-record can also state an argument its folder cannot hold: members
+in other branches (cited by filename, which resolves across branches), or a
+note that participates while staying at branch level. This is why membership
+needs no catalog field: participation beyond the folder, when worth recording,
+is content, not metadata.
 
 ## Names: files identify, folders label
 
