@@ -1,6 +1,7 @@
-> **Informing copy — do not edit here.**
-> **Home note:** `tracks_to_particles`, draft `d4` — `Newton-analysis/tracks_to_particles/vd_trackability_scene_to_particles_d4.md`.
-> Placed in `rigidity_composition` because lumping supplies the 'one target, with a count' premise the additivity derivation starts from. This is a read-only copy; refresh from the home note if the source changes.
+> **Informing copy - do not edit here.**
+> **Home:** the `particle_and_mass_origins` discussion - `Newton-analysis/_dscn_particle_and_mass_origins/tracks_to_particles/vd_trackability_scene_to_particles_d4.md`.
+> **Placed in** `scene_trackability` because it is this note's own subject matter: section 0 the ground, section 1 the tracker and its four properties (finite-but-densifiable, the tolerance floor, proxy-not-account, residual placement), section 2 the two coverage residues. Section 3 is where this note's jurisdiction ends and the lumping note's begins.
+> This is a read-only copy; refresh from home if the source changes.
 
 ---
 
