@@ -6,6 +6,10 @@ order for each document leaving `inbox/`.*
 
 ## 0. Is it ours to hold?
 
+Custody is by kind (`ORGANIZATION.md`, *Custody*): records, reference, guides
+and history are ours; the live production surface is VD-Newton's. A superseded
+packet, pass or decision is history and comes here; a live one does not.
+
 Byte-identical to an already-homed copy → delete the staging copy (dedupe
 rule). VD-Newton's active copies are authoritative — ingesting a copy here is
 never grounds to demote or delete the source. Decision records arriving in

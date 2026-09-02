@@ -6,6 +6,9 @@ assumption that everything filed into a branch is an excavated note.*
 *Amended 2026-08-24: discussions — the folder form for grouping records, and
 statement-records as the carrier of an argument's identity.*
 
+*Amended 2026-09-02: custody — which documents this repo is responsible for,
+and which belong to VD-Newton; the NML lesson drafts as a recorded shared exception.*
+
 *Operational guide: `SORTING.md` — the sorting questions in order, promotion
 out of a discussion, and the per-pass audits.*
 
@@ -242,6 +245,61 @@ receiving branch develops its **own separate** one from it.
 - `-informing` copies are explicit exceptions to "everything in a folder belongs
   to that object", and are **never edited in place** — edits happen only at home.
   Like any copy they can drift, so the catalog links them back for refresh.
+
+## Custody: what this repo is responsible for
+
+*Ratified 2026-09-02.*
+
+Two repositories hold Newton material: this one (VD-docs, the managed context)
+and VD-Newton (the entry-production surface). Many documents exist in both. The
+responsibility for a document is split **by kind, not by topic** — the same
+subject can have a live surface there and a record here.
+
+**VD-docs is responsible for:**
+
+- **terminal records and their relations** — corrections, supersessions,
+  renditions, informs; Newton-analysis and its discussions above all;
+- **Theory and Core reference**, and the **guides**;
+- **history** — superseded packet versions, past entry-writing passes, earlier
+  lesson drafts, the v0.1–v0.6 snapshots;
+- the **catalog**, as the inventory of all of the above.
+
+**VD-Newton is responsible for:**
+
+- the **live production surface** — current entry packets and passes, the
+  current entry structure, the engine;
+- **ratified decisions while they steer production** — numbering, sequence,
+  terminology;
+- its own orientation and steering files.
+
+This is the same boundary VD-Newton states from its side (`AGENTS.md`: *VD-docs
+is the managed-context authority; VD-Newton owns the active Newton
+entry-production surface*). Both sides should keep saying it the same way.
+
+Consequences:
+
+- **A document changes custody when it changes kind.** A packet, pass or
+  decision that has been superseded is history, and history is ours: it comes
+  here. A record here that Newton needs is read from here or copied there as a
+  context copy; it does not move.
+- **A live document has one home.** A copy of our record in VD-Newton is a
+  context copy; a copy of their live surface here is history once it is
+  superseded, and not before. Ingesting a copy is never grounds to demote or
+  delete the source (the standing transfer-bundle rule).
+- **Decision records stay at source while they steer** — the 2026-08-05 rule,
+  now a consequence rather than a preference.
+- **Per-file custody is ruled per document**, at intake or on a pass, and
+  recorded in the catalog note. This section gives the rule, not the rulings;
+  VD-Newton's 2026-08-26 pass checklist (19 rows) is outstanding.
+
+### Recorded exception: the NML lesson drafts
+
+The NML lesson drafts (`Newton/nml/` here, `08_nm_lesson_drafts/` there) are
+**homed here but shared**. A lesson draft needs many documents to contribute to
+it and informs many others, so it cannot be held to one side, and it is neither
+a note nor a record exactly. The `nml*` folders were already outside the folder
+rules by the 2026-07-07 flat convention; this extends the exception to custody.
+VD-Newton holds working copies while a lesson is being drafted.
 
 ## Catalog is the single source of truth
 
