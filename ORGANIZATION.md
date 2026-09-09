@@ -288,6 +288,11 @@ Consequences:
   delete the source (the standing transfer-bundle rule).
 - **Decision records stay at source while they steer** — the 2026-08-05 rule,
   now a consequence rather than a preference.
+- **The documents that carry traffic are history the moment they are issued**
+  (added 2026-09-08). Receipts answering a branch's pass, returned checklists
+  and custody handovers are records of this repo: they are issued from
+  `outbox/<branch>/` and stay there; the branch keeps a context copy. The
+  `inbox` folder note in the catalog remains the ledger of both directions.
 - **Per-file custody is ruled per document**, at intake or on a pass, and
   recorded in the catalog note. This section gives the rule, not the rulings;
   VD-Newton's 2026-08-26 pass checklist (19 rows) is outstanding.
