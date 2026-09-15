@@ -9,6 +9,10 @@ statement-records as the carrier of an argument's identity.*
 *Amended 2026-09-02: custody — which documents this repo is responsible for,
 and which belong to VD-Newton; the NML lesson drafts as a recorded shared exception.*
 
+*Amended 2026-09-11: entry-structure criticisms — the Criticism History and the
+structure-justifications mirror as two spaces, the criticism fields, and the
+cycle that connects them to VD-Newton's rulings.*
+
 *Operational guide: `SORTING.md` — the sorting questions in order, promotion
 out of a discussion, and the per-pass audits.*
 
@@ -306,6 +310,56 @@ a note nor a record exactly. The `nml*` folders were already outside the folder
 rules by the 2026-07-07 flat convention; this extends the exception to custody.
 VD-Newton holds working copies while a lesson is being drafted.
 
+## Entry-structure criticisms: two spaces and a cycle
+
+*Added 2026-09-11.*
+
+Criticisms and refinements of the Newton **entry structure** — which entries
+exist, what each must carry, where a wall or input sits — arrive from every
+branch, and each is about a **potential future decision** at VD-Newton. Material
+of that kind cannot be organised by the current nml or E-number tree: the tree
+encodes the decision the material is arguing to change, and would always be one
+reset behind its contents. It is held in two spaces with different lifetimes.
+
+- **The Criticism History** — `Newton-analysis/criticism_history/`. Every
+  entry-structure criticism, whatever branch wrote it, as a **record**. Flat and
+  chronological; accretes and is never edited; keeps the losers. A recorded
+  exception to the folder shapes: a bare folder of many records at branch
+  level, which is neither a discussion (nothing has to address anything) nor a
+  record-folder (nothing binds). A discussion may be coined *inside* it when an
+  argument visibly crystallises. Until the rename is run the folder still
+  carries its former name `_dscn_entry_structure/`; the prefix is then a
+  recorded lie, not a discussion.
+- **Structure justifications** — `Newton/structure_justifications/`, a sibling
+  of `nml/`. One subfolder per law-house or seam of the **current** structure;
+  each holds Newton's decision records for that house and `-informing` copies
+  of the criticisms that justify its current cut, optionally compiled into a
+  house justification that is redrafted at every ruling. A recorded exception:
+  a workbench that holds copies and records together, neither note nor
+  discussion. Its guide is `Newton/structure_justifications/STRUCTURE_JUSTIFICATIONS.md`.
+
+**The test for a criticism** — *what would change if Newton accepted it?* A list
+of entries, walls or corners → it is a criticism and its home is the history.
+Something inside an entry (an estimator, a lumping criterion, which concrete
+acting objects exist) → it belongs to another discussion, however much it talks
+about entries.
+
+**Fields** (records in the history; see *Catalog*): `criticises` — the house
+key(s) it would change; `at_commit` — the structure it was written against, by
+reference, never guessed; `fate` — `open` | `accepted` | `rejected` |
+`withdrawn` | `superseded`, with `fate_ref` naming the ruling. **A fate other
+than `open` is a ruling** and is written when Newton's answer comes back.
+
+**The cycle.** Arrive (`inbox/`) → recognise (SORTING.md §2a) → address
+(`criticises`, `at_commit`) → argue → hand to Newton (`outbox/`) → **fate**
+(Newton's ruling written on the row, the ruling ingested as a record) →
+**restock the mirror** (the curation pass: house by house, add what is now
+load-bearing as `-informing` copies, surface what no longer is as fossils,
+redraft the justification, pin the commit) → loop. The last two operations are
+the **new responsibility** recognised 2026-09-11: nothing in the repo had ever
+gone back through the history with the current structure in hand. The restock
+is triggered by a ruling or a reset, never by an arrival.
+
 ## Catalog is the single source of truth
 
 `catalog.yaml` carries everything filenames and folders can't. Fields (ones added
@@ -334,6 +388,15 @@ or changed by the 2026-08-20 kind model marked ‡):
 - `tags`, `project`, `status`, `dup_group`, `note`
 - `math_normalized`: ISO date the file was math-normalized, or null
 - `math_flags`: soft flags raised by normalization, else null
+- **`criticises`** (2026-09-11): Criticism History records — the house key(s)
+  in `Newton/structure_justifications/` whose cut would change if Newton
+  accepted the record
+- **`at_commit`** (2026-09-11): the entry structure the criticism was written
+  against — `VD-Newton@<sha>`, or `VD-docs@<sha>` when that is what the record
+  pins; null when unknown
+- **`fate` / `fate_ref`** (2026-09-11): `open` | `accepted` | `rejected` |
+  `withdrawn` | `superseded`, and the ruling it rests on; anything but `open` is
+  a ruling
 
 ## Math normalization on intake
 

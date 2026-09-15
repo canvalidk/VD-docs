@@ -29,6 +29,18 @@ The branch line: analysis of any type belongs in Newton-analysis, unless more
 directly addressed to the Newton branch (bug reports, to-do lists). Otherwise:
 characteristically best-suited branch.
 
+## 2a. Is it a criticism of the entry structure?
+
+*Added 2026-09-11.* Ask: **what would change if Newton accepted it?** A list of
+entries, walls or corners → it is a criticism, and its home is the **Criticism
+History** (`Newton-analysis/criticism_history/`, still named
+`_dscn_entry_structure/` on disk until renamed) whatever branch wrote it; the
+folder it was written in keeps an `-informing` copy. Something inside an entry
+→ it is not; continue with question 3. On intake write `criticises` (house
+keys from `Newton/structure_justifications/`) and `at_commit` (the structure
+it was written against, by reference — null if unknown, never guessed); `fate`
+starts `open`. See `ORGANIZATION.md`, *Entry-structure criticisms*.
+
 ## 3. New object — or a new version of an existing one?
 
 The consequential question. If it succeeds something, the successor test
@@ -86,6 +98,8 @@ defect.
   surfaced, not deleted).
 - Every `_note_` folder holds a `kind: note` file and vice versa (recorded
   folder-less exceptions aside).
+- Every record in the Criticism History carries `criticises` and `fate`; no
+  `fate` other than `open` without a `fate_ref`.
 - When the pass touches one of the grandfathered notes still carrying
   `direction: null`, ask the user for its direction line — "state one at next
   touch" is standing.
