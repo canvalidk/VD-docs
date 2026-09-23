@@ -47,3 +47,14 @@ The three 2026-09-05 files (`mass_estimation_zero_zero_two_cases`,
 `mass_estimator_originality_research_2026-09-05`,
 `mass_estimator_additional_derivations_2026-09-05`) predate the session, were
 filed on the user's instruction the day they were written, and are flat members.
+
+## Added 2026-09-23: one record folder and one reference paper at flat level
+
+- `mass_estimator_equation/` is a **member**: the 2026-09-21 specification of
+  the current estimator (ratio of mean compatible magnitudes), received from
+  VD-Newton. It is one record in its own folder. `README.md` is the record, and
+  the PDF, equation images and standalone code are parts of it. It is not bound
+  to `inertial_mass_estimator_full_working_spec_d1.md`; that call is the user's.
+- `SIM-38-2074.pdf` is a **reference paper** (Morris, White & Crowther 2019, on
+  simulation studies), placed here by the user. It is not a record of the
+  argument, and not part of `literature_review/`.
