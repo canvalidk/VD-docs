@@ -88,3 +88,16 @@ filed on the user's instruction the day they were written, and are flat members.
   deliberately non-conclusive **investigation direction**, filed flat at the
   user's request. It asks what the default weighting may reference when
   readings are combined. It scopes and binds nothing.
+
+## Added 2026-09-24: one flat record, and where the studies now live
+
+- `old_information_in_the_prior_slot_2026-09-24.md` is a **flat member**,
+  written at the user's request. It shows algebraically that the exact
+  combination splits into old × new, so the old readings' law sits exactly
+  in the prior slot, and reads contribution 12's tilt parameters as carried
+  state (m₀, σ of log m). Its evidence is a preset of the tester repo. It
+  scopes and binds nothing.
+- **Reproducible studies now live in the tester repo,
+  `canvalidk/Mass-estimator-testor`**: one program where each study is a
+  recorded preset file. Records here cite a preset and a commit. It replaces
+  VD-Newton's `investigation/` scripts for new work.
