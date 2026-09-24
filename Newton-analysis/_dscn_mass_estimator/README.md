@@ -58,3 +58,33 @@ filed on the user's instruction the day they were written, and are flat members.
 - `SIM-38-2074.pdf` is a **reference paper** (Morris, White & Crowther 2019, on
   simulation studies), placed here by the user. It is not a record of the
   argument, and not part of `literature_review/`.
+
+## Added 2026-09-23 (evening): one flat record
+
+- `mass_estimator_regimes_priors_and_updating_2026-09-23.md` is a **flat
+  member**, filed as `kind: record` at the user's request. It is VD-Newton's
+  working contribution 12: readout regimes (dominance, minimax, switch rules),
+  the fitted prior weight λ and what it is (a prior factor on mass centred at
+  the instrument scale s, not knowledge of the object), log-normal priors, and
+  the estimator read as an update rule. Received from VD-Newton @`ecd1a1c`;
+  receipt `outbox/VD-Newton/PASS_RECEIPT_2026-09-23_ecd1a1c.md`. It scopes and
+  binds nothing. Its code and study links point into VD-Newton's
+  `investigation/` folder, which is where the reproducible studies live.
+
+## Added 2026-09-23 (night): `papers/`
+
+- `papers/` holds **published papers**, collected on the user's instruction as
+  standard citations. They are references, not records and not members:
+  nothing in this discussion is bound to them. `SIM-38-2074.pdf` (listed above)
+  moved into it the same night, alongside Wang et al. (2021) on penalized
+  Fieller intervals. `papers/README.md` carries the reading list, including the
+  citations not yet downloaded.
+- Not to be confused with `literature_review/`, which is the unsanctioned Codex
+  search *about* the literature.
+
+## Added 2026-09-23 (night): one investigation direction
+
+- `mass_estimator_default_weighting_direction_2026-09-23.md` is a short,
+  deliberately non-conclusive **investigation direction**, filed flat at the
+  user's request. It asks what the default weighting may reference when
+  readings are combined. It scopes and binds nothing.
