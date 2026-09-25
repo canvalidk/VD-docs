@@ -101,3 +101,40 @@ filed on the user's instruction the day they were written, and are flat members.
   `canvalidk/Mass-estimator-testor`**: one program where each study is a
   recorded preset file. Records here cite a preset and a commit. It replaces
   VD-Newton's `investigation/` scripts for new work.
+
+## Added 2026-09-24 (later): a second flat record
+
+- `vonmises_state_2026-09-24.md` is a **flat member**, written at the
+  user's request. It shows that in 2D each reading's likelihood is exactly a
+  von Mises law in the doubled angle, that contribution 12's λ is a von Mises
+  concentration, and that readings sharing only the mass combine by adding one
+  vector each (exact in 2D, approximate in 3D). Its peak is the
+  total-least-squares axis. It carries a reading list for following this
+  into the literature. It scopes the morning record and binds nothing.
+
+## Added 2026-09-24 (night): a third flat record
+
+- `excitation_weighting_premise_2026-09-24.md` is a **flat member**,
+  written at the user's request. From his premise (force and acceleration
+  are symmetric, and either can take any value), it argues that the weighting
+  over the true pushes must be flat in the vector, as Maxwell–Boltzmann is
+  flat in velocity. The 21 September equation is unchanged in 2D. The record
+  proposes a change to it in 1D and 3D, where it currently favours large or
+  small pushes. It names the argument's weak spot (accelerating frames) and a
+  second route (Herschel–Maxwell). Tests are a tie. It scopes and binds
+  nothing.
+
+## Added 2026-09-25: a fourth flat record, and a premise
+
+- `axis_splitting_and_the_24_september_change_2026-09-25.md` is a **flat
+  member**, written at the user's request. It isolates the 24 September
+  change as one weight on each candidate pair ($r^{d-2}$, identity in 2D),
+  and shows the new law of mass is the 21 September 2D law in every
+  dimension. It proposes **axis splitting** as a premise: a vector reading
+  and its axes read separately must give the same law. The user judged it
+  "too elementary to be wrong". It forces both the flat-in-vector weighting
+  and the mass factor the previous record left open. It also proves the
+  symmetric rule consistent and gives the exact width factor
+  $1+d/r^{\ast2}$ for many readings. On accuracy the two equations tie; the
+  gain is consistency. Evidence: four presets in the tester repo. It scopes
+  and binds nothing.
