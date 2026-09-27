@@ -138,3 +138,77 @@ filed on the user's instruction the day they were written, and are flat members.
   $1+d/r^{\ast2}$ for many readings. On accuracy the two equations tie; the
   gain is consistency. Evidence: four presets in the tester repo. It scopes
   and binds nothing.
+
+## Added 2026-09-25 (evening): a fifth flat record, and a new equation
+
+- `ours25b_the_many_reading_readout_2026-09-25.md` is a **flat member**,
+  written at the user's request. It pays the debt the axis-splitting record
+  left: with many readings, the readout's "size of the series" must be the
+  length of all the readings' true vectors stacked into one, not the plain
+  sum of their sizes. Axis splitting applied to the answer forces this,
+  given one rule for joining sets of readings. It names the result
+  **ours25b** (ours24's law with that readout) and presents the equation in
+  full. Consequences: a series and its axis readings agree exactly, the
+  recording frame does not matter, and the answer depends on the data only
+  through three sums. On accuracy it ties with ours24. Evidence: two presets
+  and a test file in the tester repo. It scopes the axis-splitting record and
+  binds nothing.
+
+## Added 2026-09-26: an audit record
+
+- `what_ours24_and_ours25b_change_in_earlier_results_2026-09-26.md` is a
+  **flat member**, written at the user's request after he asked whether the
+  new equation breaks earlier exact results. One proof broke: the additive
+  readout weight of `old_information_in_the_prior_slot_2026-09-24.md` §2.2.
+  Its exact replacement is a four-number state. Everything about the law
+  stands, including $m_0$, $\sigma_{\ln m}$ and λ as carried state. It also
+  lists what the 24 September law change moved (the 1D Liseo identity now
+  matches the reference-prior posterior, not Jeffreys; some 1D/3D closed
+  forms hold only as limits), a new exact result (equal channel energies
+  give exactly $s$), and what the equation note's next draft must not copy.
+  It scopes several records and binds nothing.
+
+## Added 2026-09-26: a credit and originality record
+
+- `credit_and_originality_of_the_mass_estimator_2026-09-26.md` is a **flat
+  member**, written at the user's request after the 26 September literature
+  check. It splits the estimator into its law and its readout, and credits
+  each part. The law is Lindley and Beale's (1966 discussion of Sprent), with
+  a prior shape that matches known defaults. The readout device (a ratio of
+  posterior means) is known. What was not found is the selection principle:
+  composition forcing the readout, and axis splitting forcing the weighting
+  and the many-reading pooling. It also lists who in the project contributed
+  what, and what can honestly be claimed in public. It extends the
+  5 September originality record and binds nothing.
+
+## Added 2026-09-26 (evening): ours26, per-axis noise
+
+- `ours26_per_axis_noise_2026-09-26.md` is a **flat member**, written at the
+  user's request. Every equation up to ours25b assumed one noise pair for all
+  axes; ours26 drops that. Walked by what stays forced: the law becomes a sum
+  of Beale terms, one per axis (axis splitting plus the combination rule); the
+  readout keeps ours25b's definition, its weight now a weighted noncentral chi
+  mean computed by one Laplace-transform integral; the prior's centre comes
+  off the wall (the symmetries that fixed it leave a family), so it is
+  declared. Also recorded: the answer depends only on per-noise-pair sums, so
+  the exact combination state survives as one (C, T, M) per pair; zero
+  readings no longer return the centre through the readout. Evidence: a
+  test file and a preset in the tester repo (axis splitting to 5e-11; the open
+  centre moves weak-data answers by a factor of up to about 1.5, strong-data
+  ones by under 1%). It extends the ours25b record and binds nothing.
+
+## Added 2026-09-27: the combination equation, built and rerun
+
+- `the_combination_equation_is_exact_2026-09-26.md` is a **flat member**,
+  written at the user's request after he asked what in the 26 September
+  session was unrecorded. It delivers the audit record's owed item: ours25b's
+  carried state, four real numbers per series $(C,T,M)$, built in the tester
+  and tested. Combining sets of readings is adding their states; the law, the
+  median, the intervals and ours25b's readout all follow from the state and
+  match the rule on all readings to $10^{-14}$ over 21,600 series. The rerun of
+  the old-information study under ours25b measures what the earlier carries
+  lose: keeping the law but not the old weight moves the readout by up to about
+  6% (cell median), the two-number fits move the median by up to about 19%.
+  It also notes, incidentally, 95% intervals covering as little as 76.5% with
+  21 weak readings. It extends the audit and the old-information records and
+  binds nothing.
