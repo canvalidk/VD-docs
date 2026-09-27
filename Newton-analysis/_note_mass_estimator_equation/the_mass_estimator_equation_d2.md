@@ -626,8 +626,8 @@ The ours25b record's §1 credits any-two-of-three to the 6 September theorem. Th
 theorem uses lumping and common force; the swap routes are the 25 September
 observation.
 
-**Reproduction.** Tester `canvalidk/Mass-estimator-testor`, the ours25b commit
-on top of `19d3b41`: the readout is `ratio_of_means_rss`, and the tests are
+**Reproduction.** Tester `canvalidk/Mass-estimator-testor`, commit `e288110`
+on top of `19d3b41` (ours25b, committed together with the `stacked_state` and ours26 work): the readout is `ratio_of_means_rss`, and the tests are
 `tests/test_stacked.py`. The following were rechecked for this draft by an
 independent implementation of the formulas in §2 (26 Sept):
 

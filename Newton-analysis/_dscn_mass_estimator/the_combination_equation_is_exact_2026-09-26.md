@@ -232,9 +232,10 @@ answer is a few percent through the readout, and up to about 19% through the fit
 ## 9. Reproduction
 
 Tester `canvalidk/Mass-estimator-testor`:
-- the `stacked_state` commit (`ad26e21` in Claude's sandbox), written into the
-  user's clone for him to commit and push;
-- the rerun itself was made on `2af8033` with that commit's changes uncommitted;
+- commit `e288110`, which holds the `stacked_state` work (`ad26e21` in Claude's
+  sandbox) together with ours25b and ours26;
+- the rerun itself was made in Claude's sandbox on `2af8033` with the
+  `stacked_state` changes uncommitted;
 - 54 cells × 400 series, 24 minutes.
 
 - `StackedState` and `ReadingSet.stacked_cond_alpha` in `met/law.py`; the

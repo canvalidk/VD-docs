@@ -308,8 +308,8 @@ when each reading has equal energies on its own. Checked ($s=7/3$ except the las
 
 ## 10. Reproduction
 
-Tester `canvalidk/Mass-estimator-testor`, the ours25b commit on top of
-`19d3b41`. Every number above comes from `met.analyst.estimate` with
+Tester `canvalidk/Mass-estimator-testor`, commit `e288110` on top of
+`19d3b41` (ours25b, committed together with the `stacked_state` and ours26 work). Every number above comes from `met.analyst.estimate` with
 `law: {reference: flat | cartesian2, nuisance: radius}` and, for more than one
 reading, the symmetric rule (`likelihood_product` with the uniform-angle
 prior). The four-number rebuild used Gauss–Legendre quadrature in $\theta$

@@ -399,9 +399,9 @@ ratio-of-means tables were computed with the plain sum and are worth rerunning.
 
 ## 10. Reproduction
 
-Tester `canvalidk/Mass-estimator-testor`: the ours25b commit on top of
-`19d3b41`, written into the user's clone on 25 September for him to commit and
-push.
+Tester `canvalidk/Mass-estimator-testor`: commit `e288110` on top of
+`19d3b41`. It holds ours25b together with the later `stacked_state` and ours26
+work; ours25b's own commit, made in Claude's sandbox, was not kept.
 
 - Readout `ratio_of_means_rss` (`met/analyst.py`), the stacked acceleration
   weight `ReadingSet.stacked_cond_alpha` and $\mu_M$ as

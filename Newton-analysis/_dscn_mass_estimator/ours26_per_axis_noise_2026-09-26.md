@@ -375,9 +375,9 @@ $|\log|$ shift of `centre_low` and `centre_high` from `ours26`.
 
 ## 10. Reproduction
 
-Tester `canvalidk/Mass-estimator-testor`: two commits on top of the ours25b and
-`stacked_state` commits (`ad26e21` in Claude's sandbox). They were written into
-the user's clone on 26 September for him to commit and push.
+Tester `canvalidk/Mass-estimator-testor`: commit `e288110`. It holds ours26 (two
+commits in Claude's sandbox, on top of `ad26e21`) together with the ours25b and
+`stacked_state` work.
 
 - **Where it lives.**
   - The law: `ReadingSet.reading_terms` (per-axis SDs, shape (B, N, d)).
