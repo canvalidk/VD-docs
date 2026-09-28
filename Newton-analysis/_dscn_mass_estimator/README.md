@@ -212,3 +212,39 @@ filed on the user's instruction the day they were written, and are flat members.
   It also notes, incidentally, 95% intervals covering as little as 76.5% with
   21 weak readings. It extends the audit and the old-information records and
   binds nothing.
+
+## Added 2026-09-27 (afternoon): the lemma record, and `ours26/`
+
+- `mass_estimator_lemmas_2026-09-27.md` is a **flat member**, a record at the
+  user's request ("It won't be a note but a record. It'll be dated, and we can
+  imagine the changed versions go in as replacements"). It lists the premises
+  the estimator rests on (L1–L14), what they give (T1–T20) and what is left,
+  for ours26. An ordinary record: changes arrive as corrections or
+  supersessions like any other. It is the spine of the ours26 sweep.
+- `ours26/` is a **working folder** for the rest of the ours26 investigation,
+  created on his instruction. It is a grouping inside this discussion, like
+  `papers/`; it is not a nested discussion. It holds
+  `ours26_per_axis_noise_2026-09-26.md` (moved in from flat level) and a
+  README with the plan, the two coverage failures and the $\omega$ hypothesis.
+  The lemma record stays outside it by his instruction.
+
+## Added 2026-09-27 (evening): the sweep, and ours27
+
+- `ours26/ours26_sweep_of_the_flat_records_2026-09-27.md`: every flat record
+  checked against the lemma record under ours26 (2 confirmed, 13 moved, 10
+  broken); it also proposes six corrections and four additions to the lemma
+  record, not made.
+- `ours27/ours27_full_covariance_2026-09-27.md` names **ours27**, the working
+  equation from that evening: ours26 with a declared full error covariance per
+  reading, forced by the property that mass cannot depend on the choice of
+  axes. ours26 and ours25b are its special cases.
+
+## Added 2026-09-27 (night): `ours27/`
+
+- `ours27/` is a **working folder** for the ours27 investigation, created on
+  his instruction, like `ours26/`. It holds the ours27 record (moved in from
+  `ours26/` the same night), a README, and
+  `ours27_perturbation_matrix_2026-09-27.md`: each move of the chain bent and
+  tested against every property. Six moves forced, three free directions (the
+  starting law's shape, C3, the push scale); Gaussian noise forced by
+  consistency given the flat push.
