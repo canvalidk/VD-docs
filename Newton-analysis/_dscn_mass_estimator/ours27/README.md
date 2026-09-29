@@ -89,6 +89,51 @@ inside `_dscn_mass_estimator`, not a nested discussion.
     shared size; omission, precise conditioning and a fresh lower-dimensional
     model are different operations; the precise-null limit is not the 1D fit
     (2.0697 against 2.2064).
+- **Moved to `../ours28b/`** (28 Sept, night, on his instruction, with the
+  record naming ours28b): `ours27_one_scale_per_noise_pair_2026-09-28.md` (night, same session as the
+  betweenness record): asks the law's width to equal the spread of its own
+  centre over repeats, for any pushes (Bartlett at fixed candidates, regular
+  limit). No per-reading rule can do this (an Ornstein–Uhlenbeck equation with
+  only constant smooth radial solutions); shared scales do it exactly when
+  they don't mix sensitivities; the precise-null limit picks classes by
+  declared noise pair. Result: one Gaussian scale per noise pair, shared over
+  the series; $(P,Q,D,M)$ per pair kept. On the repair-limits counterexample
+  it covers 94–95% at 100–1600 repetitions where the other rules sit at
+  71–88%. Price: the strong zero-reading property (the weak one holds). Open:
+  full covariance, the two shapes.
+- `ours28_full_covariance_form_and_declared_subspace_2026-09-28.md` (late
+  night, after the five records above): ours28 in two lines, $H_i=T_i-Q_i$
+  with $Q_i$ ours27's misfit and evidence ${}_1F_1(\tfrac12;\tfrac k2+1;H_i/2)$,
+  $k$ the dimension of the reading's **declared candidate subspace** $N_i$, a
+  new reading input. Codex's heterogeneous counterexample is a fixed
+  direction left undeclared: declared, ours27 and ours28 both calibrate
+  (1.01, 0.95). Withdraws the known-empty record's §3 verdict (the transverse
+  widening is a solid-angle effect, correct when undeclared). Recommends on
+  the fork: grouping is physics (a reading is one push), Z and properness
+  kept, C3 narrow folded into L12. Calibration judged in the definition's own
+  world; the two shapes are declared. Owed list reordered in its §6.
+- **Pointer (28 Sept, late night):** `../ours28b/ours28b_no_borrowing_between_readings_2026-09-28.md` records
+  the user's ruling that the definition borrows nothing between readings. Under
+  it the ours28 line in this folder is the live one, and ours28b is withdrawn.
+- `ours28_reference_implementation_and_readout_2026-09-28.md` (late night), with `ours28_reference.py`,
+  `ours28_reference_checks.py` and `ours28_reference_sim.py`: a reference
+  implementation of ours28 in the full-covariance form, with its **readout**
+  computed for the first time (candidates $\alpha_i\mid m,\beta\sim N(\beta G_m^{-1}b,\beta G_m^{-1})$).
+  Swap, units, rotation with cross-channel correlation, the zero-reading
+  property and totality all pass. A declared $k=1$ subspace gives exactly the
+  1D answer. Axis splitting holds only with the scale carried. Gaussian noise
+  is still forced, by the zero-reading property. In ours28's own world the
+  readout goes to the truth, and from 21 readings up its scatter matches the
+  law's width, so the law's interval serves as the readout's.
+- `ours28_c3_narrow_form_and_the_reading_structure_2026-09-28.md` (late
+  night): C3's narrow form under the no-borrowing ruling. Without regrouping
+  across readings, the only surviving readouts are ratios of means weighted by
+  a function of how the candidate's size is shared among the readings. On
+  ours28 mild weights move the point 0.1–0.8%, and the premises put no bound
+  on the weight. The family is excluded if the reading structure counts, like
+  $\Sigma_i$ and $N_i$, as a declared instrument fact that the score does not
+  see (same-law-same-mass); C3 then follows in full. **Ruled the same night:**
+  the user confirmed that reading, so C3 is derived (record §9).
 - this README.
 
 ## Where things stand
@@ -118,3 +163,13 @@ What is owed, from the two records:
 - The earlier ours26 work, including the sweep of the flat records, stays in
   `../ours26/`.
 - The lemma record stays at flat level.
+
+## Moved out, 29 Sept (night)
+
+- To `../noise_vs_signal/`, on his instruction, with the other records on
+  the signal-versus-noise problem:
+  `ours27_candidate_size_and_null_readings_2026-09-28.md`,
+  `ours27_zero_readings_and_shared_candidate_information_2026-09-28.md` and
+  `ours28_known_empty_vs_measured_empty_2026-09-28.md`. Links to them from
+  records in this folder are relative and now one level off.
+- `../ours28b/` is now `../noise_vs_signal/ours28b/`.

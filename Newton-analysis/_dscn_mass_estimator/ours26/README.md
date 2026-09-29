@@ -176,3 +176,9 @@ for both.
 The completion message of 27 September (VD-Newton) is not filed. Its results
 are recorded by thread: the starting law and the full covariance in the two
 records above; the confidence set and the repeated-measurement caveat here.
+
+## Moved out, 29 Sept (night)
+
+- `ours26_learned_omega_is_a_hint_2026-09-27.md` moved to
+  `../noise_vs_signal/` on his instruction, with the other records on the
+  signal-versus-noise problem. The two records it corrects stay here.

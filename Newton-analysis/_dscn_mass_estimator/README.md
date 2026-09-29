@@ -248,3 +248,83 @@ filed on the user's instruction the day they were written, and are flat members.
   tested against every property. Six moves forced, three free directions (the
   starting law's shape, C3, the push scale); Gaussian noise forced by
   consistency given the flat push.
+
+## Added 2026-09-28 (night): `ours28b/`
+
+- `ours28b/` is a **working folder** for ours28b, a candidate the user named
+  on 28 September: ours27 with one Gaussian candidate-size scale per declared
+  noise pair, shared over the series. It holds the naming record, its
+  derivation (moved in from `ours27/`), a reference implementation with its
+  checks, and a README. It is not the ours28 in `ours27/`, which has one
+  scale per reading.
+
+## Added 2026-09-29: the lemma record superseded
+
+- `mass_estimator_lemmas_2026-09-29.md` **supersedes**
+  `mass_estimator_lemmas_2026-09-27.md`, on his instruction ("You can just
+  turn this into a superseding record"). The 27 Sept record said its changed
+  versions would arrive as replacements, so this is the first `supersedes`
+  asserted in this folder. It stays in place, unedited; the relation is in
+  the catalog and in the new record's header.
+- The new record is the current list of the properties of mass (L1–L20),
+  what follows from them (T1–T29), the declared shapes, and the open items in
+  the order the definition needs them. It carries the corrections the
+  28 Sept records proposed to the old list, without correcting those records.
+  Its first open item is new: the readout fails the zero-reading property
+  (T29).
+
+## Added 2026-09-29 (later): why mass can't be undefined
+
+- `why_mass_cannot_be_undefined_2026-09-29.md` is a **flat member**,
+  written at the user's request. It records his argument that mass is never
+  "undefined" on measured inputs (the argument behind his O1 ruling on the
+  lemma record), quoted verbatim, and sharpens it: an undefined output is
+  contradictory, redundant or arbitrary under the definition's own
+  combination rule. It flags that comparing the starting law's intervals
+  would bring the contradiction back. It offers two consequences for O2:
+  the all-zero point is forced to be $c$, and the best-guess repair's limit
+  at zero depends on direction. It scopes the 5 Sept two-cases record and
+  binds nothing.
+
+## Added 2026-09-29 (evening): the noise-measure view
+
+- `noise_vs_signal/the_noise_measure_view_2026-09-29.md`, written at the
+  user's request, now in `noise_vs_signal/`, a **working folder** created the
+  same evening on his instruction (like `ours26/`, not a nested discussion). A way of looking, not a result: the equation has no
+  notion of how much of a reading is push and how much is noise, and every
+  open item in the lemma record is that absence showing through. It records
+  the afternoon's `==^` thread (why the law's width is not the result's
+  uncertainty), the finding that a series of $N$ noise-sized readings tilts
+  the law by $O(\sqrt N)$ while the data-only resolution stays the whole
+  half-line, his property N, and a map of what a noise measure would touch.
+  It parks five items, including a correction owed to the undefined record.
+  It scopes the lemma record and binds nothing.
+- `noise_vs_signal/null_series_tilt_and_property_N_2026-09-29.md` (night)
+  develops the view's first finding: the tilt a null series gives the law
+  has an exact form (the carried state $C$; Rayleigh under noise), ours28
+  halves it and keeps the $\sqrt N$, the point moves by a factor 2.6 at
+  $N=100$, the data-only resolution stays whole, and any fix at the law's
+  level must share one scalar across readings. It binds nothing.
+- `noise_vs_signal/c_is_the_noise_measure_at_zero_signal_2026-09-29.md`
+  (night, short): $c$ is what the definition returns when the noise
+  measure reads zero, but noise picks no scale and Z forbids $c$ from
+  depending on the series' instruments, so $c$ is declared before data and
+  L3′ is a convention for the declaration. It binds nothing.
+- `noise_vs_signal/alignment_what_one_reading_can_say_about_noise_2026-09-29.md`
+  (night): per reading the law sees $(T_i, C_i)$; in 1D every reading is
+  aligned with some mass; in $d\ge2$ misalignment says almost nothing
+  about weak signal and the residual is weak evidence *for* a push; the
+  only per-reading signal evidence is size along the line; evidence that
+  a series is noise is collective, $|C|/T$ against $1/\sqrt{dN}$. So the
+  noise measure collides with L19 in every dimension. It binds nothing.
+
+## Added 2026-09-29 (night, later): `noise_vs_signal/` filled
+
+- On his instruction ("do A and B lists") the folder gained a pointer
+  record, `older_hints_on_noise_and_signal_2026-09-29.md` (eleven earlier
+  records, one quoted sentence each), and five moves: the learned-$\omega$
+  hint ruling from `ours26/`, three candidate-size and null-reading records
+  from `ours27/`, and **`ours28b/` whole**, which now sits at
+  `noise_vs_signal/ours28b/`. The section above naming `ours28b/` is
+  history. `noise_vs_signal/README.md` lists everything. Relative links
+  to the moved files are one level off; filenames are the identifiers.
