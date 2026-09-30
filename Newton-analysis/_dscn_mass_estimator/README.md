@@ -328,3 +328,95 @@ filed on the user's instruction the day they were written, and are flat members.
   `noise_vs_signal/ours28b/`. The section above naming `ours28b/` is
   history. `noise_vs_signal/README.md` lists everything. Relative links
   to the moved files are one level off; filenames are the identifiers.
+
+## Added 2026-09-29 (night, latest): readings are evidence, just less
+
+- `noise_vs_signal/readings_are_evidence_just_less_2026-09-29.md`, written
+  at the user's request. The user ruled that the true, errorless vector is
+  called the **signal** (not a push). The record finds a defect separate
+  from the null-series tilt: ours28 treats a reading misaligned far beyond
+  its declared noise as strong signal, and the law collapses with unbounded
+  confidence as $\sigma\to0$. His ruling ("The readings are evidence. Just
+  less.") forces each reading's factor to be flattened by its off-line
+  misfit, $E_i(m)^{g(Q_i)}$: $g(0)=1$ by Z, a $\kappa/Q$ tail by bounded
+  confidence, the middle free. Six forms tested in 2D: all $\kappa/Q$ forms
+  fix the impossible reading (coverage 8.5% to 91-100% in a rescue test),
+  and forms flat inside the noise band cost 0-6% width. Inert in 1D; does
+  not touch the $\sqrt N$ tilt. Axis splitting collides (parked). It binds
+  nothing.
+
+## Added 2026-09-29 (night, latest): one reading is one completeness claim
+
+- `noise_vs_signal/readings_are_evidence_just_less_2026-09-29.md` gained a
+  §10 the same night, and `mass_estimator_lemmas_2026-09-29.md` was **revised
+  in place** on his instruction (a revision note sits under its Supersedes
+  paragraph). His ruling: a $k$-dimensional reading declares that the signal
+  has no component outside its declared subspace; that claim imposes $k-1$
+  codirectionality conditions, and their violation is the reading's off-line
+  misfit. A 1D reading is a projection and imposes none. So one 3D reading is
+  not three 1D readings (same data, different declaration), and the strong
+  form of axis splitting (L8) is false. In the lemma record: L8 rewritten,
+  L21 (readings are evidence, just less) and T30 (the tempered law) added,
+  O3 reopened (the flat weighting and the stacked length need their own
+  support), O12 and O13 added. The 25 Sept axis-splitting record is not
+  edited; its premise is withdrawn as a forcing argument in O3 (offered).
+
+## Added 2026-09-30 (morning): scattered observations
+
+- `noise_vs_signal/scattered_observations_2026-09-30.md`, written at the
+  user's request as a list of the morning's observations. Its centre: after
+  his correction ("you were wrong that the solution has this idyllic
+  property"), the property identified is that **the law carries its own
+  uncertainty**. Every impossibility about the $\sqrt N$ tilt is a theorem
+  about the law's width and a wall only under that property, which the
+  `==^` thread had already given up. So the noise measure lives beside the
+  law (resolution, $|C|/(2\sqrt N)$, or $\eta=\min(1,\mathcal H/J)$, the
+  Bartlett power, which is Z-exact and removes the $\sqrt N$ growth). Also:
+  what the instrument declares ($k_i$ must be declared, not inferred), and a
+  Herschel–Maxwell candidate for O3. It binds nothing; his call is owed on
+  whether the tester's standard moves from the law's interval to the
+  resolution.
+
+## Added 2026-09-30 (afternoon): ours29
+
+- `noise_vs_signal/ours29_misfit_weight_and_bartlett_power_2026-09-30.md`
+  and three scripts beside it. After his rulings of 11:57 the working
+  equation is **ours29**: ours27's flat factor per reading, weighted by the
+  reading's own misfit (L21), with the product raised to the Bartlett power
+  $\eta$ computed from the readings' own residuals. ours28's per-reading size
+  law is dropped as a declared population of setups, which L19's reason
+  excludes. L19's scope as ruled: nothing about any reading's signal is
+  inferred from the others; the width may use each reading's own residual.
+  In the tester the quoted width covers 93.7–97% wherever there is signal at
+  $N=200$, in 1D, 2D and 3D. Lemma changes are offered in its §11, not
+  placed. It binds nothing.
+
+## Added 2026-09-30 (afternoon, later): `ours29/`
+
+- A folder for the ours29 equation, created on his instruction at this
+  level (not inside `noise_vs_signal/`). It is kept exclusive to the
+  equation and mostly empty: only a README pointing to the defining record
+  and reference implementation, which stay in `noise_vs_signal/`, where the
+  work continues.
+
+## Revised 2026-09-30 (afternoon, later): the lemma record placed on ours29
+
+- `mass_estimator_lemmas_2026-09-29.md` revised in place on his instruction,
+  carrying the ours29 record's §11: T8 is ours29's law, L10 restated (no size
+  law is declared), L10′ struck and L4′ withdrawn, L19's reason and scope
+  added, T31 (the Bartlett power) added, O14 and O15 opened, O3 now carries
+  the equation. A second revision note sits under the first.
+
+## Revised 2026-09-30 (late afternoon): O3 and O8 closed
+
+- On his ruling ("Yes I like it. I agree.") the lemma record closes O3 and
+  O8 from the O3 record in `noise_vs_signal/`: the flat weighting from L8's
+  conditional form, L9 and L10 (Herschel–Maxwell), the stacked length from
+  L12, noise units for any covariance from T7. Third revision note.
+
+## Revised 2026-09-30 (16:26): O10 and O12 closed
+
+- On his ruling, persistence is a premise of L1 (O10 closed, no argument
+  owed) and the middle of the misfit weight is forced by the meaning that
+  fixed $\kappa$ (O12 closed, from the O12 record in `noise_vs_signal/`).
+  The declared-shapes table now holds $\pi$ alone. Fourth revision note.
