@@ -32,7 +32,7 @@ records in `../ours27/` (ours28's size law is dropped). The tester's ours25
 **Files.** `ours29_reference.py` (reference implementation: full $\Sigma_i$,
 declared subspaces, readout), `ours29_reference_checks.py` (§7),
 `ours29_reference_worlds.py` (§8), beside this record. In the tester
-(`canvalidk/Mass-estimator-testor`): `misfit` and `calibrate: bartlett` on the
+(`canvalidk/Mass-estimator-testor`, commit `645dfc7`): `misfit` and `calibrate: bartlett` on the
 likelihood product, `tests/test_ours29.py`, `presets/ours29_noise_vs_signal.yaml`
 (§9).
 
@@ -544,7 +544,7 @@ neither causes nor cures it.
   Projective line on 2001 (reading) and 4001 (series) points, refined by
   golden section; curvature and score by central differences,
   $h=10^{-4}$ in $\phi$; law on 721 points over $\ln c\pm9$.
-- Tester: `python -m met run presets/ours29_noise_vs_signal.yaml`;
+- Tester (commit `645dfc7`): `python -m met run presets/ours29_noise_vs_signal.yaml`;
   `python -m pytest -q tests/test_ours29.py`. The study in §9 was run in
   Claude's sandbox in two parts split by dimension (cells do not depend on
   where they sit in the grid); per-cell data are identical to a single run.

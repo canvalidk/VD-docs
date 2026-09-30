@@ -21,7 +21,7 @@ The investigation continues in `../noise_vs_signal/`.
   checks and the tester study.
 - `../noise_vs_signal/ours29_reference.py` (with `_checks.py` and
   `_worlds.py`): the reference implementation.
-- In the tester (`canvalidk/Mass-estimator-testor`): `misfit` and
+- In the tester (`canvalidk/Mass-estimator-testor`, commit `645dfc7`): `misfit` and
   `calibrate: bartlett`, `presets/ours29_noise_vs_signal.yaml`.
 
 Nothing has been moved here. Those files stay in `noise_vs_signal/`.

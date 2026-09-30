@@ -132,9 +132,9 @@ are still up to 3.5 points wider in coverage, with the points unchanged from $N=
 
 ## 5. Reproduction
 
-Tester `canvalidk/Mass-estimator-testor`: the working tree on top of `e288110`, changes
-written by Claude into the user's clone on 27 September, **not yet committed** (the
-user commits). Files: `met/analyst.py`, `met/law.py`, `README.md`,
+Tester `canvalidk/Mass-estimator-testor`: commit `d5af0ce` on top of `e288110`. The
+changes were written by Claude into the user's clone on 27 September and committed
+unchanged on 30 September. Files: `met/analyst.py`, `met/law.py`, `README.md`,
 `tests/test_stacked.py`, and new `tests/test_hierarchical_ours26.py`,
 `presets/ours26_learned_omega.yaml`. The study was run in Claude's sandbox on the same
 files (about 70 minutes of computing).
