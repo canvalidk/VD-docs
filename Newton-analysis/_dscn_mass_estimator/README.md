@@ -420,3 +420,23 @@ filed on the user's instruction the day they were written, and are flat members.
   owed) and the middle of the misfit weight is forced by the meaning that
   fixed $\kappa$ (O12 closed, from the O12 record in `noise_vs_signal/`).
   The declared-shapes table now holds $\pi$ alone. Fourth revision note.
+
+## Added 2026-10-01: what can be rerun, and where tester work goes
+
+- On his instruction ("Ok go ahead. Make safe changes", 30 Sept), the tester now holds this
+  discussion's reference implementations in `reference/`, byte for byte:
+  `ours27/ours28_reference*.py`, `noise_vs_signal/ours29_reference*.py`,
+  `noise_vs_signal/ours28b/ours28b*.py` and the 21 September
+  `mass_estimator_equation/mass_estimator.py` with `example.py`. Its tests
+  check that each still prints what it printed, and that it reproduces the
+  numbers these records state. Tester commit `eae695b`. The copies here are
+  unchanged.
+- A staging inventory of every computed result in this discussion, and
+  whether it can be rerun now, is in
+  `inbox/mass_estimator_reproducibility_inventory_2026-10-01.md`. Nothing was
+  recomputed; what was not kept stays lost.
+- For anyone adding work, the rule is the tester README's "How work gets
+  into the tester": code lands as pushed tester commits (or a git bundle),
+  every study is a seeded preset, reference implementations are copied into
+  `reference/`, and a record cites the pushed commit and the preset, test or
+  script with its seed. A sandbox commit hash is not a citation.
