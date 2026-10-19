@@ -440,3 +440,46 @@ filed on the user's instruction the day they were written, and are flat members.
   every study is a seeded preset, reference implementations are copied into
   `reference/`, and a record cites the pushed commit and the preset, test or
   script with its seed. A sandbox commit hash is not a citation.
+
+## Added 2026-10-10: one flat record, on units and axes
+
+- `mass_as_force_paired_with_reciprocal_acceleration_2026-10-10.md` is a
+  **flat member**, written at the user's request. His idea: every cancelling
+  of units is a pairing with a reciprocal, not a division, so mass is force
+  paired with the reciprocal of acceleration, $m=\mathbf F\cdot\mathbf a'$
+  with $\mathbf a'=\mathbf a/|\mathbf a|^2$. It covers the **aligned case
+  only**, on his instruction, and tells how the session got there: the plane
+  wave as the $\mathrm m\cdot\mathrm m^{-1}$ example, what the literature
+  already establishes, the two magnitudes, constant rates built one
+  multiplication at a time ($m=\Delta\mathbf p\cdot(\Delta\mathbf v)'$), and
+  the terminology **units** (M, L, T) versus **axes**: only L has axes, so
+  only the $\mathrm L\cdot\mathrm L^{-1}$ pairing can need a choice. §8 parks
+  the unaligned material and a units argument offered for O11. It scopes and
+  binds nothing.
+- Revised the same afternoon on his instruction: §9 corrects the comparison
+  with the wave (the mass corner is the forward pairing, in two versions,
+  $m=\mathbf a'(\mathbf F)$ and $1/m=\mathbf F'(\mathbf a)$, agreeing only on
+  aligned pairs), reads L5 and L14 as the linearity of the two pairings, and
+  notes the L14/swap trade, which he ruled stays unruled: L14 remains
+  provisional.
+
+## Added 2026-10-10 (later afternoon): the lemma record superseded again
+
+- `mass_estimator_lemmas_2026-10-10.md` **supersedes**
+  `mass_estimator_lemmas_2026-09-29.md`, on his instruction ("Just copy the
+  old lemma list and edit the new version. That way you can write all of it
+  as accepted and just put a provisional above all of it"). It is the 29
+  September record copied, every row keeping its 29–30 September state, with
+  the 10 October changes marked inside the rows and a **provisional** banner
+  over all of them: the reading's window enters the type and L18; L5 and
+  L14 are read as the linearity of the two pairings (L14's status unchanged,
+  the swap trade unruled, by his ruling); T1 is restated in pairing form;
+  T32 (the misfit is the pairings' disagreement in noise units) and T33
+  (same window) are new; O9 gets the window criterion as a proposal; O11
+  gets the units argument. The second `supersedes` in this discussion; the
+  29 September record stays in place, unedited, as the 27 September one did.
+- The units-and-axes record gained a §9.4 the same afternoon: the start on
+  its four next moves, with the checks the lemma rows cite. The check script
+  ran against `noise_vs_signal/ours29_reference.py` on his laptop and is
+  **not yet kept**; where it goes (beside the record, or into the tester as
+  a test) is still his call.
