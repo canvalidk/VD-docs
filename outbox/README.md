@@ -32,6 +32,7 @@ The **ledger** of all traffic in both directions stays where it has always been:
 | Subfolder | Branch repo | Where it reads from and writes to |
 |---|---|---|
 | `VD-Newton/` | `canvalidk/VD-Newton` | Passes arrive from its `pass to VD-docs/` staging folder; it keeps returns beside that folder and records closures in its `AGENTS.md`. |
+| `Mass-estimator-testor/` | `canvalidk/Mass-estimator-testor` | Added 2026-10-22, when the mass-estimator workbench left VD-docs. The tester is the estimator's work surface (`docs/` for documents). It posts back only decisions (a ruling record, or a new draft of the lemma or equation note) from its `outbox/VD-docs/`. |
 | *(add on first use)* | `canvalidk/VDfirst` | The code repo. No traffic yet; `Code/` in this repo is its spec/management layer. |
 
 A new subfolder is created the first time a document is addressed to a branch; the table above is updated in the same commit.
