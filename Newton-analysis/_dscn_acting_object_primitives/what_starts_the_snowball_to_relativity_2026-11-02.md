@@ -18,9 +18,9 @@
 
 **Sharpened version:**
 
-> Instantaneous Galilean particle theories whose energy is a function of the present state are paradox-free. The snowball starts the moment an interaction has to propagate.
+> Instantaneous Galilean particle theories whose energy is a function of the present state are paradox-free. The snowball starts the moment an interaction has to propagate, and becomes relativity when the medium that carries it turns out to have no rest frame.
 
-Induction, $\mathbf E$–$\mathbf B$ mixing and the magnet–conductor asymmetry are symptoms that appear once fields have been accepted. The cause is finite propagation (Section 5).
+Induction, $\mathbf E$–$\mathbf B$ mixing and the magnet–conductor asymmetry are symptoms that appear once fields have been accepted. The cause is finite propagation through a store with no rest frame (Section 5).
 
 ---
 
@@ -32,7 +32,7 @@ Three conditions on a theory of $N$ particles with configuration $Q(t)=(\mathbf 
 - **C2 (configuration only).** $\Gamma$ is particle phase space and the interaction depends on positions alone: $H = \sum_i |\mathbf p_i|^2/2m_i + U(Q)$.
 - **C3 (Galilean covariance).** $U$ is invariant under rotations and translations; the equations keep their form under boosts.
 
-**Newtonian mechanics comes out as theorems.** If $U$ depends only on $Q$ and is translation-invariant:
+**Newtonian mechanics comes out as theorems (W5).** If $U$ depends only on $Q$ and is translation-invariant:
 
 1. Boost invariance is automatic: a boost at fixed $t$ shifts every $\mathbf x_i$ by the same vector, so every separation $r_{ij}$ is unchanged.
 2. The third law holds at every instant: $\sum_i \partial U/\partial \mathbf x_i = 0$, so $\sum_i \mathbf F_i(t) = 0$.
@@ -46,13 +46,13 @@ Newtonian gravity satisfies C1–C3 exactly.
 2. give up that canonical positions are the physical positions (Bakamjian–Thomas);
 3. give up C1 and accept history-dependent energy (Fokker, Wheeler–Feynman).
 
-**The line between.** Retardation expands in powers of $1/c$, each power trading history for one more time derivative of the present state. At order $c^0$ the interaction depends on $Q$ (Coulomb). At $c^{-1}$ the scalar term vanishes by charge conservation. At $c^{-2}$ it depends on $(Q,\dot Q)$ (Darwin Lagrangian) and still needs no store. At $c^{-3}$ radiation reaction appears, particle energy is no longer conserved, and C1 forces a store.
+**The line between.** Retardation expands in powers of $1/c$, each power trading history for one more time derivative of the present state. At order $c^0$ the interaction depends on $Q$ (Coulomb). At $c^{-1}$ the scalar term vanishes by charge conservation. At $c^{-2}$ it depends on $(Q,\dot Q)$ (Darwin Lagrangian) and still needs no store. At $c^{-3}$ radiation reaction appears, particle energy is no longer conserved, and C1 forces a store (W11).
 
 ---
 
 ## 3. The paradox-free static set
 
-With currents, magnets and magnetic-moment flows taken as primitives (not as moving charges), every pair law is configuration-only:
+With currents, magnets and magnetic-moment flows taken as primitives (not as moving charges), every pair law is configuration-only (derivations: W6, W12):
 
 | Pair | Energy, configuration only | Status |
 | --- | --- | --- |
@@ -86,11 +86,13 @@ Weber's theory did not fail on relativity paradoxes. It failed on:
 1. **an energy pathology** — Helmholtz's objection, effective negative mass for speeds below $c$, which permits runaway motion;
 2. **light** — the theory has no waves; nothing propagates.
 
-Combine that with the C1 argument. A disturbance that takes time to cross space, together with an energy that is a function of the present state, forces an intermediate store: in the gust experiment, the air; in electromagnetism, the field. A store means a state space with free field data, and with that state the no-interaction theorem points to Lorentz invariance. So the order is:
+**First link: propagation forces a store (W13).** If an interaction takes time to cross space, two histories can agree on every particle's position and velocity at one instant yet produce different forces afterwards. So the particles' present state is not a complete state, and C1 forces extra degrees of freedom on the slice, a store, which also holds the energy still in transit. In the gust experiment the store is the air; in electromagnetism, the field.
 
-> finite propagation + C1 → store → fields with free data → Lorentz
+**Second link: a store with no rest frame forces Lorentz.** A store alone is not enough. Air is a store with a finite propagation speed, and the theory of sound is Galilean, because air has a rest frame and propagation speeds add under a boost. The store of electromagnetism has no rest frame: light's speed is the same in every inertial frame. That is incompatible with Galilean boosts, and Lorentz covariance replaces them. This link is empirical, not a consequence of C1. The no-interaction theorem then shows the store cannot be removed again: under Lorentz covariance, particles alone cannot interact.
 
-Induction as a field law, $\mathbf E$–$\mathbf B$ mixing under boosts and the magnet–conductor asymmetry come after the second arrow.
+> finite propagation + C1 → store; store with no rest frame → Lorentz
+
+Induction as a field law, $\mathbf E$–$\mathbf B$ mixing under boosts and the magnet–conductor asymmetry all come after the second arrow. (The first version of this section ran the chain straight from store to Lorentz; air is the counterexample.)
 
 ---
 
@@ -112,7 +114,7 @@ with $\kappa=+1$ Neumann, $\kappa=0$ Maxwell, $\kappa=-1$ Weber. The $\kappa$-de
 
 ## 7. Where induction enters: the boundary marker
 
-In C1–C3 statics, moving a magnet past a charge does nothing: there is no charge–magnet coupling (parity forbids it). That absence is exactly why the theory is consistently Galilean. The electric field of moving magnets — physically, induction — enters only as a separately posited primitive: the magnetic-moment-flow static electric acting object of `STATIC_ELECTRIC_ACTING_OBJECT_RESULT_2026-08-19_d1.md` (called a "murrent" in the 2 November conversation). Making that field arise *automatically* from moving magnets is the step that pushes a theory past C2. It is the magnet–conductor asymmetry that opens Einstein's 1905 paper. So the 08-19 acting object marks where Galilean statics meets relativity.
+In C1–C3 statics, moving a magnet past a charge does nothing: there is no charge–magnet coupling (parity forbids it, W12). That absence is exactly why the theory is consistently Galilean. The electric field of moving magnets — physically, induction — enters only as a separately posited primitive: the magnetic-moment-flow static electric acting object of `STATIC_ELECTRIC_ACTING_OBJECT_RESULT_2026-08-19_d1.md` (called a "murrent" in the 2 November conversation). Making that field arise *automatically* from moving magnets is the step that pushes a theory past C2. It is the magnet–conductor asymmetry that opens Einstein's 1905 paper. So the 08-19 acting object marks where Galilean statics meets relativity.
 
 **Dissipation fits the same logic.** Friction and drag break energy conservation at the particle level, so under C1 they signal a hidden store (heat, the air's degrees of freedom). Newtonian mechanics stays coherent if every non-conservative force is read as energy flowing into unmodelled stores.
 
@@ -124,11 +126,12 @@ In C1–C3 statics, moving a magnet past a charge does nothing: there is no char
 
 **Open-work items of the 08-19 record that the 2 November work bears on:**
 
-- **Item 1, universal kernel:** $\mathbf E_K = \frac{\mu_0}{4\pi}[3(\mathbf K\cdot\hat{\mathbf R})\hat{\mathbf R}-\mathbf K]/R^3$ per element, $\mathbf K = \mathbf u_{\mathrm{rel}}\times\mathbf m$, perpendicular to the direction of motion. Here $\mathbf u_{\mathrm{rel}}$ is the magnets' velocity relative to the device (in the 2 November derivation, the stationary line of opposite magnets that cancels their $\mathbf B$), which is what keeps the kernel unchanged under Galilean boosts; this matches the 08-19 record's sec. 5, $\mathbf u_{\mathrm{rel}}=\mathbf v_{\mathrm{belt}}-\mathbf v_{\mathrm{tube}}$. (Corrected the same day: the first version wrote the magnets' lab velocity, which is not boost-invariant.)
-- **The kernel is certified at element level, with no free parameter.** $\mathbf K=\mathbf u_{\mathrm{rel}}\times\mathbf m$ vanishes wherever the magnets point along their path, so a closed loop of moving magnets aligned with the path everywhere except one short tilted segment carries murrent on that segment only, in a fully stationary configuration. The parent theory therefore fixes the single-element law directly: the plain dipole law with $\mathbf p=\mathbf u_{\mathrm{rel}}\times\mathbf m/c^2$ exactly (W1), with no dependence on the direction of motion (W3). Currents cannot be isolated this way, since stationarity forces $\nabla\cdot\mathbf J=0$, which is why their element law keeps the free $\kappa$ of Section 6 and the murrent's has none.\n- **Couplings to currents and magnets are zero in static configurations.** If the cancelling line cancels the moving magnets' lab magnetization exactly, the pure magnetic-moment flow is a static polarization with $\mathbf B=0$ at all orders, so it exerts nothing on currents or magnets, and neither feels a net force in its static $\mathbf E$ (W2). A nonzero coupling appears only under relative motion, which is velocity-dependent and outside C2. So in value the moment flow differs from a charge distribution nowhere; what separates them is the acting-object identity the 08-19 record argues for. (Added the same day.) The element carries a position plus a full frame (direction of motion, $\hat{\mathbf K}$), so its configuration space is $\mathbb R^3\times SO(3)$.
-- **Item 3, exact static domain:** for a train of moving dipoles at spacing $a$, the ripple harmonics decay like $e^{-2\pi k d/\gamma a}$ at distance $d$, so the continuum limit is exactly static. A twisting direction pattern is static only if it is fixed in space, each magnet rotating as it travels.
-- **Item 6, Galilean-EM comparison:** the motional field is a $1/c^2$ effect; it vanishes in the electric Galilean limit and survives in the magnetic one.
-- **Further results:** a twisted line screens its field like $e^{-q\rho}$ beyond one pitch; on a closed loop the twist is quantised, and on a loop with $q$-fold symmetry the multipole with azimuthal number $M$ survives only if $aM \equiv \pm\mathrm{Lk} \pmod q$, where a rotation by $2\pi a/q$ advances the loop by $1/q$ of its length ($a=1$ for a loop that goes once round the axis, as in all the coiled loops). Proved in W8 and tested on seven torus knots in W9. Full working: the 2 November doc, https://claude.ai/artifact/FxTWLM3hoJXKe44oFTPo31
+- **Item 1, universal kernel.** $\mathbf E_K = \frac{\mu_0}{4\pi}[3(\mathbf K\cdot\hat{\mathbf R})\hat{\mathbf R}-\mathbf K]/R^3$ per element, with $\mathbf K = \mathbf u_{\mathrm{rel}}\times\mathbf m$ perpendicular to the direction of motion. $\mathbf u_{\mathrm{rel}}$ is the magnets' velocity relative to the device (in the 2 November derivation, the stationary line of opposite magnets that cancels their $\mathbf B$). This keeps the kernel unchanged under Galilean boosts and matches the 08-19 record's sec. 5, $\mathbf u_{\mathrm{rel}}=\mathbf v_{\mathrm{belt}}-\mathbf v_{\mathrm{tube}}$. The element carries a position plus a full frame (direction of motion, $\hat{\mathbf K}$), so its configuration space is $\mathbb R^3\times SO(3)$. (Corrected the same day: the first version used the magnets' lab velocity, which is not boost-invariant.)
+- **The kernel is certified at element level, with no free parameter (W1, W3).** $\mathbf K$ vanishes wherever the magnets point along their path, so a closed loop of moving magnets aligned with the path everywhere except one short tilted segment carries a moment flow on that segment only, in a fully stationary configuration. The parent theory therefore fixes the single-element law directly: the plain dipole law with $\mathbf p=\mathbf u_{\mathrm{rel}}\times\mathbf m/c^2$ exactly, with no dependence on the direction of motion. Currents cannot be isolated this way, since stationarity forces $\nabla\cdot\mathbf J=0$; that is why their element law keeps the free $\kappa$ of Section 6 and the moment flow's has none.
+- **Couplings to currents and magnets are zero in static configurations (W2).** If the cancelling line cancels the moving magnets' lab magnetization exactly, the pure moment flow is a static polarization with $\mathbf B=0$ at all orders. It exerts nothing on currents or magnets, and neither feels a net force in its static $\mathbf E$. A nonzero coupling appears only under relative motion, which is velocity-dependent and outside C2. So in value the moment flow differs from a charge distribution nowhere; what separates them is the acting-object identity the 08-19 record argues for, and the value equivalence itself is only extensional (W7).
+- **Item 3, exact static domain (W14).** For a train of moving dipoles at spacing $a$, the ripple harmonics decay like $e^{-2\pi k d/\gamma a}$ at distance $d$, so the continuum limit is exactly static. A twisting direction pattern is static only if it is fixed in space, each magnet rotating as it travels, and rotation adds no static term (W1).
+- **Item 6, Galilean-EM comparison (W14).** The motional field comes from $\mathbf P/\varepsilon_0=\mu_0\,\mathbf u\times\mathbf M$: it vanishes in the electric Galilean limit and survives in the magnetic one.
+- **Further results (W8–W10, W14).** A twisted line screens its field like $e^{-q\rho}$ beyond one pitch. On a closed loop the twist is quantised. On a loop with $q$-fold symmetry the multipole with azimuthal number $M$ survives only if $aM \equiv \pm\mathrm{Lk} \pmod q$, where a rotation by $2\pi a/q$ advances the loop by $1/q$ of its length ($a=1$ for a loop that goes once round the axis, as in all the coiled loops); tested on seven torus knots, with the sizes of the allowed components set by a thin-tube count. Full working: the 2 November doc, https://claude.ai/artifact/FxTWLM3hoJXKe44oFTPo31
 
 ---
 
@@ -153,7 +156,22 @@ In C1–C3 statics, moving a magnet past a charge does nothing: there is no char
 
 ## Appendix: Workings (begun 2026-11-02)
 
-Each item derives a claim made above. What is still unwritten is listed at the end.
+Each item derives a claim made above. Where each claim is worked:
+
+| Claim | Section | Working |
+| --- | --- | --- |
+| Newtonian mechanics as theorems of a translation-invariant energy | 2 | W5 |
+| The $1/c$ expansion: Coulomb, vanishing $1/c$ term, Darwin, radiation reaction | 2 | W11 |
+| The static pair table, including the parity exclusions | 3 | W6, W12 |
+| Propagation forces a store; a store alone does not force Lorentz | 5 | W13 |
+| Grassmann and Ampère excluded, Neumann selected | 6 | W4, W6 |
+| Motional polarization; $\mathbf B=0$; zero static couplings | 8 | W1, W2 |
+| The moment-flow element law is unique | 8 | W3 |
+| Value equivalence with charges, and its scope | 8 | W7 |
+| Ripple decay, twisted line, the two Galilean limits | 8 | W14 |
+| Selection rule, knots, near-zeros | 8 | W8, W9, W10 |
+
+Cited, not derived: the no-interaction theorem; Weber's derivations of induction and Ampère's force; Helmholtz's objection; the historical values of $k$; the Darwin and radiation-reaction coefficients; the dipole field.
 
 ### W1. Moving magnets: the motional polarization, exactly
 
@@ -375,6 +393,50 @@ So the rule's "only if" is exact, and the near-zeros are this hierarchy, not fur
 
 Scripts: `zeros_check.py`, `near_symmetry.py`, `thin_tube.py` (2 November conversation, not filed).
 
+### W11. The $1/c$ expansion (sec. 2, "The line between")
+
+The retarded scalar potential (Lorenz gauge), with $R=|\mathbf x-\mathbf x'|$, Taylor-expanded in the delay $R/c$:
+
+$$
+\phi(\mathbf x,t)=\frac{1}{4\pi\varepsilon_0}\int\frac{\rho(\mathbf x',t-R/c)}{R}\,d^3x'
+=\frac{1}{4\pi\varepsilon_0}\sum_{n=0}^{\infty}\frac{(-1)^n}{n!\,c^n}\,\frac{\partial^n}{\partial t^n}\int\rho(\mathbf x',t)\,R^{\,n-1}\,d^3x' .
+$$
+
+Each power of $1/c$ replaces history by one more time derivative of the present state.
+
+- **$n=0$:** the Coulomb potential, a function of $Q$ alone.
+- **$n=1$:** the integrand has $R^0=1$, so the term is $-\frac{1}{4\pi\varepsilon_0c}\frac{d}{dt}\int\rho\,d^3x'=0$ by charge conservation.
+- **Vector potential:** $\mathbf A=\frac{\mu_0}{4\pi}\int\mathbf J/R\,d^3x'+\dots$, which is already of order $1/c^2$ relative to $\phi$, since $\mu_0=1/\varepsilon_0c^2$.
+- **$n=2$ plus leading $\mathbf A$:** this gives the Darwin Lagrangian, which depends on positions and velocities once accelerations are removed using the lowest-order equations of motion (cited: Jackson §12.6; Landau–Lifshitz §65). It needs no store.
+- **$n=3$:** this gives the radiation-reaction force $\mathbf F_i=q_i\dddot{\mathbf d}/6\pi\varepsilon_0c^3$, with $\mathbf d$ the system dipole. The particles lose energy on average at the rate $|\ddot{\mathbf d}|^2/6\pi\varepsilon_0c^3$ (cited: Landau–Lifshitz §75). No conserved energy exists on particle phase space, so C1 forces a store.
+
+### W12. The static pair table (sec. 3)
+
+Each primitive's parity: a charge $q$ is a scalar; a current element $\mathbf j$ is a polar vector; a magnet $\mathbf m$ is an axial vector, because the loop limit gives $\mathbf m=\frac I2\oint\mathbf y\times d\mathbf l$; and the separation direction $\hat{\mathbf R}$ is polar.
+
+- **Charge–magnet is forbidden.** The only scalar linear in $q$ and $\mathbf m$ built with $\hat{\mathbf R}$ is $q\,(\mathbf m\cdot\hat{\mathbf R})f(R)$, and an axial vector dotted into a polar one is a pseudoscalar. Parity excludes it.
+- **Charge–current is allowed but invisible to closed loops.** The only scalar is $q\,(\mathbf j\cdot\hat{\mathbf R})f(R)$. With $F'=f$, along a circuit carrying current $I$ it is $q\,I\,d\mathbf l\cdot\nabla_{\mathbf y}F(|\mathbf y-\mathbf x|)$, the derivative of $F$ along the circuit, so its integral round a closed circuit is zero.
+- **Current–magnet and magnet–magnet: $\kappa$ drops out.** A magnet is the small-loop limit of a closed circuit. The $\kappa$ term of the Helmholtz family is $\propto\partial^2R/\partial s_1\partial s_2$ (W6), and integrating over the closed partner's parameter gives zero whatever the other partner is. The surviving Neumann energy is $U=-I_1I_2M_{12}=-I_2\oint\mathbf A_1\cdot d\mathbf l_2=-I_2\Phi_{1\to2}$. For a small loop of area vector $\mathbf S$ in a field $\mathbf B$, $\Phi=\mathbf B\cdot\mathbf S$, so $U=-\mathbf m\cdot\mathbf B$ with $\mathbf m=I\mathbf S$. Using the dipole field $\mathbf B_1=\frac{\mu_0}{4\pi}\,[3(\mathbf m_1\cdot\hat{\mathbf r})\hat{\mathbf r}-\mathbf m_1]/r^3$ (cited: Jackson §5.6) gives the magnet–magnet energy in the table.
+
+### W13. Retardation forces a store under C1 (sec. 5)
+
+Suppose the force on particle $i$ at time $t$ depends on particle $j$'s state at $t-r/c$.
+
+1. Take two histories that agree at $t_0$ on every particle's position and velocity, but differ before $t_0$: in one, $j$ was moving and stopped at $t_0$; in the other, $j$ was always at rest there.
+2. For $t_0<t<t_0+r/c$, the force on $i$ depends on $j$'s state before $t_0$, so it differs between the two histories.
+3. So the particles' state at $t_0$ does not fix the future. C1 needs a state that does, so $\Gamma$ must hold extra degrees of freedom on the slice, which record the difference: a store.
+4. If $i$ gains kinetic energy after $t_0$ in one history and not the other, and energy is a function of the state at $t_0$, then the two states at $t_0$ carry different energies with identical particle data. The difference is energy in the store. This is the gust experiment made formal.
+
+**What this does not show.** A store does not imply Lorentz invariance. Air is a store with finite propagation speed, and the theory of sound is Galilean because air has a rest frame. Under a Galilean boost, propagation speeds add. If the store's speed is the same in every inertial frame, as light's is, Galilean covariance fails, and Lorentz covariance is what replaces it. That second step is empirical, not a consequence of C1.
+
+### W14. Line and twisted-line fields (sec. 8)
+
+- **Static line harmonic.** A line density $\lambda e^{i\kappa z}$ on the $z$-axis gives $(\nabla_\perp^2-\kappa^2)\tilde\phi=-\lambda\,\delta^2(\boldsymbol\rho)/\varepsilon_0$. The 2D Green's function of $\nabla_\perp^2-\kappa^2$ is $-K_0(|\kappa|\rho)/2\pi$, so $\phi=\frac{\lambda}{2\pi\varepsilon_0}K_0(|\kappa|\rho)\,e^{i\kappa z}$.
+- **Moving ripple.** A ripple harmonic $e^{i\kappa(z-vt)}$ with $\kappa=2\pi k/a$ obeys the wave equation, giving $\nabla_\perp^2-\kappa^2(1-v^2/c^2)$. So $\phi\propto K_0(\kappa\rho/\gamma)$, which decays like $e^{-2\pi k\rho/\gamma a}$ for every $v<c$. This is item 3.
+- **Twisted dipole line.** A transverse line dipole $\mathbf p\,e^{iqz}$ has potential $-\mathbf p\cdot\nabla_\perp\big[\frac{1}{2\pi\varepsilon_0}K_0(q\rho)\big]e^{iqz}=\frac{q}{2\pi\varepsilon_0}K_1(q\rho)\,(\mathbf p\cdot\hat{\boldsymbol\rho})\,e^{iqz}$, using $K_0'=-K_1$. For $\mathbf P=\pi_0(-\sin qz,\cos qz,0)\,\delta^2$, the real part is $\phi=\frac{\pi_0q}{2\pi\varepsilon_0}K_1(q\rho)\sin(\varphi-qz)$. Since $K_1(x)\sim\sqrt{\pi/2x}\,e^{-x}$, the field is screened beyond about one pitch; a direct bead sum agrees to within $10^{-10}$.
+- **Quantised twist.** On a closed loop the moment pattern must return to itself, so its winding is an integer.
+- **Item 6.** The motional field comes from $\mathbf P/\varepsilon_0=\mu_0\,\mathbf u\times\mathbf M$ (W1). Taking $c\to\infty$ with $\varepsilon_0$ fixed (the electric limit) sends $\mu_0\to0$, and the field vanishes. With $\mu_0$ fixed (the magnetic limit) it survives.
+
 ### Status of the workings
 
-Every claim the body of this record relies on now has a derivation above, or a citation (the no-interaction theorem; Weber's results; the historical values of $k$). Three assumptions stay explicit rather than proved: superposition and locality of element laws (W3); that a primitive's field has no divergence off its support (W7, condition ii); and, for the selection rule, only the "only if" direction is forced (W8); the near-zeros W9 found are explained by the thin-tube hierarchy of W10. Numerical checks cited above (`element_laws_check.py`, `axis_framing_check.py`, `knots.py`, `knots_corrected.py`, `zeros_check.py`, `near_symmetry.py`, `thin_tube.py`) are in the 2 November conversation and not filed.
+Every claim the body of this record relies on now has a derivation above, or a citation, as mapped at the top of this appendix. Three assumptions stay explicit rather than proved: superposition and locality of element laws (W3); that a primitive's field has no divergence off its support (W7, condition ii); and, for the selection rule, only the "only if" direction is forced (W8); the near-zeros W9 found are explained by the thin-tube hierarchy of W10. Numerical checks cited above (`element_laws_check.py`, `axis_framing_check.py`, `knots.py`, `knots_corrected.py`, `zeros_check.py`, `near_symmetry.py`, `thin_tube.py`) are in the 2 November conversation and not filed.
