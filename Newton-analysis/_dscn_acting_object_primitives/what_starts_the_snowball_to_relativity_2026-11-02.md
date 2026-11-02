@@ -350,6 +350,31 @@ Torus knots $T(a,q)$: $\mathbf r(\phi)=\big((1+0.45\cos q\phi)\cos a\phi,\ (1+0.
 
 Scripts: `knots.py`, `knots_corrected.py` (2 November conversation, not filed).
 
+### W10. The accidental zeros: not the half-turn, a thin-tube hierarchy
+
+**The half-turn cannot force zeros.** Torus knots also have half-turn symmetries $H$ about horizontal axes, which reverse the loop's direction. $H$ sends each moment $Q_{\ell M}$ to $(-1)^{\ell}Q_{\ell,-M}=(-1)^{\ell+M}Q^*_{\ell M}$ for a real source. It maps the framing family to itself with the offset reflected or shifted, and the source to minus itself, because the tangent reverses. Matching then relates $A$ to $A^*$, or $A$ to $B^*$. That fixes phases or equates magnitudes, but it never forces $A=0$.
+
+**The zeros are not zeros.** On $T(4,3)$ with $\mathrm{Lk}=1$, the four "missing" components ($M=\pm5$ at $\ell=5,6$) are about $3\times10^{-8}$ of the largest, and the allowed components span five orders of magnitude. They shrink as a power of the tube radius $\varepsilon$. So the cause is an approximate symmetry of the thin-tube limit.
+
+**Thin-tube counting.**
+1. For small $\varepsilon$ the knot hugs a circle traversed $a$ times, so the azimuth is $\Phi=a\,\phi$ with $\phi$ the loop parameter.
+2. Relative to the axis framing, the moment pattern winds $n=\mathrm{Lk}-\mathrm{Lk}_0$ times per circuit. The tube's own wiggle adds harmonics $qj$ in $\phi$, with amplitude of order $\varepsilon^{|j|}$.
+3. A component with azimuthal number $M$ therefore needs
+
+$$
+aM=\pm n+qj,\qquad |Q_{\ell M}|\sim\varepsilon^{\,j_{\min}(M)},\qquad j_{\min}=\min_{\pm}\Big|\frac{aM\mp n}{q}\Big| .
+$$
+
+- **Integer $j$ is the exact rule.** It is equivalent to $aM\equiv\pm n\equiv\pm\mathrm{Lk}\pmod q$, so the exact selection rule is the mod-$q$ shadow of this count.
+- **$\mathrm{Lk}_0$ sets the hierarchy, though not the rule.** It drops out mod $q$, but its full value decides which allowed components dominate.
+- **Example, $T(4,3)$ with $\mathrm{Lk}=1$.** Here $n=10$. The count puts $M=\pm1,\pm4$ at order $\varepsilon^2$, $\pm2$ at $\varepsilon^6$ and $\pm5$ at $\varepsilon^{10}$: relative suppressions $\varepsilon^4$ and $\varepsilon^8$. Fitted: $|Q_{22}|/|Q_{61}|\sim\varepsilon^{3.7}$ for $\varepsilon$ from 0.1 to 0.25, and $|Q_{55}|/|Q_{61}|\sim\varepsilon^{7.5}$ from 0.25 to 0.55, where it is clear of the numerical floor.
+- **Ranking test.** At $\varepsilon=0.25$ on $T(4,3)$, $T(2,5)$, $T(3,4)$ and $T(2,7)$, two linking numbers each: within every $\ell$, each component of lower predicted order exceeds each of higher order, in 53 of 53 pairs.
+- **Where it breaks.** At $\varepsilon=0.6$ on $T(4,3)$ the ordering fails. The strands come close (minimum separation about 0.49) and the thin-tube expansion no longer applies. Not investigated further.
+
+So the rule's "only if" is exact, and the near-zeros are this hierarchy, not further exact zeros. On the coiled $(1,q)$ loops, $a=1$ and $\mathrm{Lk}_0=0$, so the dominant components are $M=\pm\mathrm{Lk}$, as on the circle.
+
+Scripts: `zeros_check.py`, `near_symmetry.py`, `thin_tube.py` (2 November conversation, not filed).
+
 ### Status of the workings
 
-Every claim the body of this record relies on now has a derivation above, or a citation (the no-interaction theorem; Weber's results; the historical values of $k$). Three assumptions stay explicit rather than proved: superposition and locality of element laws (W3); that a primitive's field has no divergence off its support (W7, condition ii); and, for the selection rule, only the "only if" direction is forced (W8; W9 found four accidental zeros on one knot). Numerical checks cited above (`element_laws_check.py`, `axis_framing_check.py`, `knots.py`, `knots_corrected.py`) are in the 2 November conversation and not filed.
+Every claim the body of this record relies on now has a derivation above, or a citation (the no-interaction theorem; Weber's results; the historical values of $k$). Three assumptions stay explicit rather than proved: superposition and locality of element laws (W3); that a primitive's field has no divergence off its support (W7, condition ii); and, for the selection rule, only the "only if" direction is forced (W8); the near-zeros W9 found are explained by the thin-tube hierarchy of W10. Numerical checks cited above (`element_laws_check.py`, `axis_framing_check.py`, `knots.py`, `knots_corrected.py`, `zeros_check.py`, `near_symmetry.py`, `thin_tube.py`) are in the 2 November conversation and not filed.
