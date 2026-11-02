@@ -128,7 +128,7 @@ In C1–C3 statics, moving a magnet past a charge does nothing: there is no char
 - **The kernel is certified at element level, with no free parameter.** $\mathbf K=\mathbf u_{\mathrm{rel}}\times\mathbf m$ vanishes wherever the magnets point along their path, so a closed loop of moving magnets aligned with the path everywhere except one short tilted segment carries murrent on that segment only, in a fully stationary configuration. The parent theory therefore fixes the single-element law directly: the plain dipole law with $\mathbf p=\mathbf u_{\mathrm{rel}}\times\mathbf m/c^2$ exactly (W1), with no dependence on the direction of motion (W3). Currents cannot be isolated this way, since stationarity forces $\nabla\cdot\mathbf J=0$, which is why their element law keeps the free $\kappa$ of Section 6 and the murrent's has none.\n- **Couplings to currents and magnets are zero in static configurations.** If the cancelling line cancels the moving magnets' lab magnetization exactly, the pure magnetic-moment flow is a static polarization with $\mathbf B=0$ at all orders, so it exerts nothing on currents or magnets, and neither feels a net force in its static $\mathbf E$ (W2). A nonzero coupling appears only under relative motion, which is velocity-dependent and outside C2. So in value the moment flow differs from a charge distribution nowhere; what separates them is the acting-object identity the 08-19 record argues for. (Added the same day.) The element carries a position plus a full frame (direction of motion, $\hat{\mathbf K}$), so its configuration space is $\mathbb R^3\times SO(3)$.
 - **Item 3, exact static domain:** for a train of moving dipoles at spacing $a$, the ripple harmonics decay like $e^{-2\pi k d/\gamma a}$ at distance $d$, so the continuum limit is exactly static. A twisting direction pattern is static only if it is fixed in space, each magnet rotating as it travels.
 - **Item 6, Galilean-EM comparison:** the motional field is a $1/c^2$ effect; it vanishes in the electric Galilean limit and survives in the magnetic one.
-- **Further results:** a twisted line screens its field like $e^{-q\rho}$ beyond one pitch; on a closed loop the twist is quantised, and on a loop with $q$-fold symmetry the multipole with azimuthal number $M$ survives only if $M \equiv \pm(\mathrm{Lk}-\mathrm{Lk}_0) \pmod q$, where $\mathrm{Lk}_0$ is the linking number of the framing given by projecting the symmetry axis onto the normal plane ($\mathrm{Lk}_0=0$ for the coiled loops tested). Proved in W8; every allowed component was nonzero numerically up to $\ell=6$. Full working: the 2 November doc, https://claude.ai/artifact/FxTWLM3hoJXKe44oFTPo31
+- **Further results:** a twisted line screens its field like $e^{-q\rho}$ beyond one pitch; on a closed loop the twist is quantised, and on a loop with $q$-fold symmetry the multipole with azimuthal number $M$ survives only if $aM \equiv \pm\mathrm{Lk} \pmod q$, where a rotation by $2\pi a/q$ advances the loop by $1/q$ of its length ($a=1$ for a loop that goes once round the axis, as in all the coiled loops). Proved in W8 and tested on seven torus knots in W9. Full working: the 2 November doc, https://claude.ai/artifact/FxTWLM3hoJXKe44oFTPo31
 
 ---
 
@@ -291,30 +291,65 @@ A derivative integrated round a closed loop vanishes, so $\oint\!\oint(\mathbf a
 
 **Scope.** This is value equivalence only. $\tilde\rho$ is a constructed calculation device. It carries no source warrant, so the lemma does not reduce the acting object (08-19 record, sec. 7). Assumption (ii) is substantive: a primitive whose field had divergence off its support would not be covered.
 
-### W8. The symmetry step of the selection rule
+### W8. The symmetry step of the selection rule (corrected after the knot test, W9)
 
-**Setting.** A closed curve $\mathbf y(s)$ of length $L$ with $q$-fold symmetry: a rotation $\mathcal R$ by $2\pi/q$ about the $z$-axis with $\mathcal R\,\mathbf y(s)=\mathbf y(s+L/q)$, so $\mathcal R\,\hat{\mathbf t}(s)=\hat{\mathbf t}(s+L/q)$. The moment pattern is a framing $\mathbf m(s)\perp\hat{\mathbf t}(s)$ with linking number $\mathrm{Lk}$. The sources are $\mathbf K\propto\hat{\mathbf t}\times\mathbf m$ along the curve.
+**Setting.** A closed curve $\mathbf y(s)$ of length $L$ is symmetric under the rotation $\mathcal R$ by $2\pi/q$ about the $z$-axis, with $\mathcal R\,\mathbf y(s)=\mathbf y(s+cL/q)$ for some integer $c$ coprime to $q$. Equivalently, a rotation by $2\pi a/q$ advances the curve by $1/q$ of its length, where $ac\equiv1\pmod q$. A loop that goes once round the axis has $a=c=1$; the torus knot $T(a,q)$, which goes $a$ times round the axis, has that $a$. The moment pattern is a framing $\mathbf m(s)\perp\hat{\mathbf t}(s)$ with linking number $\mathrm{Lk}$, and the sources are $\mathbf K\propto\hat{\mathbf t}\times\mathbf m$ along the curve.
 
-**Reference framing.** Let $\mathbf n_0(s)$ be the normalised projection of $\hat{\mathbf z}$ onto the plane normal to the curve, defined wherever $\hat{\mathbf t}\not\parallel\hat{\mathbf z}$. Because $\mathcal R\hat{\mathbf z}=\hat{\mathbf z}$, it is exactly equivariant: $\mathcal R\,\mathbf n_0(s)=\mathbf n_0(s+L/q)$. Call its linking number $\mathrm{Lk}_0$. For the coiled torus loops it is 0: it is 0 on the circle (the push-off along $\hat{\mathbf z}$ is a parallel circle), and an integer cannot change continuously. Computed: $\mathrm{Lk}_0=+0.0000$, $+0.0008$, $+0.0008$ for $(q,\varepsilon)=(2,0.45),(3,0.75),(5,0.4)$, where $\min|\hat{\mathbf z}-(\hat{\mathbf z}\cdot\hat{\mathbf t})\hat{\mathbf t}|=0.52,\,0.11,\,0.29$ confirms $\mathbf n_0$ is defined (script `axis_framing_check.py`, not filed).
+**Reference framing.** Let $\mathbf n_0(s)$ be the normalised projection of $\hat{\mathbf z}$ onto the plane normal to the curve, defined wherever $\hat{\mathbf t}\not\parallel\hat{\mathbf z}$. Since $\mathcal R\hat{\mathbf z}=\hat{\mathbf z}$, it is exactly equivariant: $\mathcal R\,\mathbf n_0(s)=\mathbf n_0(s+cL/q)$. Call its linking number $\mathrm{Lk}_0$.
 
-**Step 1: the symmetry turns the framing by a fixed angle.** Write $\mathbf m(s)$ as $\mathbf n_0(s)$ turned about $\hat{\mathbf t}(s)$ by an angle $\varphi(s)$. The framing closes with $\varphi(L)-\varphi(0)=2\pi n$, and $\mathrm{Lk}=\mathrm{Lk}_0+n$. For the uniform-twist framing of the computations, $\varphi(s+L/q)-\varphi(s)$ is constant, because both the parallel-transport frame and $\mathbf n_0$ are carried into themselves by $\mathcal R$ up to a fixed angle. Summing $q$ equal steps gives $2\pi n$, so each step is $2\pi n/q$. Then
-$$
-\mathcal R\,\mathbf m(s)=\mathrm{turn}_{\varphi(s)}\big(\mathbf n_0(s+L/q)\big)=\mathrm{turn}_{\varphi(s+L/q)-2\pi n/q}\big(\mathbf n_0(s+L/q)\big).
-$$
-So the rotated configuration is the same framing with its constant offset $\theta_0$ shifted by $\psi=-2\pi(\mathrm{Lk}-\mathrm{Lk}_0)/q$.
+**Lemma: $\mathrm{Lk}_0$ is a multiple of $q$.**
+1. $\mathbf n_0$ differs from the vertical direction only by a part along the tangent, which does not change the linking number of a small push-off. So $\mathrm{Lk}_0$ is the linking number of the curve with its vertical push-off, which is the writhe (sum of crossing signs) of the curve's diagram in the $xy$-plane.
+2. The rotation acts on that diagram. It fixes no crossing: a crossing at the centre would need a curve point on the axis, which $\mathcal R$ would have to fix, but $\mathcal R$ moves every point of the curve.
+3. Rotation keeps over/under and orientation, so crossing signs are preserved. Crossings therefore come in orbits of $q$ with equal signs.
 
-**Step 2: matching phases.** Each multipole moment $Q_{\ell M}$ is linear in $\mathbf m$, so as a function of the offset it is $Q_{\ell M}(\theta_0)=A\,e^{i\theta_0}+B\,e^{-i\theta_0}$. Rotating a source by $2\pi/q$ multiplies $Q_{\ell M}$ by $e^{-2\pi iM/q}$. By step 1 the rotated source is the configuration at offset $\theta_0+\psi$, so
-$$
-A\,e^{i\psi}=e^{-2\pi iM/q}A,\qquad B\,e^{-i\psi}=e^{-2\pi iM/q}B .
-$$
-$A\ne0$ requires $M\equiv\mathrm{Lk}-\mathrm{Lk}_0$ and $B\ne0$ requires $M\equiv-(\mathrm{Lk}-\mathrm{Lk}_0)\pmod q$. Hence
+Computed values on seven torus knots: $\mathrm{Lk}_0=-3,-4,-5,-8,-9,-10,-7$ for $q=3,2,5,4,3,5,7$, all multiples of $q$. On the $(1,q)$ coiled loops $\mathrm{Lk}_0=0$.
+
+**Step 1: the symmetry turns the framing by a fixed angle.** Write $\mathbf m(s)$ as $\mathbf n_0(s)$ turned about $\hat{\mathbf t}(s)$ by an angle $\varphi(s)$. Closure gives $\varphi(s+L)-\varphi(s)=2\pi n$, with $n=\mathrm{Lk}-\mathrm{Lk}_0$.
+
+For the uniform-twist framing, $\varphi(s+cL/q)-\varphi(s)$ is a constant $\delta$, because $\mathcal R$ carries both the parallel-transport frame and $\mathbf n_0$ into themselves up to a fixed angle. Applying the step $q$ times advances the parameter by $cL$, that is $c$ full circuits, so $q\delta=2\pi cn$ and $\delta=2\pi cn/q$. Then
 
 $$
-\boxed{\;Q_{\ell M}\ne0\ \text{only if}\ M\equiv\pm(\mathrm{Lk}-\mathrm{Lk}_0)\pmod q\;}
+\mathcal R\,\mathbf m(s)=\mathrm{turn}_{\varphi(s)}\big(\mathbf n_0(s+cL/q)\big)=\mathrm{turn}_{\varphi(s+cL/q)-\delta}\big(\mathbf n_0(s+cL/q)\big).
 $$
 
-This proves the "only if". The "if" (every allowed component is actually nonzero) is generic, not forced, and is what the numerics show up to $\ell=6$. On a circle every rotation is a symmetry, so the rule holds for all $q$ at once, leaving $M=\pm\mathrm{Lk}$ and hence $\ell\ge|\mathrm{Lk}|$.
+So the rotated configuration is the same framing with its constant offset shifted by $\psi=-2\pi c(\mathrm{Lk}-\mathrm{Lk}_0)/q$.
+
+**Step 2: matching phases.** Each moment $Q_{\ell M}$ is linear in $\mathbf m$, so $Q_{\ell M}(\theta_0)=A\,e^{i\theta_0}+B\,e^{-i\theta_0}$. Rotating a source by $2\pi/q$ multiplies $Q_{\ell M}$ by $e^{-2\pi iM/q}$. Hence
+
+$$
+A\,e^{i\psi}=e^{-2\pi iM/q}A,\qquad B\,e^{-i\psi}=e^{-2\pi iM/q}B,
+$$
+
+which gives $M\equiv\pm c\,(\mathrm{Lk}-\mathrm{Lk}_0)\pmod q$. With $\mathrm{Lk}_0\equiv0$:
+
+$$
+\boxed{\;Q_{\ell M}\ne0\ \text{only if}\ M\equiv\pm c\,\mathrm{Lk}\pmod q,\ \text{equivalently}\ aM\equiv\pm\mathrm{Lk}\pmod q\;}
+$$
+
+The leading multipole is $\ell_{\min}=\max(d,1)$, where $d$ is the smallest allowed $|M|$. On a circle every rotation is a symmetry with $a=1$, so the rule holds for all $q$ at once, leaving $M=\pm\mathrm{Lk}$.
+
+**Correction.** The first version of W8 assumed the $2\pi/q$ rotation advances the loop by $1/q$ ($c=1$). That holds for every loop of the 2 November computations, which go once round the axis, so those results stand. It fails on knots with $a\not\equiv\pm1\pmod q$ (W9). The intermediate statement $M\equiv\pm(\mathrm{Lk}-\mathrm{Lk}_0)$ was right only for $c=1$, and $\mathrm{Lk}_0$ never changes anything mod $q$.
+
+### W9. Test on torus knots
+
+Torus knots $T(a,q)$: $\mathbf r(\phi)=\big((1+0.45\cos q\phi)\cos a\phi,\ (1+0.45\cos q\phi)\sin a\phi,\ 0.45\sin q\phi\big)$, with $q$-fold symmetry and $a$ turns round the axis per circuit. For every linking number from 0 to $q$, all multipoles up to $\ell=6$ were computed (1,260 points, so the symmetry is exact on the discrete loop) and compared with the rule.
+
+| Knot | $q$ | $a \bmod q$ | $\mathrm{Lk}_0$ | Violations of $aM\equiv\pm\mathrm{Lk}$ | Allowed but zero |
+| --- | --- | --- | --- | --- | --- |
+| $T(2,3)$ trefoil | 3 | 2 (≡ −1) | −3 | 0 | 0 |
+| $T(3,2)$ trefoil | 2 | 1 | −4 | 0 | 0 |
+| $T(2,5)$ cinquefoil | 5 | 2 | −5 | 0 | 0 |
+| $T(3,4)$ | 4 | 3 (≡ −1) | −8 | 0 | 0 |
+| $T(4,3)$ | 3 | 1 | −9 | 0 | 4 (at Lk = 1) |
+| $T(3,5)$ | 5 | 3 | −10 | 0 | 0 |
+| $T(2,7)$ | 7 | 2 | −7 | 0 | 0 |
+
+- **The naive rule fails exactly where predicted.** $M\equiv\pm\mathrm{Lk}$ coincides with the corrected rule when $a\equiv\pm1\pmod q$. On $T(2,5)$, where $a=2$, it failed for 6 of the 8 linking numbers tried. That failure is what exposed the gap in the first W8.
+- **Leading multipoles match.** On $T(2,7)$: $\mathrm{Lk}=1$ gives $c=4$, so $M\equiv\pm4\equiv\mp3$ and the leading term is the octupole, $\ell=3$; $\mathrm{Lk}=3$ gives $M\equiv\pm2$, $\ell=2$. Both are as computed.
+- **The four allowed-but-zero components** on $T(4,3)$ are accidental zeros, which the rule permits since only "only if" is forced. Likely cause: a further symmetry, such as a half-turn about a horizontal axis, that the rule does not use.
+
+Scripts: `knots.py`, `knots_corrected.py` (2 November conversation, not filed).
 
 ### Status of the workings
 
-Every claim the body of this record relies on now has a derivation above, or a citation (the no-interaction theorem; Weber's results; the historical values of $k$). Three assumptions stay explicit rather than proved: superposition and locality of element laws (W3); that a primitive's field has no divergence off its support (W7, condition ii); and, for the selection rule, only the "only if" direction is forced (W8). Numerical checks cited above (`element_laws_check.py`, `axis_framing_check.py`) are in the 2 November conversation and not filed.
+Every claim the body of this record relies on now has a derivation above, or a citation (the no-interaction theorem; Weber's results; the historical values of $k$). Three assumptions stay explicit rather than proved: superposition and locality of element laws (W3); that a primitive's field has no divergence off its support (W7, condition ii); and, for the selection rule, only the "only if" direction is forced (W8; W9 found four accidental zeros on one knot). Numerical checks cited above (`element_laws_check.py`, `axis_framing_check.py`, `knots.py`, `knots_corrected.py`) are in the 2 November conversation and not filed.
