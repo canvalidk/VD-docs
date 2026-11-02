@@ -128,7 +128,7 @@ In C1–C3 statics, moving a magnet past a charge does nothing: there is no char
 - **The kernel is certified at element level, with no free parameter.** $\mathbf K=\mathbf u_{\mathrm{rel}}\times\mathbf m$ vanishes wherever the magnets point along their path, so a closed loop of moving magnets aligned with the path everywhere except one short tilted segment carries murrent on that segment only, in a fully stationary configuration. The parent theory therefore fixes the single-element law directly: the plain dipole law with $\mathbf p=\mathbf u_{\mathrm{rel}}\times\mathbf m/c^2$ exactly (W1), with no dependence on the direction of motion (W3). Currents cannot be isolated this way, since stationarity forces $\nabla\cdot\mathbf J=0$, which is why their element law keeps the free $\kappa$ of Section 6 and the murrent's has none.\n- **Couplings to currents and magnets are zero in static configurations.** If the cancelling line cancels the moving magnets' lab magnetization exactly, the pure magnetic-moment flow is a static polarization with $\mathbf B=0$ at all orders, so it exerts nothing on currents or magnets, and neither feels a net force in its static $\mathbf E$ (W2). A nonzero coupling appears only under relative motion, which is velocity-dependent and outside C2. So in value the moment flow differs from a charge distribution nowhere; what separates them is the acting-object identity the 08-19 record argues for. (Added the same day.) The element carries a position plus a full frame (direction of motion, $\hat{\mathbf K}$), so its configuration space is $\mathbb R^3\times SO(3)$.
 - **Item 3, exact static domain:** for a train of moving dipoles at spacing $a$, the ripple harmonics decay like $e^{-2\pi k d/\gamma a}$ at distance $d$, so the continuum limit is exactly static. A twisting direction pattern is static only if it is fixed in space, each magnet rotating as it travels.
 - **Item 6, Galilean-EM comparison:** the motional field is a $1/c^2$ effect; it vanishes in the electric Galilean limit and survives in the magnetic one.
-- **Further results:** a twisted line screens its field like $e^{-q\rho}$ beyond one pitch; on a closed loop the twist is quantised, and on a loop with $q$-fold symmetry the multipole with azimuthal number $M$ survives iff $M \equiv \pm\mathrm{Lk} \pmod q$ (confirmed numerically to $\ell=6$). Full working: the 2 November doc, https://claude.ai/artifact/FxTWLM3hoJXKe44oFTPo31
+- **Further results:** a twisted line screens its field like $e^{-q\rho}$ beyond one pitch; on a closed loop the twist is quantised, and on a loop with $q$-fold symmetry the multipole with azimuthal number $M$ survives only if $M \equiv \pm(\mathrm{Lk}-\mathrm{Lk}_0) \pmod q$, where $\mathrm{Lk}_0$ is the linking number of the framing given by projecting the symmetry axis onto the normal plane ($\mathrm{Lk}_0=0$ for the coiled loops tested). Proved in W8; every allowed component was nonzero numerically up to $\ell=6$. Full working: the 2 November doc, https://claude.ai/artifact/FxTWLM3hoJXKe44oFTPo31
 
 ---
 
@@ -241,9 +241,80 @@ because $h$ depends on direction and $\nabla h$ has a part perpendicular to $\ha
 
 **Consequence: sec. 6 corrected.** With primitive currents and C1, Ampère's element law is excluded as well as Grassmann's. The law that satisfies C1, the strong third law and angular-momentum balance is **Neumann's** ($\kappa=+1$). Ampère's force belongs to Weber's ontology, where the state includes the carriers' velocities; NM's primitive currents have no carriers.
 
-### Not yet written
+### W5. The consequences of sec. 2, in full
 
-- The potential-theory lemma behind the 2 November reduction result: a curl-free exterior field whose sources lie on a path is reproducible by charges on or near it.
-- Derivation of the Helmholtz family's two-term form from bilinearity, rotation and parity invariance and $1/R$ scaling.
-- The C1–C3 consequences of sec. 2 written out in full.
-- The symmetry step of the $\mathrm{Lk} \bmod q$ selection rule (the symmetry turns the framing by $2\pi\,\mathrm{Lk}/q$), currently backed by numerics only.
+Take a configuration-only energy $U(\mathbf x_1,\dots,\mathbf x_N;\mathbf a_1,\dots,\mathbf a_K)$, where the $\mathbf a_k$ are orientation vectors (current elements, magnets). Forces are $\mathbf F_i=-\partial U/\partial\mathbf x_i$ and torques $\boldsymbol\tau_k=-\mathbf a_k\times\partial U/\partial\mathbf a_k$.
+
+**Momentum.** Translation invariance, $U(\mathbf x_i+\boldsymbol\epsilon)=U(\mathbf x_i)$ for every $\boldsymbol\epsilon$, differentiated at $\boldsymbol\epsilon=0$, gives $\sum_i\partial U/\partial\mathbf x_i=0$. Hence $\sum_i\mathbf F_i=0$ at every instant and $\frac{d}{dt}\sum_i\mathbf p_i=0$.
+
+**Weak third law.** For a pair energy $U_{ij}(\mathbf x_j-\mathbf x_i,\dots)$, write $\mathbf r=\mathbf x_j-\mathbf x_i$: $\mathbf F_{\to j}=-\partial U_{ij}/\partial\mathbf r$ and $\mathbf F_{\to i}=+\partial U_{ij}/\partial\mathbf r$. Equal and opposite, always.
+
+**Strong third law.** The pair force is along $\mathbf r$ exactly when $U_{ij}$ does not depend on the direction $\hat{\mathbf r}$ at fixed orientations, since the gradient of a function of $|\mathbf r|$ alone is radial.
+
+**Angular momentum.** Rotation invariance under $\delta\mathbf x_i=\boldsymbol\omega\times\mathbf x_i$, $\delta\mathbf a_k=\boldsymbol\omega\times\mathbf a_k$ gives
+$$
+0=\delta U=\boldsymbol\omega\cdot\Big[\sum_i\mathbf x_i\times\frac{\partial U}{\partial\mathbf x_i}+\sum_k\mathbf a_k\times\frac{\partial U}{\partial\mathbf a_k}\Big]
+\;\Rightarrow\;
+\sum_i\mathbf x_i\times\mathbf F_i+\sum_k\boldsymbol\tau_k=0 .
+$$
+A non-central force is allowed provided the orientation torques balance it (parked issue: orientation dynamics).
+
+**Boosts.** Under $\mathbf x'_i=\mathbf x_i-\mathbf u t$, $t'=t$: $\ddot{\mathbf x}'_i=\ddot{\mathbf x}_i$ and, by translation invariance, $\partial U/\partial\mathbf x'_i=\partial U/\partial\mathbf x_i$, so $m_i\ddot{\mathbf x}'_i=-\partial U/\partial\mathbf x'_i$ holds in the new frame. The energy becomes $E'=E-\mathbf u\cdot\mathbf P+\tfrac12Mu^2$, conserved because $\mathbf P$ is.
+
+**Energy.** At fixed orientations, $\frac{dE}{dt}=\sum_i\dot{\mathbf x}_i\cdot\big(m_i\ddot{\mathbf x}_i+\partial U/\partial\mathbf x_i\big)=0$. This is C1 for the particle sector.
+
+### W6. The Helmholtz family's two-term form
+
+Assume the pair energy of elements $\mathbf a$, $\mathbf b$ at separation $\mathbf R$ is bilinear, $U=a_i\,T_{ij}(\mathbf R)\,b_j$, invariant under rotations and parity, and scales as $1/R$.
+
+1. A rank-2 tensor that depends only on $\hat{\mathbf R}$ and is rotation-covariant has the general form $T_{ij}=A\,\delta_{ij}+B\,\hat R_i\hat R_j+C\,\epsilon_{ijk}\hat R_k$.
+2. The $C$ term gives $C\,\hat{\mathbf R}\cdot(\mathbf a\times\mathbf b)$. With $\mathbf a$, $\mathbf b$ and $\hat{\mathbf R}$ all polar vectors this is a pseudoscalar, so parity removes it.
+3. Scaling gives $U=\big[\alpha\,\mathbf a\cdot\mathbf b+\beta\,(\mathbf a\cdot\hat{\mathbf R})(\mathbf b\cdot\hat{\mathbf R})\big]/R$.
+4. **Closed-loop identity.** For unit tangents $\mathbf a=d\mathbf y_1/ds_1$, $\mathbf b=d\mathbf y_2/ds_2$ and $\mathbf R=\mathbf y_2-\mathbf y_1$: $\partial R/\partial s_2=\hat{\mathbf R}\cdot\mathbf b$, and $\partial\hat{\mathbf R}/\partial s_1=\big(-\mathbf a+\hat{\mathbf R}(\hat{\mathbf R}\cdot\mathbf a)\big)/R$, so
+$$
+\frac{\partial^2 R}{\partial s_1\,\partial s_2}=-\frac{\mathbf a\cdot\mathbf b-(\mathbf a\cdot\hat{\mathbf R})(\mathbf b\cdot\hat{\mathbf R})}{R}.
+$$
+A derivative integrated round a closed loop vanishes, so $\oint\!\oint(\mathbf a\cdot\hat{\mathbf R})(\mathbf b\cdot\hat{\mathbf R})/R=\oint\!\oint\mathbf a\cdot\mathbf b/R$.
+5. Closed circuits therefore see only $\alpha+\beta$, which Neumann's mutual inductance fixes at $-\mu_0I_1I_2/4\pi$. One parameter remains: $\alpha=-\frac{\mu_0}{8\pi}(1+\kappa)$, $\beta=-\frac{\mu_0}{8\pi}(1-\kappa)$, which is the form in sec. 6.
+
+### W7. The lemma behind value equivalence
+
+**Claim.** Let a primitive's static field $\mathbf E$ be defined outside its support $S$, a curve or a compact set. Suppose (i) $\mathbf E$ has zero circulation round every closed path that avoids $S$; (ii) $\nabla\cdot\mathbf E=0$ outside $S$, so the primitive has no sources off its support; (iii) $\mathbf E\to0$ at infinity, with a potential decaying there. Then for any neighbourhood $N$ of $S$ there is a charge density supported in $N$ whose Coulomb field equals $\mathbf E$ outside $N$.
+
+**Why (i) holds under C1.** If some closed path avoiding $S$ had $\oint\mathbf E\cdot d\mathbf l\ne0$, a test charge carried round it would gain $q\oint\mathbf E\cdot d\mathbf l$ per lap with the configuration unchanged. No energy function of the present state could account for that.
+
+**Proof.**
+1. By (i), $\phi(\mathbf x)=-\int_{\mathbf x_0}^{\mathbf x}\mathbf E\cdot d\mathbf l$ is single-valued outside $S$, even when the complement is not simply connected (a loop source). By (ii), $\nabla^2\phi=0$ there.
+2. Pick a smooth cutoff $\chi$ equal to 1 outside $N$ and 0 on a smaller neighbourhood of $S$. Define $\tilde\phi=\chi\phi$ on all of space, and $\tilde\rho=-\varepsilon_0\nabla^2\tilde\phi$.
+3. Outside $N$, $\tilde\phi=\phi$ is harmonic, so $\tilde\rho=0$ there: $\tilde\rho$ is supported in $N$.
+4. $\tilde\phi$ decays at infinity and solves Poisson's equation with source $\tilde\rho$, so by uniqueness it is the Coulomb potential of $\tilde\rho$. Outside $N$ its field is $-\nabla\phi=\mathbf E$. $\blacksquare$
+
+**Scope.** This is value equivalence only. $\tilde\rho$ is a constructed calculation device. It carries no source warrant, so the lemma does not reduce the acting object (08-19 record, sec. 7). Assumption (ii) is substantive: a primitive whose field had divergence off its support would not be covered.
+
+### W8. The symmetry step of the selection rule
+
+**Setting.** A closed curve $\mathbf y(s)$ of length $L$ with $q$-fold symmetry: a rotation $\mathcal R$ by $2\pi/q$ about the $z$-axis with $\mathcal R\,\mathbf y(s)=\mathbf y(s+L/q)$, so $\mathcal R\,\hat{\mathbf t}(s)=\hat{\mathbf t}(s+L/q)$. The moment pattern is a framing $\mathbf m(s)\perp\hat{\mathbf t}(s)$ with linking number $\mathrm{Lk}$. The sources are $\mathbf K\propto\hat{\mathbf t}\times\mathbf m$ along the curve.
+
+**Reference framing.** Let $\mathbf n_0(s)$ be the normalised projection of $\hat{\mathbf z}$ onto the plane normal to the curve, defined wherever $\hat{\mathbf t}\not\parallel\hat{\mathbf z}$. Because $\mathcal R\hat{\mathbf z}=\hat{\mathbf z}$, it is exactly equivariant: $\mathcal R\,\mathbf n_0(s)=\mathbf n_0(s+L/q)$. Call its linking number $\mathrm{Lk}_0$. For the coiled torus loops it is 0: it is 0 on the circle (the push-off along $\hat{\mathbf z}$ is a parallel circle), and an integer cannot change continuously. Computed: $\mathrm{Lk}_0=+0.0000$, $+0.0008$, $+0.0008$ for $(q,\varepsilon)=(2,0.45),(3,0.75),(5,0.4)$, where $\min|\hat{\mathbf z}-(\hat{\mathbf z}\cdot\hat{\mathbf t})\hat{\mathbf t}|=0.52,\,0.11,\,0.29$ confirms $\mathbf n_0$ is defined (script `axis_framing_check.py`, not filed).
+
+**Step 1: the symmetry turns the framing by a fixed angle.** Write $\mathbf m(s)$ as $\mathbf n_0(s)$ turned about $\hat{\mathbf t}(s)$ by an angle $\varphi(s)$. The framing closes with $\varphi(L)-\varphi(0)=2\pi n$, and $\mathrm{Lk}=\mathrm{Lk}_0+n$. For the uniform-twist framing of the computations, $\varphi(s+L/q)-\varphi(s)$ is constant, because both the parallel-transport frame and $\mathbf n_0$ are carried into themselves by $\mathcal R$ up to a fixed angle. Summing $q$ equal steps gives $2\pi n$, so each step is $2\pi n/q$. Then
+$$
+\mathcal R\,\mathbf m(s)=\mathrm{turn}_{\varphi(s)}\big(\mathbf n_0(s+L/q)\big)=\mathrm{turn}_{\varphi(s+L/q)-2\pi n/q}\big(\mathbf n_0(s+L/q)\big).
+$$
+So the rotated configuration is the same framing with its constant offset $\theta_0$ shifted by $\psi=-2\pi(\mathrm{Lk}-\mathrm{Lk}_0)/q$.
+
+**Step 2: matching phases.** Each multipole moment $Q_{\ell M}$ is linear in $\mathbf m$, so as a function of the offset it is $Q_{\ell M}(\theta_0)=A\,e^{i\theta_0}+B\,e^{-i\theta_0}$. Rotating a source by $2\pi/q$ multiplies $Q_{\ell M}$ by $e^{-2\pi iM/q}$. By step 1 the rotated source is the configuration at offset $\theta_0+\psi$, so
+$$
+A\,e^{i\psi}=e^{-2\pi iM/q}A,\qquad B\,e^{-i\psi}=e^{-2\pi iM/q}B .
+$$
+$A\ne0$ requires $M\equiv\mathrm{Lk}-\mathrm{Lk}_0$ and $B\ne0$ requires $M\equiv-(\mathrm{Lk}-\mathrm{Lk}_0)\pmod q$. Hence
+
+$$
+\boxed{\;Q_{\ell M}\ne0\ \text{only if}\ M\equiv\pm(\mathrm{Lk}-\mathrm{Lk}_0)\pmod q\;}
+$$
+
+This proves the "only if". The "if" (every allowed component is actually nonzero) is generic, not forced, and is what the numerics show up to $\ell=6$. On a circle every rotation is a symmetry, so the rule holds for all $q$ at once, leaving $M=\pm\mathrm{Lk}$ and hence $\ell\ge|\mathrm{Lk}|$.
+
+### Status of the workings
+
+Every claim the body of this record relies on now has a derivation above, or a citation (the no-interaction theorem; Weber's results; the historical values of $k$). Three assumptions stay explicit rather than proved: superposition and locality of element laws (W3); that a primitive's field has no divergence off its support (W7, condition ii); and, for the selection rule, only the "only if" direction is forced (W8). Numerical checks cited above (`element_laws_check.py`, `axis_framing_check.py`) are in the 2 November conversation and not filed.
