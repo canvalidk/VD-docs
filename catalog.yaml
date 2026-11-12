@@ -400,6 +400,38 @@ files:
     orig_name: null
     informs: null
     note: "RESEARCH DIRECTION: HAZE, FLUID MECHANICS AND THERMODYNAMICS (30 lines, VD-Newton-side, 2026-09-10), received 2026-09-23 from VD-Newton's pass to VD-docs/ staging folder (branch codex/nml2-entry-renumbering @c2a0872; the file is unchanged since 9f9e3f8, 2026-09-13), sha256-verified against the clone: the proposed connection between haze and fluid/thermal descriptions, a first investigation, earlier VD context. RECEIVED AND HELD UNSORTED in inbox/ on his ruling 2026-09-23 ('keep the ambiguous files unsorted. Better to circle back'). The ambiguity: it belongs with _dscn_haze as one of the research directions haze opens, AND with the lumping/trackability material (_dscn_lumping_consequences, lumping_horizon_and_thermodynamic_boundary), which it rederives. Claude's leaning was _dscn_haze. Not homed, not stamped. Normalization NO-OP, KaTeX gate passed, nothing banked - ready to move without re-running intake."
+  - path: "inbox/op_technique_overlapping_problems_2026-11-12.md"
+    type: md
+    role: primary
+    tags: [op-technique, overlapping-problems, aligning-statement, self-refutation, unsorted]
+    project: null
+    status: draft
+    dup_group: null
+    math_normalized: null
+    math_flags: null
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: null
+    note: "THE OP TECHNIQUE (OVERLAPPING PROBLEMS), markdown copy of the Claude doc built with him on 2026-11-12 and written to inbox/ at his instruction ('Also add the doc we built to the inbox'). Explains his technique (two fixed questions, Aligning Statements), the doubt worked example, its status as a trick of axiom strength, ten historical question pairs, and the comparison with Mackie 1964 (read in full). UNSORTED, held in inbox/; pushed from a cloud session at his instruction ('push so we dont lose it please'). Companion: what_is_a_question_op_run_2026-11-12.md. No math, so the normalizer has nothing to do; not yet run through the intake gate because it has not left inbox/."
+  - path: "inbox/what_is_a_question_op_run_2026-11-12.md"
+    type: md
+    role: primary
+    tags: [op-technique, what-is-a-question, foundations, unsorted]
+    project: null
+    status: draft
+    dup_group: null
+    math_normalized: null
+    math_flags: null
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: null
+    note: "WHAT IS A QUESTION? FIRST RUN OF THE OP TECHNIQUE, record, Claude-authored at his request 2026-11-12. Pair: is it a question / does it have an answer. Finding: 'every question has an answer' is one side of a forced choice (so an axiom), with the Liar-question as the item that forces it; he states the VD was built on that assumption. Holds the open items and the parked list for the technique. UNSORTED, held in inbox/; subject points to Theory or Core, placement is the sorter's call. Companion: op_technique_overlapping_problems_2026-11-12.md."
   - path: "outbox/VD-Newton/PASS_RECEIPT_2026-09-08.md"
     type: md
     role: primary
