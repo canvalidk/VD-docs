@@ -432,6 +432,166 @@ files:
     orig_name: null
     informs: null
     note: "WHAT IS A QUESTION? FIRST RUN OF THE OP TECHNIQUE, record, Claude-authored at his request 2026-11-12. Pair: is it a question / does it have an answer. Finding: 'every question has an answer' is one side of a forced choice (so an axiom), with the Liar-question as the item that forces it; he states the VD was built on that assumption. Holds the open items and the parked list for the technique. UNSORTED, held in inbox/; subject points to Theory or Core, placement is the sorter's call. Companion: op_technique_overlapping_problems_2026-11-12.md."
+  - path: "inbox/NEWTON_ENTRY_STRUCTURE_SYNTHESIS_2026-11-08.md"
+    type: md
+    role: primary
+    tags: [unsorted]
+    project: null
+    status: draft
+    dup_group: null
+    math_normalized: null
+    math_flags: null
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: null
+    note: "UNSORTED, held in inbox/. Catalogued 2026-11-12 only so that the file could be pushed with the bijection intact, at his instruction (push them aswell please) from a cloud session. NOT read, sorted, normalized or gated in that session; tags and status are placeholders for the sorter."
+  - path: "inbox/contribution_law_and_force_sum_decisions_2026-11-11.md"
+    type: md
+    role: primary
+    tags: [unsorted]
+    project: null
+    status: draft
+    dup_group: null
+    math_normalized: null
+    math_flags: null
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: null
+    note: "UNSORTED, held in inbox/. Catalogued 2026-11-12 only so that the file could be pushed with the bijection intact, at his instruction (push them aswell please) from a cloud session. NOT read, sorted, normalized or gated in that session; tags and status are placeholders for the sorter."
+  - path: "inbox/contribution_law_probe_trace.md"
+    type: md
+    role: primary
+    tags: [unsorted]
+    project: null
+    status: draft
+    dup_group: null
+    math_normalized: null
+    math_flags: null
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: null
+    note: "UNSORTED, held in inbox/. Catalogued 2026-11-12 only so that the file could be pushed with the bijection intact, at his instruction (push them aswell please) from a cloud session. NOT read, sorted, normalized or gated in that session; tags and status are placeholders for the sorter."
+  - path: "inbox/engine_probe_contribution_recursion.py"
+    type: py
+    role: primary
+    tags: [unsorted]
+    project: null
+    status: draft
+    dup_group: null
+    math_normalized: null
+    math_flags: null
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: null
+    note: "UNSORTED, held in inbox/. Catalogued 2026-11-12 only so that the file could be pushed with the bijection intact, at his instruction (push them aswell please) from a cloud session. NOT read, sorted, normalized or gated in that session; tags and status are placeholders for the sorter."
+  - path: "inbox/handtrace_probe_contribution_law.py"
+    type: py
+    role: primary
+    tags: [unsorted]
+    project: null
+    status: draft
+    dup_group: null
+    math_normalized: null
+    math_flags: null
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: null
+    note: "UNSORTED, held in inbox/. Catalogued 2026-11-12 only so that the file could be pushed with the bijection intact, at his instruction (push them aswell please) from a cloud session. NOT read, sorted, normalized or gated in that session; tags and status are placeholders for the sorter."
+  - path: "inbox/handtrace_probe_member_list.py"
+    type: py
+    role: primary
+    tags: [unsorted]
+    project: null
+    status: draft
+    dup_group: null
+    math_normalized: null
+    math_flags: null
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: null
+    note: "UNSORTED, held in inbox/. Catalogued 2026-11-12 only so that the file could be pushed with the bijection intact, at his instruction (push them aswell please) from a cloud session. NOT read, sorted, normalized or gated in that session; tags and status are placeholders for the sorter."
+  - path: "inbox/how_the_list_works_contribution_recursion_2026-11-12.md"
+    type: md
+    role: primary
+    tags: [unsorted]
+    project: null
+    status: draft
+    dup_group: null
+    math_normalized: null
+    math_flags: null
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: null
+    note: "UNSORTED, held in inbox/. Catalogued 2026-11-12 only so that the file could be pushed with the bijection intact, at his instruction (push them aswell please) from a cloud session. NOT read, sorted, normalized or gated in that session; tags and status are placeholders for the sorter."
+  - path: "inbox/member_list_probe_scratch_entries.md"
+    type: md
+    role: primary
+    tags: [unsorted]
+    project: null
+    status: draft
+    dup_group: null
+    math_normalized: null
+    math_flags: null
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: null
+    note: "UNSORTED, held in inbox/. Catalogued 2026-11-12 only so that the file could be pushed with the bijection intact, at his instruction (push them aswell please) from a cloud session. NOT read, sorted, normalized or gated in that session; tags and status are placeholders for the sorter."
+  - path: "inbox/member_list_probe_trace.md"
+    type: md
+    role: primary
+    tags: [unsorted]
+    project: null
+    status: draft
+    dup_group: null
+    math_normalized: null
+    math_flags: null
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: null
+    note: "UNSORTED, held in inbox/. Catalogued 2026-11-12 only so that the file could be pushed with the bijection intact, at his instruction (push them aswell please) from a cloud session. NOT read, sorted, normalized or gated in that session; tags and status are placeholders for the sorter."
+  - path: "inbox/route_to_haze_regress_and_expansion_direction_2026-11-11.md"
+    type: md
+    role: primary
+    tags: [unsorted]
+    project: null
+    status: draft
+    dup_group: null
+    math_normalized: null
+    math_flags: null
+    note_name: null
+    draft: null
+    current: null
+    variant: null
+    orig_name: null
+    informs: null
+    note: "UNSORTED, held in inbox/. Catalogued 2026-11-12 only so that the file could be pushed with the bijection intact, at his instruction (push them aswell please) from a cloud session. NOT read, sorted, normalized or gated in that session; tags and status are placeholders for the sorter."
   - path: "outbox/VD-Newton/PASS_RECEIPT_2026-09-08.md"
     type: md
     role: primary
